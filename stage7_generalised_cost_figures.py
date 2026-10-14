@@ -163,6 +163,9 @@ def figure_gc_decomposition():
             fontsize=9,
         )
 
+    # Leave room for the total label beyond the longest bar.
+    ax.set_xlim(0, df["generalised_cost_eur"].max() * 1.12)
+
     # Cheapest mode at the top
     ax.invert_yaxis()
 
@@ -439,6 +442,9 @@ def figure_pareto():
     # Used to avoid overlapping labels for modes
     # located close to one another.
     # --------------------------------------------------------
+
+    # Keep the rightmost PT annotation inside the plotting area.
+    ax.set_xlim(right=df["total_time_min"].max() + 3)
 
     label_offsets = {
 
