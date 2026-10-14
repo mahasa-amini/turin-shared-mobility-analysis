@@ -99,7 +99,7 @@ The dry-run report proposed no installations. This verifies consistency with ins
 
 ### Remaining analysis blockers
 
-[Harmonization and Exercise 1](validation/usage-reproduction.md) reproduced 98 artifacts, and [Exercise 2](validation/exercise-2-reproduction.md) reproduced 58. Additional completed analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md). All use isolated regenerated prerequisites and content comparisons. Raw-to-cleaned processing, Exercises 4–5, figure/Word report production, and the separate commuting exercise remain unverified. Reports record excluded legacy artifacts and validation-helper corrections. No Python/platform support beyond the tested environment is established.
+[Harmonization and Exercise 1](validation/usage-reproduction.md) reproduced 98 artifacts, and [Exercise 2](validation/exercise-2-reproduction.md) reproduced 58. Additional completed analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md); [Exercise 4](validation/exercise-4-reproduction.md). All use isolated regenerated prerequisites and content comparisons. Raw-to-cleaned processing, Exercises 5, figure/Word report production, and the separate commuting exercise remain unverified. Reports record excluded legacy artifacts and validation-helper corrections. No Python/platform support beyond the tested environment is established.
 
 Known blockers and limitations:
 
