@@ -2195,12 +2195,12 @@ def create_parking_map(
     legend = ax.legend(
         handles=build_legend_handles(),
         title="Mean parking duration",
-        loc="lower left",
+        loc="upper left",
 
-        # Keep it in the same general map location.
+        # Use the empty northwest margin, leaving southwest zones visible.
         bbox_to_anchor=(
             0.012,
-            0.075,
+            1.0,
         ),
 
         borderaxespad=0.0,
