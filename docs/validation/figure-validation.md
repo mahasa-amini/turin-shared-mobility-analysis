@@ -64,7 +64,7 @@ All selected figures were opened at generated resolution (the viewer may downsam
 - Raw-to-cleaned processing, provenance/completeness of supplied records, and external-source truth were not validated. Public distribution still needs the agreed input access/provenance arrangements.
 - Full Word/PDF reports, narrative/table reconciliation, `exercise2_build_appendix_a.py`, and legacy artifacts outside the executed sequence remain outside coverage. Standalone appendix heatmaps do not constitute report validation.
 - Unselected figures need visual and caption review before a full figure/report release; the unselected access/egress plot was executed but its embedded caption was not updated to include the later GTFS dates.
-- Historical GTFS service for 2024 is not established; the acquisition script remains empty. Compatibility cannot prove transfers or substitution. Parking, fleet exposure and economic outcomes retain their proxy/scenario limitations.
+- Historical GTFS service for 2024 is not established; no acquisition implementation is provided (the empty placeholder was subsequently removed). Compatibility cannot prove transfers or substitution. Parking, fleet exposure and economic outcomes retain their proxy/scenario limitations.
 - The parking map's legacy candidate-data fallback remains incompatible with the current candidate schema if canonical summaries are absent. The validated path requires the canonical upstream tables.
 - Only the recorded macOS/Python/pinned environment is tested. The separate commuting workflow has its own [validation and manual-handoff limitation](commuting-validation.md).
 

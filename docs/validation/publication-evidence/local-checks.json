@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-14",
+  "python": "3.13.13",
+  "platform": "macOS 14.6 arm64",
+  "unit_tests_passed": 16,
+  "synthetic_environment_checks_passed": 9,
+  "pip_install": "completed; locked packages already satisfied in previously installed environment",
+  "pip_check": "passed",
+  "workflow_yaml": "parsed locally with Ruby YAML; hosted Actions pending",
+  "manifest_preflight_with_hashes": "passed on supplied full local inputs",
+  "figure_intermediate_preflight": "passed on existing generated artifacts; no analyses rerun",
+  "commuting_handoff": "all three rounded costs consistent",
+  "clean_checkout": "data-independent commands passed; missing data reported as expected without output mutation",
+  "syntax_python_files": 81,
+  "local_markdown_targets_checked": 182,
+  "git_diff_whitespace": "passed",
+  "hosted_ci": "pending"
+}

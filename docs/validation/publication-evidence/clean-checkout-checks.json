@@ -1,0 +1,97 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/check_repository.py"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/run_pipeline.py",
+        "scooter",
+        "--list"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/run_pipeline.py",
+        "figures",
+        "--list"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/run_pipeline.py",
+        "commuting",
+        "--dry-run"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/run_pipeline.py",
+        "scooter",
+        "--preflight",
+        "--verify-inputs"
+      ],
+      "expected_exit": 2,
+      "exit": 2,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "scripts/run_pipeline.py",
+        "figures",
+        "--stages",
+        "figures1",
+        "--dry-run"
+      ],
+      "expected_exit": 2,
+      "exit": 2,
+      "cwd": "clean checkout"
+    },
+    {
+      "command": [
+        "python (active pinned interpreter)",
+        "<clean-checkout>/scripts/run_pipeline.py",
+        "commuting",
+        "--dry-run"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "cwd": "unrelated directory"
+    }
+  ],
+  "no_output_mutation": true
+}

@@ -1,0 +1,103 @@
+{
+  "reachable_commits": 18,
+  "reachable_blobs": 200,
+  "reachable_blob_bytes": 6354667,
+  "secret_pattern_hits": [],
+  "unexpected_data_or_sensitive_paths_in_history": [],
+  "historical_local_username_paths": [
+    "docs/validation/figure-evidence/check_links.py",
+    "docs/validation/figure-evidence/compare_csv.py",
+    "docs/validation/figure-evidence/final_checks.py",
+    "docs/validation/figure-evidence/select_results.py",
+    "src/analysis/exercise2_appendixA_heatmap.py",
+    "src/analysis/exercise2_appendixB_heatmaps.py",
+    "src/analysis/exercise2_map_origin_density.py",
+    "src/analysis/exercise2_map_temporal_comparison.py"
+  ],
+  "candidate_file_count": 172,
+  "candidate_bytes": 5901609,
+  "largest_candidate_files": [
+    [
+      "docs/figures/pt_compatibility_2024.png",
+      2027474
+    ],
+    [
+      "docs/figures/spatial_od_2024.png",
+      786614
+    ],
+    [
+      "docs/figures/parking_proxy_2024.png",
+      724899
+    ],
+    [
+      "docs/figures/economics_base_2024.png",
+      188587
+    ],
+    [
+      "docs/figures/temporal_usage_2024.png",
+      156912
+    ],
+    [
+      "src/harmonization/harmonize_operators.py",
+      62786
+    ],
+    [
+      "src/analysis/exercise2_temporal_od.py",
+      55515
+    ],
+    [
+      "src/analysis/exercise1_hourly_weekday.py",
+      55388
+    ]
+  ],
+  "largest_historical_blobs": [
+    {
+      "path": "docs/figures/pt_compatibility_2024.png",
+      "bytes": 2027474
+    },
+    {
+      "path": "docs/figures/spatial_od_2024.png",
+      "bytes": 786614
+    },
+    {
+      "path": "docs/figures/parking_proxy_2024.png",
+      "bytes": 724899
+    },
+    {
+      "path": "docs/figures/economics_base_2024.png",
+      "bytes": 188587
+    },
+    {
+      "path": "docs/figures/temporal_usage_2024.png",
+      "bytes": 156912
+    },
+    {
+      "path": "src/harmonization/harmonize_operators.py",
+      "bytes": 62786
+    },
+    {
+      "path": "src/analysis/exercise2_temporal_od.py",
+      "bytes": 55515
+    },
+    {
+      "path": "src/analysis/exercise1_hourly_weekday.py",
+      "bytes": 55388
+    }
+  ],
+  "empty_candidate_files": [],
+  "history_tip": "2e936e8",
+  "review_scope": "All reachable history at task start; final candidate worktree scanned separately.",
+  "current_release_secret_pattern_hits": [],
+  "secret_patterns_checked": [
+    "private_key",
+    "aws_access_key",
+    "github_token",
+    "google_api_key",
+    "openai_key",
+    "credential_assignment"
+  ],
+  "candidate_size_scope": "Before addition of publication review/evidence; final tracked size reported after commits.",
+  "final_release_tree_file_count": 176,
+  "final_release_tree_bytes": 5913152,
+  "final_tree_metric": "Sum of candidate tracked file contents, excluding ignored files and .git; measured immediately before documentation commit."
+}

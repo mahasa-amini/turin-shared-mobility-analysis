@@ -12,6 +12,19 @@ The scooter analysis addresses five questions:
 
 A separate **generalized commuting-cost exercise** compares a home–Politecnico di Torino round trip across transport modes. It combines monetary costs with travel, access, and waiting time, value-of-time sensitivity, and Pareto comparisons. It is not a downstream stage of the scooter-data pipeline.
 
+## Run and check the project
+
+Start with the [clean-checkout reproduction guide](docs/reproduction.md). Full scooter execution requires separately supplied inputs listed in the [input manifest](config/input_manifest.csv); the repository includes only code, configuration and curated results.
+
+```sh
+python scripts/run_pipeline.py scooter --list
+python scripts/run_pipeline.py scooter --preflight --verify-inputs
+python scripts/run_pipeline.py figures --stages figures1 --dry-run
+python scripts/run_pipeline.py commuting --dry-run
+```
+
+Activate a Python 3.13 environment and install the pinned dependencies first. Scooter analysis, figures and commuting are separate workflows; stage selection never automatically reruns upstream work. [Automated checks](.github/workflows/checks.yml) cover syntax, local links, runner/regression tests and synthetic dependencies. Hosted CI is pending; raw-to-cleaned and full report validation remain incomplete.
+
 ## Methods and tools
 
 The Python workflow performs operator-specific cleaning, retains quality and provenance fields in a harmonized schema, compares coverage-aware temporal aggregates, assigns endpoints to statistical zones, and constructs OD tables. Spatial analysis uses projected geometries, nearest-stop distances, and ordered GTFS stop patterns. Parking and economic analyses include explicit filters and sensitivity scenarios.
