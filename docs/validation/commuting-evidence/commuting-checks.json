@@ -1,0 +1,63 @@
+{
+  "checks": [
+    "Stage 5 time components, 9 modes",
+    "Stage 5 time valuation at EUR 10/h",
+    "Stage 5 GC accounting",
+    "Stage 5 ranks",
+    "Stage 5 baseline equals master, sorted by GC",
+    "Stage 5 sensitivity EUR 5.0/h, all modes",
+    "Sensitivity ranks EUR 5.0/h",
+    "Stage 5 sensitivity EUR 10.0/h, all modes",
+    "Sensitivity ranks EUR 10.0/h",
+    "Stage 5 sensitivity EUR 20.0/h, all modes",
+    "Sensitivity ranks EUR 20.0/h",
+    "Stage 6 perception weights 1/1.5/2",
+    "Stage 6 weighted GC",
+    "Stage 6 ranks",
+    "Stage 6 independent pairwise Pareto dominance, 81 pairs",
+    "PT allocated/marginal scenarios",
+    "PT standard GC scenarios",
+    "PT weighted GC scenarios"
+  ],
+  "figures": [
+    {
+      "path": "outputs/figures/generalised_cost/generalised_cost_decomposition.png",
+      "size": [
+        2963,
+        1953
+      ],
+      "sha256": "96019b695c8311fad41beb70d2e8603985d1bc344315f4a270cc90aef159e44e"
+    },
+    {
+      "path": "outputs/figures/generalised_cost/generalised_cost_vot_sensitivity.png",
+      "size": [
+        2722,
+        1953
+      ],
+      "sha256": "538f7ff82f271e7969772eb79de9bbf127c85f22dc0aea4884d88a86bd164088"
+    },
+    {
+      "path": "outputs/figures/generalised_cost/money_time_pareto_frontier.png",
+      "size": [
+        2969,
+        2042
+      ],
+      "sha256": "dc621f8b0aadf88cda579b442b1d9df5154d7541604ba05a2c0080c8dc52126a"
+    }
+  ],
+  "pareto_efficient": [
+    "Private bicycle",
+    "Private e-scooter"
+  ],
+  "baseline_winner": {
+    "monetary_cost_eur": 0.775,
+    "travel_min": 32.0,
+    "access_egress_min": 0.0,
+    "waiting_min": 0.0,
+    "total_time_min": 32.0,
+    "time_cost_eur": 5.333333333333333,
+    "generalised_cost_eur": 6.108333333333333,
+    "gc_rank": 1.0
+  },
+  "baseline_winner_mode": "Private bicycle"
+}

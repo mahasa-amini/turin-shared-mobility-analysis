@@ -1,0 +1,10 @@
+mode,monetary_cost_eur,total_time_min,pareto_efficient
+Private bicycle,0.775,32.0,True
+Private e-scooter,1.663,31.2,True
+Public transport,1.2666666666666666,46.0,False
+Bike sharing,3.6,38.0,False
+Shared e-scooter,3.6,37.2,False
+Car sharing,6.5,36.0,False
+Private car,19.18,36.0,False
+Taxi,26.0,36.0,False
+Ride hailing (Uber),48.5,35.0,False

@@ -1,0 +1,19 @@
+
+=========================================================================================================
+STAGE 7 — FINAL GENERALISED COST FIGURES
+=========================================================================================================
+Saved -> /private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/generalised_cost_decomposition.png
+Saved -> /private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/generalised_cost_vot_sensitivity.png
+Saved -> /private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/money_time_pareto_frontier.png
+
+Generated figures:
+/private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/generalised_cost_decomposition.png
+/private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/generalised_cost_vot_sensitivity.png
+/private/tmp/transport-showcase/commuting/outputs/figures/generalised_cost/money_time_pareto_frontier.png
+
+INTERPRETATION NOTES
+- Figure 1 separates monetary and time-related components of generalised cost.
+- Figure 2 tests the sensitivity of generalised cost to alternative Values of Time.
+- Figure 3 evaluates monetary-cost versus door-to-door-time trade-offs independently of VOT.
+- Pareto efficiency does not imply overall superiority in comfort, safety, reliability or other unmodelled attributes.
+- Private bicycle and private e-scooter are the Pareto-efficient modes under the current cost and travel-time assumptions.

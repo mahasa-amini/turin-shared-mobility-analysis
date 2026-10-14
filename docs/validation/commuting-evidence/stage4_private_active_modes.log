@@ -1,0 +1,55 @@
+
+====================================================================================================
+STAGE 4B — PRIVATE BICYCLE + PRIVATE E-SCOOTER
+====================================================================================================
+
+COMMON COMMUTING ASSUMPTIONS
+University days/year: 150
+Round-trip distance: 7.8 km
+Annual university commute: 1170.0 km
+
+PRIVATE BICYCLE
+                   item  value_eur
+         Purchase price    299.990
+         Residual value     50.000
+            Useful life      8.000
+    Annual depreciation     31.249
+            Maintenance     60.000
+          Tyres / tubes     25.000
+      Total annual cost    116.249
+Cost per university day      0.775
+  Cost per one-way trip      0.387
+
+PRIVATE E-SCOOTER
+                   item    value
+         Purchase price 399.9900
+         Residual value  50.0000
+            Useful life   4.0000
+    Annual depreciation  87.4975
+            Maintenance  60.0000
+         Tyres / brakes  40.0000
+    Battery capacity Wh 477.0000
+       Nominal range km  60.0000
+    Electricity EUR/kWh   0.3000
+     Electricity EUR/km   0.0027
+     Annual electricity   3.2090
+      Total annual cost 249.4565
+Cost per university day   1.6630
+   RCA insurance / year  50.0000
+Contrassegno annualised   8.7500
+
+E-SCOOTER DIRECTIONAL ENERGY COST
+Home -> Polito: EUR 0.010
+Polito -> Home: EUR 0.011
+
+ROUND-TRIP MONETARY COST
+Private bicycle: EUR 0.77
+Private e-scooter: EUR 1.66
+
+VALIDATION / INTERPRETATION
+- Bicycle and scooter are hypothetical representative ownership scenarios.
+- Capital cost is depreciated using straight-line depreciation.
+- Annual ownership costs are allocated over 150 university commuting days.
+- Scooter electricity includes a 15% charging-loss allowance.
+- Electricity price, useful life, residual value and maintenance costs are explicit assumptions.
+- Electricity cost is expected to be very small relative to depreciation and maintenance.

@@ -1,0 +1,29 @@
+[
+  {
+    "stage5_variable": "private_car_cost",
+    "stage4_variable": "round_trip_total_eur",
+    "stage4_value": 19.175920705892466,
+    "stage5_embedded": 19.18,
+    "decimals": 2,
+    "rounded_stage4": 19.18,
+    "consistent": true
+  },
+  {
+    "stage5_variable": "private_bike_cost",
+    "stage4_variable": "bike_cost_per_university_day_eur",
+    "stage4_value": 0.7749916666666666,
+    "stage5_embedded": 0.775,
+    "decimals": 3,
+    "rounded_stage4": 0.775,
+    "consistent": true
+  },
+  {
+    "stage5_variable": "private_scooter_cost",
+    "stage4_variable": "scooter_cost_per_university_day_eur",
+    "stage4_value": 1.66304345,
+    "stage5_embedded": 1.663,
+    "decimals": 3,
+    "rounded_stage4": 1.663,
+    "consistent": true
+  }
+]

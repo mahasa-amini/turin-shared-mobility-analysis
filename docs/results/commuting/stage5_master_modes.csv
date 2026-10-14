@@ -1,0 +1,10 @@
+mode,monetary_cost_eur,travel_min,access_egress_min,waiting_min,total_time_min,time_cost_eur,generalised_cost_eur,gc_rank
+Private car,19.18,26.0,10.0,0.0,36.0,6.0,25.18,7
+Car sharing,6.5,26.0,10.0,0.0,36.0,6.0,12.5,6
+Private bicycle,0.775,32.0,0.0,0.0,32.0,5.333333333333333,6.108333333333333,1
+Bike sharing,3.6,32.0,6.0,0.0,38.0,6.333333333333333,9.933333333333334,5
+Private e-scooter,1.663,31.2,0.0,0.0,31.2,5.2,6.863,2
+Shared e-scooter,3.6,31.2,6.0,0.0,37.2,6.2,9.8,4
+Taxi,26.0,26.0,0.0,10.0,36.0,6.0,32.0,8
+Ride hailing (Uber),48.5,26.0,0.0,9.0,35.0,5.833333333333334,54.333333333333336,9
+Public transport,1.2666666666666666,26.0,20.0,0.0,46.0,7.666666666666667,8.933333333333334,3

@@ -1,0 +1,75 @@
+
+===================================================================================================================
+STAGE 5 — STANDARD GENERALISED COST MODEL
+===================================================================================================================
+
+MASTER ROUND-TRIP INPUT TABLE
+               mode  monetary_cost_eur  travel_min  access_egress_min  waiting_min  total_time_min
+        Private car              19.18       26.00              10.00         0.00           36.00
+        Car sharing               6.50       26.00              10.00         0.00           36.00
+    Private bicycle               0.78       32.00               0.00         0.00           32.00
+       Bike sharing               3.60       32.00               6.00         0.00           38.00
+  Private e-scooter               1.66       31.20               0.00         0.00           31.20
+   Shared e-scooter               3.60       31.20               6.00         0.00           37.20
+               Taxi              26.00       26.00               0.00        10.00           36.00
+Ride hailing (Uber)              48.50       26.00               0.00         9.00           35.00
+   Public transport               1.27       26.00              20.00         0.00           46.00
+
+BASELINE GENERALISED COST (VOT = EUR 10/h)
+ gc_rank                mode  monetary_cost_eur  total_time_min  time_cost_eur  generalised_cost_eur
+       1     Private bicycle               0.78           32.00           5.33                  6.11
+       2   Private e-scooter               1.66           31.20           5.20                  6.86
+       3    Public transport               1.27           46.00           7.67                  8.93
+       4    Shared e-scooter               3.60           37.20           6.20                  9.80
+       5        Bike sharing               3.60           38.00           6.33                  9.93
+       6         Car sharing               6.50           36.00           6.00                 12.50
+       7         Private car              19.18           36.00           6.00                 25.18
+       8                Taxi              26.00           36.00           6.00                 32.00
+       9 Ride hailing (Uber)              48.50           35.00           5.83                 54.33
+
+VOT SENSITIVITY
+ vot_eur_hour  rank                mode  generalised_cost_eur
+         5.00     1     Private bicycle                  3.44
+         5.00     2   Private e-scooter                  4.26
+         5.00     3    Public transport                  5.10
+         5.00     4    Shared e-scooter                  6.70
+         5.00     5        Bike sharing                  6.77
+         5.00     6         Car sharing                  9.50
+         5.00     7         Private car                 22.18
+         5.00     8                Taxi                 29.00
+         5.00     9 Ride hailing (Uber)                 51.42
+        10.00     1     Private bicycle                  6.11
+        10.00     2   Private e-scooter                  6.86
+        10.00     3    Public transport                  8.93
+        10.00     4    Shared e-scooter                  9.80
+        10.00     5        Bike sharing                  9.93
+        10.00     6         Car sharing                 12.50
+        10.00     7         Private car                 25.18
+        10.00     8                Taxi                 32.00
+        10.00     9 Ride hailing (Uber)                 54.33
+        20.00     1     Private bicycle                 11.44
+        20.00     2   Private e-scooter                 12.06
+        20.00     3    Shared e-scooter                 16.00
+        20.00     4        Bike sharing                 16.27
+        20.00     5    Public transport                 16.60
+        20.00     6         Car sharing                 18.50
+        20.00     7         Private car                 31.18
+        20.00     8                Taxi                 38.00
+        20.00     9 Ride hailing (Uber)                 60.17
+
+VALIDATION / ASSUMPTIONS
+- Generalised cost = monetary cost + Value of Time × total door-to-door time.
+- Baseline VOT = EUR 10/hour.
+- Sensitivity scenarios = EUR 5, 10 and 20/hour.
+- Private-car travel uses the observed 26 min driving time plus an explicit 10 min round-trip parking/access allowance.
+- The private-car parking/access allowance corresponds to 5 min per direction for parking search and walking.
+- Car sharing includes 5 min access/search per direction.
+- Shared bike and shared scooter include 3 min access/search per direction.
+- Scooter travel time is modelled at 15 km/h average operating speed.
+- Taxi fare uses the midpoint of the observed EUR 10-16 one-way range.
+- Taxi waiting time is an explicit 5 min per-direction assumption.
+- Uber waiting time uses the observed 6 min outbound and 3 min return estimates.
+- Public transport cost is the net annual subscription allocated over 150 university days.
+- No additional PT waiting time is invented beyond the observed 23 min door-to-door itinerary per direction.
+
+Saved tables -> /private/tmp/transport-showcase/commuting/outputs/tables/generalised_cost

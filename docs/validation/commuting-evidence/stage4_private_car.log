@@ -1,0 +1,55 @@
+
+===============================================================================================
+STAGE 4A — PRIVATE CAR COST MODEL
+===============================================================================================
+
+VEHICLE CHARACTERISTICS
+                        item    value
+           Registration year     2026
+               Purchase year     2026
+           Displacement (cc)      999
+          Maximum power (kW)       70
+                   Fuel type   petrol
+Urban consumption (L/100 km)      6.5
+           Annual kilometres  10000.0
+         Useful life (years)        8
+        Purchase price (EUR)  25100.0
+        Residual value (EUR)   9000.0
+           Amortisation rate     0.03
+
+ANNUAL COST STRUCTURE
+             cost_item  eur_per_year
+         RCA insurance        423.40
+  Property tax (bollo)        191.10
+Technical depreciation       2563.55
+               Shelter          0.00
+              Revision         29.53
+                 Tyres         80.00
+            Engine oil          0.00
+    Repair contingency        120.00
+           Maintenance        270.00
+
+COST SUMMARY
+Annual technical depreciation: EUR 2563.55
+Total fixed costs: EUR 3207.58/year
+Total variable non-fuel costs: EUR 470.00/year
+Ownership + non-fuel cost: EUR 0.3678/km
+Urban fuel cost: EUR 0.1292/km
+Annual combined-WLTP fuel reference: EUR 1013.37/year
+
+HOME ↔ POLITO TRIP COST
+     direction  distance_km  ownership_nonfuel_eur  fuel_eur  total_before_parking_eur
+Home -> Polito         3.70                   1.36      0.48                      1.84
+Polito -> Home         4.10                   1.51      0.53                      2.04
+
+Round-trip distance: 7.8 km
+Round-trip vehicle cost before parking: EUR 3.88
+Parking cost (9 h): EUR 15.30
+ROUND-TRIP MONETARY COST INCLUDING PARKING: EUR 19.18
+
+VALIDATION / INTERPRETATION
+- Fuel is calculated separately at trip level using the urban-consumption proxy.
+- Engine oil is not added separately because it is included in the maintenance plan.
+- Parking is a trip-specific cost and is not included in annual ownership costs.
+- RCA is a generic national baseline, not a personal insurance quotation.
+- Residual value, amortisation rate, tyre cost and repair contingency are explicit model assumptions.

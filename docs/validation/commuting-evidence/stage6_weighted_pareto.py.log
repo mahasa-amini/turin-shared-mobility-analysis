@@ -1,0 +1,51 @@
+
+===================================================================================================================
+STAGE 6 — WEIGHTED TIME PERCEPTION + PARETO EFFICIENCY
+===================================================================================================================
+
+TIME WEIGHTS
+Travel / riding: 1.0
+Access / egress: 1.5
+Waiting: 2.0
+
+WEIGHTED GENERALISED COST (VOT = EUR 10/h)
+ weighted_gc_rank                mode  monetary_cost_eur  total_time_min  perceived_time_min  weighted_time_cost_eur  weighted_generalised_cost_eur
+                1     Private bicycle               0.78           32.00               32.00                    5.33                           6.11
+                2   Private e-scooter               1.66           31.20               31.20                    5.20                           6.86
+                3    Shared e-scooter               3.60           37.20               40.20                    6.70                          10.30
+                4        Bike sharing               3.60           38.00               41.00                    6.83                          10.43
+                5    Public transport               1.27           46.00               56.00                    9.33                          10.60
+                6         Car sharing               6.50           36.00               41.00                    6.83                          13.33
+                7         Private car              19.18           36.00               41.00                    6.83                          26.01
+                8                Taxi              26.00           36.00               46.00                    7.67                          33.67
+                9 Ride hailing (Uber)              48.50           35.00               44.00                    7.33                          55.83
+
+PARETO EFFICIENCY (MONEY VS DOOR-TO-DOOR TIME)
+               mode  monetary_cost_eur  total_time_min  pareto_efficient
+    Private bicycle               0.78           32.00              True
+  Private e-scooter               1.66           31.20              True
+   Public transport               1.27           46.00             False
+       Bike sharing               3.60           38.00             False
+   Shared e-scooter               3.60           37.20             False
+        Car sharing               6.50           36.00             False
+        Private car              19.18           36.00             False
+               Taxi              26.00           36.00             False
+Ride hailing (Uber)              48.50           35.00             False
+
+PARETO-EFFICIENT MODES
+- Private bicycle
+- Private e-scooter
+
+PUBLIC TRANSPORT COST-ALLOCATION SENSITIVITY
+                        scenario  monetary_cost_eur  standard_gc_eur  weighted_gc_eur
+     Allocated subscription cost               1.27             8.93            10.60
+Marginal cost with existing pass               0.00             7.67             9.33
+
+VALIDATION / INTERPRETATION
+- Standard travel/riding time keeps weight 1.0.
+- Access/egress time is weighted 1.5.
+- Waiting time is weighted 2.0.
+- These multipliers are explicit behavioural assumptions, not measured preferences.
+- Pareto efficiency is independent of VOT.
+- A Pareto-efficient mode cannot be made both cheaper and faster by another observed mode.
+- PT marginal-cost sensitivity distinguishes accounting allocation from the cost of an additional trip with an already-owned pass.

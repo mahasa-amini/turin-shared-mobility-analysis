@@ -1,0 +1,35 @@
+[
+  {
+    "script": "stage5_generalised_cost.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/commuting/stage5_generalised_cost.py"
+    ],
+    "exit": 0
+  },
+  {
+    "script": "stage6_weighted_pareto.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/commuting/stage6_weighted_pareto.py"
+    ],
+    "exit": 0
+  },
+  {
+    "script": "stage7_generalised_cost_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/commuting/stage7_generalised_cost_figures.py"
+    ],
+    "exit": 0
+  }
+]
