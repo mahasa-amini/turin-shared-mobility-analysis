@@ -72,7 +72,7 @@ The checks cover Parquet values/nulls/timezones, Excel, GeoPackage geometry and 
 
 ### Dependency files and tested commands
 
-- [requirements.txt](../requirements.txt): nine direct application dependencies, pinned to the initially selected versions; all installed without substitutions.
+- [requirements.txt](../requirements.txt): direct application dependencies plus an explicit PyProj 3.7.2 runtime pin; see [PT geometry diagnosis](validation/pt-geometry-diagnosis.md) for the controlled version comparison.
 - [requirements-reports.txt](../requirements-reports.txt): application dependencies plus optional python-docx.
 - [requirements-lock.txt](../requirements-lock.txt): the 24 resolved application/report packages tested on this platform, including transitive dependencies and excluding pip/setuptools/wheel. This is not a universal cross-platform or hash-verified lock.
 
@@ -95,7 +95,7 @@ To request the exact resolved package set on the tested platform, substitute `re
 "$check_dir/venv/bin/python" -I -B -m pip --disable-pip-version-check --no-cache-dir install --dry-run --no-index --report "$check_dir/lock-check.json" -r requirements-lock.txt > "$check_dir/lock-check.log" 2>&1
 ```
 
-The dry-run report proposed no installations. This verifies consistency with installed packages, not availability for other platforms. The first sandboxed installation attempt failed DNS resolution; the network-enabled retry used normal package-source TLS verification and succeeded without changing pins. No package installation was performed in the original `.venv` or global environment.
+The dry-run report proposed no installations. This verifies consistency with installed packages, not availability for other platforms. The PyProj pin was subsequently verified in a separate environment with all other resolved package versions fixed. The first sandboxed installation attempt failed DNS resolution; the network-enabled retry used normal package-source TLS verification and succeeded without changing pins. No package installation was performed in the original `.venv` or global environment.
 
 ### Remaining analysis blockers
 

@@ -7,3 +7,6 @@ shapely==2.1.2
 pyogrio==0.13.0
 scipy==1.18.0
 matplotlib==3.11.1
+
+# Preserve the projection runtime verified against the PT reference geometries.
+pyproj==3.7.2
