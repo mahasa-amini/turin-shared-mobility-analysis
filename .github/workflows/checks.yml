@@ -1,0 +1,38 @@
+name: Data-independent checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Install recorded dependencies
+        run: |
+          python -m pip install -r requirements-lock.txt
+          python -m pip check
+      - name: Syntax and local Markdown links
+        run: python scripts/check_repository.py
+      - name: Runner and zone-assignment regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Synthetic environment checks
+        run: python scripts/check_environment.py
+      - name: Inspect entry points without research inputs
+        run: |
+          python scripts/run_pipeline.py scooter --list
+          python scripts/run_pipeline.py figures --list
+          python scripts/run_pipeline.py commuting --dry-run
