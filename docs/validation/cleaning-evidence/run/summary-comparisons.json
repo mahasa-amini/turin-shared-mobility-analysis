@@ -1,0 +1,628 @@
+{
+  "bird_final_cleaning_summary.csv": {
+    "year": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_input": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_output": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_trip_record": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_temporal": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "dst_ambiguous_retained": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_distance": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "invalid_distance": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_speed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "invalid_speed_for_speed_analysis": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "complete_coordinates": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "clear_spatial_errors": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_spatial_prezone": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "distance_geometry_mismatch_warning": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "small_displacement_retained": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_over_180": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_distance_over_30": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    }
+  },
+  "lime_final_cleaning_summary.csv": {
+    "year": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_input": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_output": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_removed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "removed_zero_elapsed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "removed_negative_elapsed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "dst_corrected": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "reported_duration_zero_retained": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "reported_distance_zero_retained": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "distance_sentinel_100": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_distance": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_speed_approx": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "kinematic_warning": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_spatial_prezone": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "outside_torino_broad": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "haversine_over_30km": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_distance_ge20": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_distance_ge30": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt60": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt120": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt180": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    }
+  },
+  "voi_final_cleaning_summary.csv": {
+    "year": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_input": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "rows_output": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "duplicate_rows_collapsed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "reservation_conflict": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "temporal_detail_available": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "temporal_detail_unavailable": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "duration_provider_fallback": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_duration": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "invalid_duration": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "complete_coordinates": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_spatial_prezone": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "outside_torino_broad": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "haversine_over_30km": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "zero_displacement_retained": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_distance": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "invalid_distance": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_speed": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "kinematic_warning": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt60": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt120": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_duration_gt180": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "long_displacement_gt20": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    },
+    "valid_battery": {
+      "actual_dtype": "int64",
+      "reference_dtype": "int64",
+      "nulls_actual": 0,
+      "nulls_reference": 0,
+      "null_masks_equal": true,
+      "comparison": "exact numeric",
+      "max_abs_difference": 0.0,
+      "unequal_nonnull": 0
+    }
+  }
+}

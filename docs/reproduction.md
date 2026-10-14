@@ -1,6 +1,6 @@
 # Reproduce selected stages
 
-A source checkout includes code, economic configuration and the curated results showcase. **Full-data execution requires separately supplied inputs.** There is no established public input download location or dataset license. The supported entry point begins with supplied cleaned records; raw-to-cleaned processing and full Word/PDF report validation remain incomplete. This is not a claim of verified end-to-end reproduction.
+A source checkout includes code, economic configuration and the curated results showcase. **Full-data execution requires separately supplied inputs.** There is no established public input download location or dataset license. The downstream runner begins with supplied cleaned records. The [raw preparation harness](validation/cleaning-reproduction.md) now validates raw-to-cleaned processing in isolation; full Word/PDF report validation remains incomplete. This is not a claim of verified end-to-end reproduction.
 
 ## Install and check a clean checkout
 
@@ -73,4 +73,4 @@ The parking maps prefer the canonical four `parking_by_zone_<scope>_2024.csv` ou
 
 ## Validation boundary
 
-[Figure validation](validation/figure-validation.md) records the reproduced analytical prerequisites, 18 executed figure scripts and five visually reviewed showcase figures. [Commuting validation](validation/commuting-validation.md) records arithmetic and visual checks for the separate scenario. The runner reuses those orders; it does not automatically repeat reference comparisons, scientific invariants or image review. Raw cleaning, full report reconciliation, unselected-figure visual approval, source licensing/provenance and historical GTFS service remain outside that evidence. See the [publication review](validation/publication-readiness.md) for checks performed on the release boundary.
+[Figure validation](validation/figure-validation.md) records the reproduced analytical prerequisites, 18 executed figure scripts and five visually reviewed showcase figures. [Commuting validation](validation/commuting-validation.md) records arithmetic and visual checks for the separate scenario. The runner reuses those orders; it does not automatically repeat reference comparisons, scientific invariants or image review. Raw cleaning now has [separate validation evidence](validation/cleaning-reproduction.md). Full report reconciliation, unselected-figure visual approval, source licensing/provenance and historical GTFS service remain outside the figure/commuting evidence. See the [publication review](validation/publication-readiness.md) for checks performed on the release boundary.

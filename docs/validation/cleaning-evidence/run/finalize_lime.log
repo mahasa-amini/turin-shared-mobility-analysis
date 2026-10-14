@@ -1,0 +1,174 @@
+Discovered 16 Lime interim files.
+
+
+==========================================================================================
+FINALIZING LIME 2024
+==========================================================================================
+
+
+----------------------------------------------------------------------
+Processing 2024-01...
+----------------------------------------------------------------------
+Input rows: 49,085
+Validation checks: PASSED
+Canonical yearly Parquet schema established.
+2024-01: input=49,085 | output=49,083 | removed=2 | DST=0 | dist0 retained=5,752 | dist100=0 | kinematic warnings=18
+
+
+----------------------------------------------------------------------
+Processing 2024-02...
+----------------------------------------------------------------------
+Input rows: 55,066
+Validation checks: PASSED
+2024-02: input=55,066 | output=55,066 | removed=0 | DST=0 | dist0 retained=6,445 | dist100=3 | kinematic warnings=26
+
+
+----------------------------------------------------------------------
+Processing 2024-03...
+----------------------------------------------------------------------
+Input rows: 62,565
+Validation checks: PASSED
+2024-03: input=62,565 | output=62,564 | removed=1 | DST=9 | dist0 retained=7,453 | dist100=5 | kinematic warnings=21
+
+
+----------------------------------------------------------------------
+Processing 2024-04...
+----------------------------------------------------------------------
+Input rows: 79,465
+Validation checks: PASSED
+2024-04: input=79,465 | output=79,463 | removed=2 | DST=0 | dist0 retained=10,097 | dist100=0 | kinematic warnings=41
+
+
+----------------------------------------------------------------------
+Processing 2024-05...
+----------------------------------------------------------------------
+Input rows: 81,508
+Validation checks: PASSED
+2024-05: input=81,508 | output=81,507 | removed=1 | DST=0 | dist0 retained=10,661 | dist100=1 | kinematic warnings=36
+
+
+----------------------------------------------------------------------
+Processing 2024-06...
+----------------------------------------------------------------------
+Input rows: 102,769
+Validation checks: PASSED
+2024-06: input=102,769 | output=102,767 | removed=2 | DST=0 | dist0 retained=13,775 | dist100=5 | kinematic warnings=42
+
+
+----------------------------------------------------------------------
+Processing 2024-07...
+----------------------------------------------------------------------
+Input rows: 136,982
+Validation checks: PASSED
+2024-07: input=136,982 | output=136,982 | removed=0 | DST=0 | dist0 retained=18,186 | dist100=9 | kinematic warnings=59
+
+
+----------------------------------------------------------------------
+Processing 2024-08...
+----------------------------------------------------------------------
+Input rows: 98,922
+Validation checks: PASSED
+2024-08: input=98,922 | output=98,922 | removed=0 | DST=0 | dist0 retained=13,564 | dist100=11 | kinematic warnings=36
+
+
+----------------------------------------------------------------------
+Processing 2024-09...
+----------------------------------------------------------------------
+Input rows: 140,681
+Validation checks: PASSED
+2024-09: input=140,681 | output=140,680 | removed=1 | DST=0 | dist0 retained=16,917 | dist100=10 | kinematic warnings=44
+
+
+----------------------------------------------------------------------
+Processing 2024-10...
+----------------------------------------------------------------------
+Input rows: 137,518
+Validation checks: PASSED
+2024-10: input=137,518 | output=137,517 | removed=1 | DST=15 | dist0 retained=15,848 | dist100=6 | kinematic warnings=50
+
+
+----------------------------------------------------------------------
+Processing 2024-11...
+----------------------------------------------------------------------
+Input rows: 144,785
+Validation checks: PASSED
+2024-11: input=144,785 | output=144,785 | removed=0 | DST=0 | dist0 retained=20,491 | dist100=6 | kinematic warnings=44
+
+
+----------------------------------------------------------------------
+Processing 2024-12...
+----------------------------------------------------------------------
+Input rows: 106,864
+Validation checks: PASSED
+2024-12: input=106,864 | output=106,864 | removed=0 | DST=0 | dist0 retained=13,255 | dist100=5 | kinematic warnings=32
+
+
+Cleaned dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/lime/lime_2024_clean.parquet
+Removed trip audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2024_removed_invalid_trip_records.csv
+Distance sentinel audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2024_distance_100_records.csv
+Kinematic warning audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2024_kinematic_warnings.csv
+
+
+==========================================================================================
+FINALIZING LIME 2025
+==========================================================================================
+
+
+----------------------------------------------------------------------
+Processing 2025-01...
+----------------------------------------------------------------------
+Input rows: 87,847
+Validation checks: PASSED
+Canonical yearly Parquet schema established.
+2025-01: input=87,847 | output=87,847 | removed=0 | DST=0 | dist0 retained=10,687 | dist100=2 | kinematic warnings=21
+
+
+----------------------------------------------------------------------
+Processing 2025-02...
+----------------------------------------------------------------------
+Input rows: 99,528
+Validation checks: PASSED
+2025-02: input=99,528 | output=99,528 | removed=0 | DST=0 | dist0 retained=11,630 | dist100=5 | kinematic warnings=21
+
+
+----------------------------------------------------------------------
+Processing 2025-03...
+----------------------------------------------------------------------
+Input rows: 126,056
+Validation checks: PASSED
+2025-03: input=126,056 | output=126,056 | removed=0 | DST=53 | dist0 retained=14,535 | dist100=2 | kinematic warnings=27
+
+
+----------------------------------------------------------------------
+Processing 2025-04...
+----------------------------------------------------------------------
+Input rows: 114,887
+Validation checks: PASSED
+2025-04: input=114,887 | output=114,887 | removed=0 | DST=0 | dist0 retained=13,731 | dist100=0 | kinematic warnings=27
+
+
+Cleaned dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/lime/lime_2025_clean.parquet
+Removed trip audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2025_removed_invalid_trip_records.csv
+Distance sentinel audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2025_distance_100_records.csv
+Kinematic warning audit -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_2025_kinematic_warnings.csv
+
+
+====================================================================================================
+LIME CLEANING FINALIZATION COMPLETED
+====================================================================================================
+ year  rows_input  rows_output  rows_removed  removed_zero_elapsed  removed_negative_elapsed  dst_corrected  reported_duration_zero_retained  reported_distance_zero_retained  distance_sentinel_100  valid_distance  valid_speed_approx  kinematic_warning  valid_spatial_prezone  outside_torino_broad  haversine_over_30km  long_distance_ge20  long_distance_ge30  long_duration_gt60  long_duration_gt120  long_duration_gt180
+ 2024     1196210      1196200            10                    10                         0             24                            13133                           152444                     61         1196139             1042673                449                1196195                     5                    2                 275                 253                2367                    1                    0
+ 2025      428318       428318             0                     0                         0             53                             3900                            50583                      9          428309              377554                 96                 428314                     4                    2                  49                  45                 568                    0                    0
+
+Monthly summary saved -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_final_monthly_cleaning_summary.csv
+Final yearly summary saved -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_final_cleaning_summary.csv
+
+Cleaning policy applied:
+- Exact zero/negative elapsed non-trips were removed.
+- Lime's rounded zero-duration values were retained when precise timestamp duration was positive.
+- Lime's rounded zero-distance trips were retained.
+- DST elapsed durations were corrected.
+- 100-km sentinel distance measurements were invalidated for distance analysis, while the underlying trips were retained.
+- Long-distance flags use only valid distance measurements; 100-km sentinel values are excluded.
+- Kinematic inconsistencies were flagged rather than globally removed.
+- Spatial validity remains PREZONE until official Torino statistical zoning is applied.

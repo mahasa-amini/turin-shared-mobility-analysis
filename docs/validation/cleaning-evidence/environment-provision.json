@@ -1,0 +1,20 @@
+{
+  "python": "3.13.13",
+  "venv_command": [
+    ".venv/bin/python",
+    "-m",
+    "venv",
+    "/private/tmp/transport-cleaning-locked-env"
+  ],
+  "install_command": [
+    "/private/tmp/transport-cleaning-locked-env/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "-r",
+    "requirements-lock.txt"
+  ],
+  "install_exit": 0,
+  "project_venv_unchanged": true,
+  "note": "Initial project environment had five lock-version differences; final execution uses the isolated pinned environment."
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/private/tmp/transport-cleaning-locked-env/bin/python",
+    "/private/tmp/transport-cleaning-20261014-locked/scripts/run_pipeline.py",
+    "scooter",
+    "--preflight",
+    "--verify-inputs"
+  ],
+  "cwd": "/private/tmp/transport-cleaning-20261014-locked",
+  "exit": 0,
+  "external_inputs": "14 files copied only from the staged external-review part",
+  "cleaned_inputs": "regenerated from raw in the same locked workspace",
+  "analytical_execution": false
+}

@@ -1,0 +1,11 @@
+{
+  "parquet_files_byte_equal": 14,
+  "columns_compared": 772,
+  "all_dtypes_and_values_exact": true,
+  "original_files_rechecked_unchanged": 541,
+  "executed_source_files_unchanged": 63,
+  "raw_inputs_match_package": 40,
+  "package_payload_files": 58,
+  "all_archive_checksums_match": true,
+  "installed_packages_match_lock": 24
+}

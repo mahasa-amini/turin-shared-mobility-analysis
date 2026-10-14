@@ -1,0 +1,72 @@
+
+
+================================================================================
+FINALIZING BIRD 2024
+================================================================================
+Input rows: 390,844
+
+Post-cleaning validation:
+Validation checks: PASSED
+Cleaned dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/bird/bird_2024_clean.parquet
+
+Cleaning summary:
+year                                  2024
+rows_input                          390844
+rows_output                         390844
+valid_trip_record                   390844
+valid_temporal                      390844
+dst_ambiguous_retained                  11
+valid_distance                      390809
+invalid_distance                        35
+valid_speed                         390808
+invalid_speed_for_speed_analysis        36
+complete_coordinates                390844
+clear_spatial_errors                   271
+valid_spatial_prezone               390573
+distance_geometry_mismatch_warning    2399
+small_displacement_retained           7300
+long_duration_over_180                  25
+long_distance_over_30                    9
+
+
+================================================================================
+FINALIZING BIRD 2025
+================================================================================
+Input rows: 467,176
+
+Post-cleaning validation:
+Validation checks: PASSED
+Cleaned dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/bird/bird_2025_clean.parquet
+
+Cleaning summary:
+year                                  2025
+rows_input                          467176
+rows_output                         467176
+valid_trip_record                   467176
+valid_temporal                      467176
+dst_ambiguous_retained                  38
+valid_distance                      467148
+invalid_distance                        28
+valid_speed                         467138
+invalid_speed_for_speed_analysis        38
+complete_coordinates                467176
+clear_spatial_errors                   399
+valid_spatial_prezone               466777
+distance_geometry_mismatch_warning    3619
+small_displacement_retained           9931
+long_duration_over_180                  13
+long_distance_over_30                   17
+
+
+================================================================================
+BIRD CLEANING FINALIZATION COMPLETED
+================================================================================
+ year  rows_input  rows_output  valid_trip_record  valid_temporal  dst_ambiguous_retained  valid_distance  invalid_distance  valid_speed  invalid_speed_for_speed_analysis  complete_coordinates  clear_spatial_errors  valid_spatial_prezone  distance_geometry_mismatch_warning  small_displacement_retained  long_duration_over_180  long_distance_over_30
+ 2024      390844       390844             390844          390844                      11          390809                35       390808                                36                390844                   271                 390573                                2399                         7300                      25                      9
+ 2025      467176       467176             467176          467176                      38          467148                28       467138                                38                467176                   399                 466777                                3619                         9931                      13                     17
+
+Summary saved -> /private/tmp/transport-cleaning-20261014-locked/audit/bird/bird_final_cleaning_summary.csv
+
+Important:
+No valid trip was globally deleted.
+Invalid measurements are represented through analysis-specific validity fields.

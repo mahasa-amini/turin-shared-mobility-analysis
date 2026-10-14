@@ -1,0 +1,44 @@
+
+====================================================================================================
+FINALIZING VOI
+====================================================================================================
+Discovered 22 VOI interim files.
+
+Raw rows loaded: 291,765
+Unique trip IDs: 226,888
+
+Checking duplicate consistency...
+Trip-defining duplicate consistency: PASSED
+
+Canonical unique trips: 226,888
+Duplicate rows collapsed: 64,877
+
+Post-cleaning validation:
+Validation checks: PASSED
+Saved 2024: 106,115 trips -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/voi/voi_2024_clean.parquet
+Read-back validation 2024: PASSED
+Saved 2025: 120,773 trips -> /private/tmp/transport-cleaning-20261014-locked/data/cleaned/voi/voi_2025_clean.parquet
+Read-back validation 2025: PASSED
+
+==============================================================================================================
+VOI CLEANING FINALIZATION COMPLETED
+==============================================================================================================
+ year  rows_input  rows_output  duplicate_rows_collapsed  reservation_conflict  temporal_detail_available  temporal_detail_unavailable  duration_provider_fallback  valid_duration  invalid_duration  complete_coordinates  valid_spatial_prezone  outside_torino_broad  haversine_over_30km  zero_displacement_retained  valid_distance  invalid_distance  valid_speed  kinematic_warning  long_duration_gt60  long_duration_gt120  long_duration_gt180  long_displacement_gt20  valid_battery
+ 2024      130769       106115                     24654                     0                     100879                         5236                        5236          106105                10                106114                 106105                     9                    9                          10          106105                10       106027                 68                 184                   13                    3                       0         105911
+ 2025      160996       120773                     40223                  1982                     120773                            0                           0          120756                17                120706                 120703                     3                    3                         162          120703                70       120621                 65                 142                   21                    3                       0         115130
+
+Monthly summary -> /private/tmp/transport-cleaning-20261014-locked/audit/voi/voi_final_monthly_cleaning_summary.csv
+Final summary -> /private/tmp/transport-cleaning-20261014-locked/audit/voi/voi_final_cleaning_summary.csv
+
+Cleaning policy applied:
+- One canonical row retained per trip ID.
+- Duplicate rows were collapsed only after confirming trip-defining fields were identical.
+- Prenotazione conflicts were retained as quality flags and were not arbitrarily resolved.
+- VOI raw timestamps were interpreted as UTC and converted to Europe/Rome.
+- January 2024 trips were retained, but detailed timestamps remain unavailable.
+- Provider Tempo Tot is used as duration fallback when detailed timestamps are unavailable.
+- KM Tot is treated as endpoint displacement, not travelled route distance.
+- Zero-displacement trips were retained.
+- Spatially implausible or incomplete measurements were excluded only from spatial/distance analyses.
+- Kinematic anomalies were flagged rather than globally deleted.
+- Remaining mixed Excel object columns were standardized before Parquet serialization.

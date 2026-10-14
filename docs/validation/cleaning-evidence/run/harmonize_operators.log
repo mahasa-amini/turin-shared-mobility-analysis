@@ -1,0 +1,124 @@
+
+====================================================================================================
+HARMONIZING BIRD + LIME + VOI
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+Processing BIRD 2024
+----------------------------------------------------------------------------------------------------
+Source rows: 390,844
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/bird_2024_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Processing BIRD 2025
+----------------------------------------------------------------------------------------------------
+Source rows: 467,176
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/bird_2025_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Processing LIME 2024
+----------------------------------------------------------------------------------------------------
+Source rows: 1,196,200
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/lime_2024_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Processing LIME 2025
+----------------------------------------------------------------------------------------------------
+Source rows: 428,318
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/lime_2025_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Processing VOI 2024
+----------------------------------------------------------------------------------------------------
+Source rows: 106,115
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/voi_2024_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Processing VOI 2025
+----------------------------------------------------------------------------------------------------
+Source rows: 120,773
+
+Validation:
+Validation checks: PASSED
+Arrow schema validation: PASSED
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/voi_2025_harmonized.parquet
+Read-back validation: PASSED
+
+----------------------------------------------------------------------------------------------------
+Combining operators for 2024...
+----------------------------------------------------------------------------------------------------
+  Added bird_2024_harmonized.parquet: 390,844 rows
+  Added lime_2024_harmonized.parquet: 1,196,200 rows
+  Added voi_2024_harmonized.parquet: 106,115 rows
+Combined read-back validation 2024: PASSED
+Combined 2024: 1,693,159 trips
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/all_operators_2024_harmonized.parquet
+
+----------------------------------------------------------------------------------------------------
+Combining operators for 2025...
+----------------------------------------------------------------------------------------------------
+  Added bird_2025_harmonized.parquet: 467,176 rows
+  Added lime_2025_harmonized.parquet: 428,318 rows
+  Added voi_2025_harmonized.parquet: 120,773 rows
+Combined read-back validation 2025: PASSED
+Combined 2025: 1,016,267 trips
+Saved -> /private/tmp/transport-cleaning-20261014-locked/data/processed/harmonized/all_operators_2025_harmonized.parquet
+
+==============================================================================================================
+HARMONIZATION COMPLETED
+==============================================================================================================
+
+Operator-year summary:
+operator  year    rows  unique_trips  unique_vehicles min_source_period max_source_period  months_present  observed_start_min  observed_start_max  temporal_detail_available  valid_duration  valid_spatial_prezone  valid_distance_measurement  valid_endpoint_displacement  valid_speed_measurement  endpoint_speed_warning_40           distance_measure_type    distance_precision
+    bird  2024  390844        390844             2086           2024-01           2024-12              12 2024-01-01 01:00:00 2024-12-31 23:54:00                     390844          390844                 390573                      390809                       390573                   390808                          0 provider_reported_trip_distance continuous_decimal_km
+    lime  2024 1196200       1196200             2192           2024-01           2024-12              12 2024-01-01 00:01:44 2024-12-31 23:59:40                    1196200         1196200                1196195                     1196139                      1196195                  1042673                        444      provider_reported_distance    integer_km_rounded
+     voi  2024  106115        106115             1184           2024-01           2024-12              12 2024-02-01 00:03:35 2024-12-31 23:54:48                     100879          106105                 106105                      106105                       106105                   106027                         68           endpoint_displacement continuous_decimal_km
+    bird  2025  467176        467176             1959           2025-01           2025-11              11 2025-01-01 00:04:00 2025-11-18 23:58:00                     467176          467176                 466777                      467148                       466777                   467138                          0 provider_reported_trip_distance continuous_decimal_km
+    lime  2025  428318        428318             1715           2025-01           2025-04               4 2025-01-01 00:00:45 2025-04-29 23:59:52                     428318          428318                 428314                      428309                       428314                   377554                         93      provider_reported_distance    integer_km_rounded
+     voi  2025  120773        120773             1107           2025-01           2025-10              10 2025-01-01 00:06:59 2025-10-31 23:56:24                     120773          120756                 120703                      120703                       120703                   120621                         65           endpoint_displacement continuous_decimal_km
+
+Combined dataset row counts:
+2024: 1,693,159
+2025: 1,016,267
+
+Total harmonized observations: 2,709,426
+
+Summary -> /private/tmp/transport-cleaning-20261014-locked/audit/harmonization/harmonization_summary.csv
+Coverage -> /private/tmp/transport-cleaning-20261014-locked/audit/harmonization/harmonization_coverage.csv
+Data dictionary -> /private/tmp/transport-cleaning-20261014-locked/audit/harmonization/harmonization_data_dictionary.csv
+
+IMPORTANT:
+- Harmonization did not delete any cleaned trips.
+- Original cleaned operator datasets remain the source of truth.
+- All harmonized Parquet files use one explicit canonical Arrow schema.
+- trip_uid is globally unique across operators.
+- vehicle_uid must be used for pooled vehicle analysis.
+- distance_value_km is NOT semantically identical across operators.
+- endpoint_displacement_km is the common geometric distance metric.
+- endpoint_speed_kmh is a common kinematic diagnostic, not travelled route speed.
+- 2025 operator coverage periods differ and must not be interpreted as comparable full-year totals.

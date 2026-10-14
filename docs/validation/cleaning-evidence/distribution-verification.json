@@ -1,0 +1,20 @@
+{
+  "owner-scooter": {
+    "payload_files_verified": 40,
+    "metadata_files_verified": 3,
+    "unexpected_files": 0,
+    "all_checksums_match": true
+  },
+  "external-review": {
+    "payload_files_verified": 14,
+    "metadata_files_verified": 3,
+    "unexpected_files": 0,
+    "all_checksums_match": true
+  },
+  "runtime-config": {
+    "payload_files_verified": 4,
+    "metadata_files_verified": 3,
+    "unexpected_files": 0,
+    "all_checksums_match": true
+  }
+}

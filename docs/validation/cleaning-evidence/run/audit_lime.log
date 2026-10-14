@@ -1,0 +1,103 @@
+
+Discovered Lime files:
+  2024-01 -> Torino_Corse24-25_2024-01_senza_percorso.csv
+  2024-02 -> Torino_Corse24-25_2024-02_senza_percorso.csv
+  2024-03 -> Torino_Corse24-25_2024-03_senza_percorso.csv
+  2024-04 -> Torino_Corse24-25_2024-04_senza_percorso.csv
+  2024-05 -> Torino_Corse24-25_2024-05_senza_percorso.csv
+  2024-06 -> Torino_Corse24-25_2024-06_senza_percorso.csv
+  2024-07 -> Torino_Corse24-25_2024-07_senza_percorso.csv
+  2024-08 -> Torino_Corse24-25_2024-08_senza_percorso.csv
+  2024-09 -> Torino_Corse24-25_2024-09_senza_percorso.csv
+  2024-10 -> Torino_Corse24-25_2024-10_senza_percorso.csv
+  2024-11 -> Torino_Corse24-25_2024-11_senza_percorso.csv
+  2024-12 -> Torino_Corse24-25_2024-12_senza_percorso.csv
+  2025-01 -> Torino_Corse24-25_2025-01_senza_percorso.csv
+  2025-02 -> Torino_Corse24-25_2025-02_senza_percorso.csv
+  2025-03 -> Torino_Corse24-25_2025-03_senza_percorso.csv
+  2025-04 -> Torino_Corse24-25_2025-04_senza_percorso.csv
+
+Loading 2024-01: 49,085 rows
+2024-01: rows=49,085 | vehicles=820 | zero_dist=5,754 | dur<=0=440 | reversed=0 | GPS>30km=0 | HavSpeed>40=18 | critical=18
+
+Loading 2024-02: 55,066 rows
+2024-02: rows=55,066 | vehicles=961 | zero_dist=6,445 | dur<=0=571 | reversed=0 | GPS>30km=0 | HavSpeed>40=26 | critical=26
+
+Loading 2024-03: 62,565 rows
+2024-03: rows=62,565 | vehicles=1,070 | zero_dist=7,454 | dur<=0=598 | reversed=0 | GPS>30km=0 | HavSpeed>40=21 | critical=21
+
+Loading 2024-04: 79,465 rows
+2024-04: rows=79,465 | vehicles=1,233 | zero_dist=10,099 | dur<=0=838 | reversed=0 | GPS>30km=0 | HavSpeed>40=41 | critical=41
+
+Loading 2024-05: 81,508 rows
+2024-05: rows=81,508 | vehicles=1,373 | zero_dist=10,662 | dur<=0=956 | reversed=0 | GPS>30km=0 | HavSpeed>40=36 | critical=36
+
+Loading 2024-06: 102,769 rows
+2024-06: rows=102,769 | vehicles=1,577 | zero_dist=13,777 | dur<=0=1,211 | reversed=0 | GPS>30km=0 | HavSpeed>40=42 | critical=42
+
+Loading 2024-07: 136,982 rows
+2024-07: rows=136,982 | vehicles=1,680 | zero_dist=18,186 | dur<=0=1,713 | reversed=0 | GPS>30km=1 | HavSpeed>40=59 | critical=59
+
+Loading 2024-08: 98,922 rows
+2024-08: rows=98,922 | vehicles=1,436 | zero_dist=13,564 | dur<=0=1,277 | reversed=0 | GPS>30km=0 | HavSpeed>40=36 | critical=36
+
+Loading 2024-09: 140,681 rows
+2024-09: rows=140,681 | vehicles=1,356 | zero_dist=16,918 | dur<=0=1,568 | reversed=0 | GPS>30km=0 | HavSpeed>40=44 | critical=44
+
+Loading 2024-10: 137,518 rows
+2024-10: rows=137,518 | vehicles=1,467 | zero_dist=15,849 | dur<=0=1,457 | reversed=15 | GPS>30km=0 | HavSpeed>40=50 | critical=65
+
+Loading 2024-11: 144,785 rows
+2024-11: rows=144,785 | vehicles=1,549 | zero_dist=20,491 | dur<=0=1,509 | reversed=0 | GPS>30km=1 | HavSpeed>40=44 | critical=44
+
+Loading 2024-12: 106,864 rows
+2024-12: rows=106,864 | vehicles=1,532 | zero_dist=13,255 | dur<=0=1,005 | reversed=0 | GPS>30km=0 | HavSpeed>40=32 | critical=32
+
+Loading 2025-01: 87,847 rows
+2025-01: rows=87,847 | vehicles=1,424 | zero_dist=10,687 | dur<=0=755 | reversed=0 | GPS>30km=0 | HavSpeed>40=21 | critical=21
+
+Loading 2025-02: 99,528 rows
+2025-02: rows=99,528 | vehicles=1,496 | zero_dist=11,630 | dur<=0=754 | reversed=0 | GPS>30km=2 | HavSpeed>40=21 | critical=21
+
+Loading 2025-03: 126,056 rows
+2025-03: rows=126,056 | vehicles=1,504 | zero_dist=14,535 | dur<=0=1,170 | reversed=0 | GPS>30km=0 | HavSpeed>40=27 | critical=28
+
+Loading 2025-04: 114,887 rows
+2025-04: rows=114,887 | vehicles=1,106 | zero_dist=13,731 | dur<=0=1,221 | reversed=0 | GPS>30km=0 | HavSpeed>40=27 | critical=27
+
+
+====================================================================================================
+LIME RAW AUDIT COMPLETED
+====================================================================================================
+
+Monthly coverage:
+ period   rows            date_min            date_max  unique_vehicles
+2024-01  49085 2024-01-01 00:01:44 2024-01-31 23:59:31              820
+2024-02  55066 2024-02-01 00:00:26 2024-02-29 23:58:40              961
+2024-03  62565 2024-03-01 00:02:44 2024-03-31 23:58:35             1070
+2024-04  79465 2024-04-01 00:05:49 2024-04-30 23:58:44             1233
+2024-05  81508 2024-05-01 00:00:06 2024-05-31 23:59:35             1373
+2024-06 102769 2024-06-01 00:00:00 2024-06-30 23:59:47             1577
+2024-07 136982 2024-07-01 00:00:12 2024-07-31 23:59:22             1680
+2024-08  98922 2024-08-01 00:00:02 2024-08-31 23:59:56             1436
+2024-09 140681 2024-09-01 00:00:13 2024-09-30 23:59:45             1356
+2024-10 137518 2024-10-01 00:00:44 2024-10-31 23:59:58             1467
+2024-11 144785 2024-11-01 00:00:04 2024-11-30 23:59:52             1549
+2024-12 106864 2024-12-01 00:00:08 2024-12-31 23:59:40             1532
+2025-01  87847 2025-01-01 00:00:45 2025-01-31 23:59:37             1424
+2025-02  99528 2025-02-01 00:00:38 2025-02-28 23:59:22             1496
+2025-03 126056 2025-03-01 00:01:43 2025-03-31 23:59:37             1504
+2025-04 114887 2025-04-01 00:00:23 2025-04-29 23:59:52             1106
+
+Yearly audit summary:
+ year    rows  unique_vehicles            date_min            date_max  exact_duplicate_rows  cross_file_duplicate_candidates  missing_vehicle_id  invalid_start_datetime  invalid_end_datetime  missing_start_coordinates  missing_end_coordinates  distance_zero  distance_negative  duration_non_positive  timestamp_duration_non_positive  reversed_timestamp  duration_difference_gt1min  same_start_end_coords  haversine_over_30km  haversine_speed_over_40  outside_torino_broad  distance_non_integer  duration_non_integer  missing_battery_start  missing_battery_end  battery_start_invalid  battery_end_invalid  battery_increase_during_trip  start_month_mismatch  anno_mese_mismatch
+ 2024 1196210             2192 2024-01-01 00:01:44 2024-12-31 23:59:40                     0                                0                   0                       0                     0                          0                        0         152454                  0                  13143                               25                  15                          24                   1322                    2                      449                     5                     0                     0                      0                    0                      0                    0                             0                     0                   0
+ 2025  428318             1715 2025-01-01 00:00:45 2025-04-29 23:59:52                     0                                0                   0                       0                     0                          0                        0          50583                  0                   3900                                0                   0                          53                    119                    2                       96                     4                     0                     0                      0                    0                      0                    0                             0                     0                   0
+
+Monthly audit saved -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_monthly_raw_audit.csv
+Yearly audit saved -> /private/tmp/transport-cleaning-20261014-locked/audit/lime/lime_yearly_raw_audit.csv
+
+IMPORTANT:
+No Lime records were deleted.
+Zero-distance records are only flagged, not classified as invalid.
+Interim monthly Parquet files were generated for inspection.

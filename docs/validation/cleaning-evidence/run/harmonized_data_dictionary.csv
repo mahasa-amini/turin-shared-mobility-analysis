@@ -1,0 +1,46 @@
+column,definition
+operator,"Micromobility operator: bird, lime, or voi."
+vehicle_type,Common vehicle category used in the project.
+trip_uid,Globally unique analytical trip identifier across all operators.
+source_trip_id,"Original provider trip identifier where available; VOI provides one, Bird and Lime do not."
+vehicle_id,Original provider-level vehicle identifier.
+vehicle_uid,Operator-prefixed vehicle identifier suitable for pooled multi-operator analysis.
+start_time_local,Trip start time expressed in Europe/Rome local clock when detailed temporal information is available.
+end_time_local,Trip end time expressed in Europe/Rome local clock when detailed temporal information is available.
+start_time_utc,Exact UTC trip start when recoverable from the source; currently available for VOI.
+end_time_utc,Exact UTC trip end when recoverable from the source; currently available for VOI.
+duration_min_clean,Best validated trip duration according to the operator-specific cleaning methodology.
+duration_source,Source used to define duration_min_clean.
+timestamp_source_timezone,Interpretation of the provider timestamp system.
+timestamp_precision,Temporal precision of the provider timestamps.
+start_lat,Trip origin latitude in WGS84 coordinates.
+start_lon,Trip origin longitude in WGS84 coordinates.
+end_lat,Trip destination latitude in WGS84 coordinates.
+end_lon,Trip destination longitude in WGS84 coordinates.
+endpoint_displacement_km,"Haversine straight-line distance between trip origin and destination, conceptually standardized across all operators."
+valid_endpoint_displacement,Whether the common endpoint displacement is valid for analysis.
+distance_value_km,Clean operator-specific distance measurement. Semantic meaning differs between providers.
+distance_measure_type,Semantic definition of distance_value_km.
+distance_precision,Precision and rounding characteristics of the provider-specific distance.
+speed_value_kmh,Clean operator-specific speed measure. It is not necessarily directly comparable across providers.
+speed_measure_type,Definition used to calculate speed_value_kmh.
+source_period,Reliable source reporting month in YYYY-MM format.
+year,Calendar year associated with source_period.
+source_file,Original source file for traceability.
+source_row,Original source-row identifier preserved for traceability.
+valid_trip_record,Whether the record satisfies the operator-specific core trip definition.
+valid_monthly_period,Whether reliable month-level attribution is available.
+valid_temporal_detail,Whether detailed trip timestamps are available for day/hour-level analysis.
+valid_duration,Whether duration_min_clean is analytically valid.
+temporal_clock_ambiguous,Whether the original local clock time is affected by DST ambiguity.
+valid_spatial_prezone,Spatial validity before official Torino statistical-zone assignment.
+valid_distance_measurement,Whether distance_value_km is valid according to operator-specific semantics.
+valid_speed_measurement,Whether speed_value_kmh is valid according to operator-specific methodology.
+endpoint_speed_kmh,"Straight-line endpoint displacement divided by cleaned trip duration; comparable only as a kinematic diagnostic, not route speed."
+endpoint_speed_warning_40,Diagnostic flag indicating endpoint displacement divided by duration exceeds 40 km/h.
+reservation_status,Standardized provider reservation indicator when available.
+reservation_conflict,Whether duplicated source records disagreed on reservation status; primarily relevant for VOI.
+battery_start_pct,Battery percentage at trip start when provided.
+battery_end_pct,Battery percentage at trip end when provided.
+battery_available,Whether both start and end battery measurements are available.
+valid_battery,Whether battery measurements satisfy provider-specific quality rules.

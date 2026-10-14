@@ -1,0 +1,35 @@
+test_bird_masks_measurements_retains_trip_and_dst (test_cleaning_rules.CleaningRules.test_bird_masks_measurements_retains_trip_and_dst) ... ok
+test_lime_dst_sentinel_zero_duration_and_spatial_flags (test_cleaning_rules.CleaningRules.test_lime_dst_sentinel_zero_duration_and_spatial_flags) ... ok
+test_voi_damaged_time_fallback_and_utc_conversion (test_cleaning_rules.CleaningRules.test_voi_damaged_time_fallback_and_utc_conversion) ... ok
+test_voi_dedup_conflicts_preserve_reservation_uncertainty (test_cleaning_rules.CleaningRules.test_voi_dedup_conflicts_preserve_reservation_uncertainty) ... ok
+test_material_changes_fail (test_cleaning_rules.ComparisonRules.test_material_changes_fail) ... ok
+test_catalog_matches_validated_execution_order (test_pipeline_runner.PipelineTests.test_catalog_matches_validated_execution_order) ... ok
+test_dry_run_does_not_execute_or_write (test_pipeline_runner.PipelineTests.test_dry_run_does_not_execute_or_write) ... ok
+test_manual_handoff_mismatch_fails_without_running_stage5 (test_pipeline_runner.PipelineTests.test_manual_handoff_mismatch_fails_without_running_stage5) ... ok
+test_missing_inputs_size_and_hash (test_pipeline_runner.PipelineTests.test_missing_inputs_size_and_hash) ... ok
+test_missing_produced_output_stops (test_pipeline_runner.PipelineTests.test_missing_produced_output_stops) ... 
+Checking duplicate consistency...
+Trip-defining duplicate consistency: PASSED
+
+Checking duplicate consistency...
+Running a: a.py -> /var/folders/l1/2y2rz1kn4dx6vwl_6bwt74c80000gn/T/tmpaijddhyy/logs/01-a.log
+ok
+test_order_deduplication_and_workflow_boundary (test_pipeline_runner.PipelineTests.test_order_deduplication_and_workflow_boundary) ... ok
+test_stage_boundary_rechecks_dependencies (test_pipeline_runner.PipelineTests.test_stage_boundary_rechecks_dependencies) ... ok
+test_stop_on_failure (test_pipeline_runner.PipelineTests.test_stop_on_failure) ... Running a: a.py -> /var/folders/l1/2y2rz1kn4dx6vwl_6bwt74c80000gn/T/tmpt80lfc1t/logs/01-a.log
+ok
+test_success_logs_interpreter_and_cwd (test_pipeline_runner.PipelineTests.test_success_logs_interpreter_and_cwd) ... Running a: a.py -> /var/folders/l1/2y2rz1kn4dx6vwl_6bwt74c80000gn/T/tmpan1zrkfd/logs/01-a.log
+Running b: b.py -> /var/folders/l1/2y2rz1kn4dx6vwl_6bwt74c80000gn/T/tmpan1zrkfd/logs/02-b.log
+ok
+test_unscheduled_dependency_required_but_planned_deferred (test_pipeline_runner.PipelineTests.test_unscheduled_dependency_required_but_planned_deferred) ... ok
+test_destination_empty (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_destination_empty) ... ok
+test_destination_partial (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_destination_partial) ... ok
+test_destination_reordered (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_destination_reordered) ... ok
+test_origin_empty (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_origin_empty) ... ok
+test_origin_partial (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_origin_partial) ... ok
+test_origin_reordered (test_zone_assignment_batch.StrictInteriorAssignmentTests.test_origin_reordered) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.179s
+
+OK

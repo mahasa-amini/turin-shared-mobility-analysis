@@ -1,0 +1,5 @@
+period,year,rows_input,rows_output,rows_removed,removed_zero_elapsed,removed_negative_elapsed,dst_corrected,reported_duration_zero_retained,reported_distance_zero_retained,distance_sentinel_100,valid_distance,valid_speed_approx,kinematic_warning,valid_spatial_prezone,outside_torino_broad,haversine_over_30km,long_distance_ge20,long_distance_ge30,long_duration_gt60,long_duration_gt120,long_duration_gt180
+2025-01,2025,87847,87847,0,0,0,0,755,10687,2,87845,77120,21,87847,0,0,11,8,86,0,0
+2025-02,2025,99528,99528,0,0,0,0,754,11630,5,99523,87851,21,99525,3,2,13,13,120,0,0
+2025-03,2025,126056,126056,0,0,0,53,1170,14535,2,126054,111473,27,126055,1,0,14,13,168,0,0
+2025-04,2025,114887,114887,0,0,0,0,1221,13731,0,114887,101110,27,114887,0,0,11,11,194,0,0

@@ -1,0 +1,77 @@
+
+======================================================================
+Loading Bird 2024
+File: Bird Torino - 2024 - Sheet1.csv
+======================================================================
+Raw rows: 390,844
+Columns: 11
+Schema validation: OK
+Suspicious rows exported: 7,340 -> /private/tmp/transport-cleaning-20261014-locked/audit/bird/bird_2024_suspicious_rows.csv
+Interim dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/interim/bird/bird_2024_typed_flagged.parquet
+
+Audit summary:
+year                          2024
+raw_rows                    390844
+exact_duplicate_rows             0
+missing_vehicle_id               0
+invalid_start_datetime           0
+invalid_end_datetime             0
+missing_start_coordinates        0
+missing_end_coordinates          0
+missing_distance                 0
+missing_duration                 0
+distance_non_positive           35
+duration_non_positive            0
+speed_over_30_kmh                1
+reversed_timestamp               6
+same_start_end_coordinates     784
+haversine_under_20m           7300
+haversine_over_30km             10
+possible_dst_records            11
+unique_vehicles               2086
+
+======================================================================
+Loading Bird 2025
+File: Bird Torino - 2025 (fino il 18_11_2025) - Sheet1.csv
+======================================================================
+Raw rows: 467,176
+Columns: 11
+Schema validation: OK
+Suspicious rows exported: 10,009 -> /private/tmp/transport-cleaning-20261014-locked/audit/bird/bird_2025_suspicious_rows.csv
+Interim dataset saved -> /private/tmp/transport-cleaning-20261014-locked/data/interim/bird/bird_2025_typed_flagged.parquet
+
+Audit summary:
+year                          2025
+raw_rows                    467176
+exact_duplicate_rows             0
+missing_vehicle_id               0
+invalid_start_datetime           0
+invalid_end_datetime             0
+missing_start_coordinates        0
+missing_end_coordinates          0
+missing_distance                 0
+missing_duration                 0
+distance_non_positive           28
+duration_non_positive            0
+speed_over_30_kmh               10
+reversed_timestamp              20
+same_start_end_coordinates    1257
+haversine_under_20m           9931
+haversine_over_30km              9
+possible_dst_records            38
+unique_vehicles               1959
+
+======================================================================
+BIRD INITIAL AUDIT COMPLETED
+======================================================================
+
+Combined summary:
+ year  raw_rows  exact_duplicate_rows  missing_vehicle_id  invalid_start_datetime  invalid_end_datetime  missing_start_coordinates  missing_end_coordinates  missing_distance  missing_duration  distance_non_positive  duration_non_positive  speed_over_30_kmh  reversed_timestamp  same_start_end_coordinates  haversine_under_20m  haversine_over_30km  possible_dst_records  unique_vehicles
+ 2024    390844                     0                   0                       0                     0                          0                        0                 0                 0                     35                      0                  1                   6                         784                 7300                   10                    11             2086
+ 2025    467176                     0                   0                       0                     0                          0                        0                 0                 0                     28                      0                 10                  20                        1257                 9931                    9                    38             1959
+
+Audit table saved -> /private/tmp/transport-cleaning-20261014-locked/audit/bird/bird_cleaning_audit_summary.csv
+
+IMPORTANT:
+No rows have been deleted.
+This stage only typed, enriched, and flagged the raw data.

@@ -1,0 +1,22 @@
+{
+  "owner-scooter": {
+    "files": 40,
+    "payload_bytes": 299970142,
+    "archive_bytes": 107906158,
+    "archive_sha256": "c5e658eb49272d3fa28a8c5b9e590cce421a1e46a8ab82fc8d4c57d4a4b734b8"
+  },
+  "external-review": {
+    "files": 14,
+    "payload_bytes": 86681461,
+    "archive_bytes": 9958543,
+    "archive_sha256": "c0f9aa32a0e2168e5df7cf9351597e7bf44ff963274a8eae12dbd03c6ed6256d"
+  },
+  "runtime-config": {
+    "files": 4,
+    "payload_bytes": 5852,
+    "archive_bytes": 7959,
+    "archive_sha256": "76e8339573ce8b340080707b6367b5f80f5c2da8a4dc127bd1647ad9af190e5f"
+  },
+  "total_payload_bytes": 386657455,
+  "local_staging_bytes": 504557172
+}
