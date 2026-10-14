@@ -465,30 +465,17 @@ def assign_endpoint(
         ],
     )
 
-    for row in (
-        interior_rows.itertuples(
-            index=False
-        )
-    ):
+    positions = lookup_position.loc[
+        interior_rows["analysis_row_id"]
+    ].to_numpy()
 
-        pos = lookup_position.loc[
-            row.analysis_row_id
-        ]
-
-        result.at[
-            pos,
-            f"{prefix}_zone_id",
-        ] = row.zone_id
-
-        result.at[
-            pos,
-            f"{prefix}_zone_name",
-        ] = row.zone_name
-
-        result.at[
-            pos,
-            f"{prefix}_assignment_status",
-        ] = "assigned_interior"
+    result.loc[positions, f"{prefix}_zone_id"] = (
+        interior_rows["zone_id"].to_numpy()
+    )
+    result.loc[positions, f"{prefix}_zone_name"] = (
+        interior_rows["zone_name"].to_numpy()
+    )
+    result.loc[positions, f"{prefix}_assignment_status"] = "assigned_interior"
 
     # --------------------------------------------------------
     # Valid-coordinate points still unmatched
