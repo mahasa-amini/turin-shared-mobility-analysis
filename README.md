@@ -1,0 +1,37 @@
+# Shared E-Scooter Mobility in Turin
+
+How do shared e-scooters fit into urban travel, and what can rental records reveal about their use and operation? This university transport course project analyzes Bird, Lime, and Voi records from Turin in 2024–2025, combining temporal analysis, spatial origin–destination (OD) analysis, public-transport reference data, and operational and economic models.
+
+The scooter analysis addresses five questions:
+
+1. **Temporal usage:** How does activity vary by operator, season, weekday, and time of day within comparable observation windows?
+2. **Spatial OD patterns:** Which statistical zones generate and attract trips, and how do flows change across time periods?
+3. **Potential public-transport interaction:** Where are trip endpoints near stops, and which trips are compatible with a direct public-transport route?
+4. **Inferred parking intervals:** What do gaps between successive rentals of the same vehicle suggest about inactivity and its spatial distribution?
+5. **Economic scenarios:** How do assumed tariffs, fleet exposure, and operating costs affect estimated revenue and profitability?
+
+A separate **generalized commuting-cost exercise** compares a home–Politecnico di Torino round trip across transport modes. It combines monetary costs with travel, access, and waiting time, value-of-time sensitivity, and Pareto comparisons. It is not a downstream stage of the scooter-data pipeline.
+
+## Methods and tools
+
+The Python workflow performs operator-specific cleaning, retains quality and provenance fields in a harmonized schema, compares coverage-aware temporal aggregates, assigns endpoints to statistical zones, and constructs OD tables. Spatial analysis uses projected geometries, nearest-stop distances, and ordered GTFS stop patterns. Parking and economic analyses include explicit filters and sensitivity scenarios.
+
+The code uses pandas, NumPy, PyArrow, GeoPandas, Shapely, and Matplotlib; Excel input and Word appendix generation use openpyxl and python-docx. Local artifacts include Parquet datasets, CSV tables, GeoPackage layers, figures, and reports.
+
+## Repository guide
+
+| Location | Purpose |
+|---|---|
+| `src/cleaning/`, `src/harmonization/` | Operator preparation and common data schema |
+| `src/analysis/`, `src/visualization/` | Five scooter analyses and associated figures |
+| `config/exercise_5/` | Economic assumptions, tariffs, and source registers |
+| Root-level `stage4_*.py` through `stage7_*.py` | Separate commuting-cost exercise |
+| `data/`, `audit/`, `outputs/` | Local inputs and generated artifacts; excluded from Git |
+
+See [Methodology](docs/methodology.md) for analytical definitions and [Data and reproduction](docs/data-and-reproduction.md) for input coverage, dependencies, and current blockers.
+
+## Status and limitations
+
+All 69 project Python files passed in-memory syntax parsing with Python 3.13.13 after the PT-reference syntax repair. Environment installation and end-to-end execution have not yet been verified during this repository upgrade. Existing local outputs document a previous run; they are not independently reproduced results.
+
+The GTFS feed covers August 2026–January 2027 and serves as a later spatial/topological reference for earlier scooter observations, not verified historical service. Proximity and route compatibility cannot establish actual transfers or substitution. Inter-trip gaps and fleet exposure are proxies; revenues, profitability, and commuting costs depend on assumptions. Unequal temporal coverage also limits direct comparisons between operators and years.
