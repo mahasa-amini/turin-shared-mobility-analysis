@@ -12,13 +12,17 @@ import pandas as pd
 # PATHS
 # ------------------------------------------------------------
 
-INPUT_FILE = Path(
-    "outputs/tables/generalised_cost/"
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+INPUT_FILE = (
+    PROJECT_ROOT
+    / "outputs/tables/generalised_cost/"
     "stage5_master_modes.csv"
 )
 
-OUTPUT_DIR = Path(
-    "outputs/tables/generalised_cost"
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / "outputs/tables/generalised_cost"
 )
 
 OUTPUT_DIR.mkdir(

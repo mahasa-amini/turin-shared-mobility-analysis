@@ -14,7 +14,7 @@ from matplotlib.colors import LogNorm
 # 1. PROJECT PATHS
 # =============================================================================
 
-PROJECT_ROOT = Path("/Users/mahasaamini/Documents/transport_exercise")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 TEMPORAL_OD_FILE = (
     PROJECT_ROOT

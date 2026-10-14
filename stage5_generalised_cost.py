@@ -14,8 +14,11 @@ import pandas as pd
 # OUTPUT PATH
 # ------------------------------------------------------------
 
-OUTPUT_DIR = Path(
-    "outputs/tables/generalised_cost"
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+OUTPUT_DIR = (
+    PROJECT_ROOT
+    / "outputs/tables/generalised_cost"
 )
 
 OUTPUT_DIR.mkdir(

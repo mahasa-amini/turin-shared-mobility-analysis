@@ -13,12 +13,16 @@ import pandas as pd
 # PATHS
 # ------------------------------------------------------------
 
-TABLE_DIR = Path(
-    "outputs/tables/generalised_cost"
+PROJECT_ROOT = Path(__file__).resolve().parent
+
+TABLE_DIR = (
+    PROJECT_ROOT
+    / "outputs/tables/generalised_cost"
 )
 
-FIGURE_DIR = Path(
-    "outputs/figures/generalised_cost"
+FIGURE_DIR = (
+    PROJECT_ROOT
+    / "outputs/figures/generalised_cost"
 )
 
 FIGURE_DIR.mkdir(

@@ -15,7 +15,7 @@ except ImportError:
 # CONFIG
 # =============================================================================
 
-PROJECT_ROOT = Path("/Users/mahasaamini/Documents/transport_exercise")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 CANDIDATE_MATRIX_PATHS = [
     PROJECT_ROOT / "outputs/tables/exercise_2/od/od_matrix_system_2024.csv",

@@ -103,9 +103,9 @@ Existing output/audit files remain evidence of a previous run, not independently
 
 Known blockers and limitations:
 
-- Personal absolute project paths remain in `src/analysis/exercise2_map_temporal_comparison.py`, `exercise2_map_origin_density.py`, `exercise2_appendixA_heatmap.py`, and `exercise2_appendixB_heatmaps.py`. Root Stages 5–7 use working-directory-relative output paths.
+- The four Exercise 2 map/appendix scripts and root Stages 5–7 now derive project paths from their script locations. Isolated path-expression checks confirmed the same intended input/output locations from the repository root and an unrelated temporary working directory; no analyses were executed. Explicit absolute PT-proximity input overrides remain supported. The shell commands above still assume invocation from the repository root.
 - [GTFS acquisition script](../src/data_loading/download_gtt_gtfs_archive.py) is empty. A historical feed matching the scooter observation period is not established by the local feed.
 - Stage 4 → Stage 5 commuting costs are manually copied constants; their agreement has not been independently checked.
 - There are no scientific pipeline regression tests; the new environment smoke checks use only synthetic fixtures. Several analysis scripts assert dataset-specific counts, and some create directories or perform work at module scope; importing them is not a safe substitute for static inspection.
 
-A future reproduction check still needs an agreed data distribution/provenance record, portable paths, and a controlled run that regenerates prerequisite audits and reconciles outputs. The environment smoke checks do not complete those tasks.
+A future reproduction check still needs an agreed data distribution/provenance record and a controlled run that regenerates prerequisite audits and reconciles outputs. The environment smoke checks do not complete those tasks.

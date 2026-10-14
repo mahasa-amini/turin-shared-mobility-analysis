@@ -35,9 +35,7 @@ from matplotlib.patches import FancyArrowPatch
 # PATHS
 # =============================================================================
 
-PROJECT_ROOT = Path(
-    "/Users/mahasaamini/Documents/transport_exercise"
-)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 GPKG = (
     PROJECT_ROOT
