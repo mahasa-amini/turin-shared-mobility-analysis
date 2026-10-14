@@ -1,6 +1,6 @@
 # Methodology
 
-This document describes the implemented analysis from source inspection. Existing local audit tables support provenance and coverage descriptions; the results have not been independently reproduced during the repository upgrade.
+This document describes the implemented analysis from source inspection. Existing local audit tables support provenance and coverage descriptions. [Isolated reproduction](validation/usage-reproduction.md) verified computational agreement for harmonization and Exercise 1 analytical outputs from existing cleaned datasets; raw-to-cleaned processing and the other analytical workflows were not rerun.
 
 ## What the quantities represent
 

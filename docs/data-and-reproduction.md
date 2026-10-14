@@ -35,7 +35,7 @@ Voi January 2024 must not be assigned artificial daily/hourly detail. Full-year 
 
 ## Dependency map from source inspection
 
-This is a map of principal dependencies, **not a tested quickstart or guaranteed execution sequence**. Scripts contain local file expectations and checks that need reconciliation during a future controlled run.
+This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. The remaining workflows are not a tested quickstart or guaranteed execution sequence.
 
 | Stage | Principal entry points and prerequisites |
 |---|---|
@@ -99,7 +99,7 @@ The dry-run report proposed no installations. This verifies consistency with ins
 
 ### Remaining analysis blockers
 
-Existing output/audit files remain evidence of a previous run, not independently reproduced results. No supported Python/platform range beyond the environment above has been established.
+An [isolated cleaned-data-to-usage run](validation/usage-reproduction.md) reproduced all 98 artifacts emitted by harmonization and Exercise 1 analytical scripts, with no material discrepancy against local references. Raw-to-cleaned processing was not rerun. Six legacy hourly artifacts were not emitted or validated; figures/reports and other exercises remain unverified. No supported Python/platform range beyond the environment above has been established.
 
 Known blockers and limitations:
 
@@ -108,4 +108,4 @@ Known blockers and limitations:
 - Stage 4 → Stage 5 commuting costs are manually copied constants; their agreement has not been independently checked.
 - There are no scientific pipeline regression tests; the new environment smoke checks use only synthetic fixtures. Several analysis scripts assert dataset-specific counts, and some create directories or perform work at module scope; importing them is not a safe substitute for static inspection.
 
-A future reproduction check still needs an agreed data distribution/provenance record and a controlled run that regenerates prerequisite audits and reconciles outputs. The environment smoke checks do not complete those tasks.
+A full reproduction still needs an agreed data distribution/provenance record, raw-to-cleaned validation, and controlled execution/reconciliation of the remaining analyses and figure/report workflows. The completed usage check does not establish those results.
