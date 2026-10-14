@@ -894,7 +894,7 @@ def main():
         )
 
     zones = gpd.read_file(
-        ZONING_PATH
+        ZONING_PATH,
         layer="zones",
     )
 
