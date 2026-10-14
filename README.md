@@ -23,7 +23,7 @@ python scripts/run_pipeline.py figures --stages figures1 --dry-run
 python scripts/run_pipeline.py commuting --dry-run
 ```
 
-Activate a Python 3.13 environment and install the pinned dependencies first. Scooter analysis, figures and commuting are separate workflows; stage selection never automatically reruns upstream work. [Automated checks](.github/workflows/checks.yml) cover syntax, local links, runner/regression tests and synthetic dependencies. Hosted CI is pending; raw-to-cleaned and full report validation remain incomplete.
+Activate a Python 3.13 environment and install the pinned dependencies first. Scooter analysis, figures and commuting are separate workflows; stage selection never automatically reruns upstream work. [Automated checks](.github/workflows/checks.yml) cover syntax, local links, runner/regression tests and synthetic dependencies. [Hosted data-independent checks](docs/validation/hosted-ci.md) passed on Ubuntu 24.04 with Python 3.13.16; raw-to-cleaned and full report validation remain incomplete.
 
 ## Methods and tools
 

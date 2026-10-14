@@ -10,7 +10,7 @@ Ten new runner/handoff tests plus the six existing zone-assignment regression te
 
 A source-only copy with no `data/`, `audit/` or `outputs/` passed syntax/link checks and all 16 tests. Stage lists and commuting dry-run returned 0; scooter preflight and figure dry-run returned the expected exit 2 for missing data, without creating outputs. Absolute-path invocation from an unrelated directory also passed. [Clean-checkout evidence](publication-evidence/clean-checkout-checks.json), [local command results](publication-evidence/local-checks.json).
 
-The [GitHub Actions workflow](../../.github/workflows/checks.yml) installs Python 3.13 and the pinned dependencies on Ubuntu 24.04, checks syntax/local links, runs all 16 tests and nine synthetic environment checks, and inspects the runner without research data. **Hosted CI is pending until it actually runs**; local macOS success is not Ubuntu execution evidence.
+The [GitHub Actions workflow](../../.github/workflows/checks.yml) installs Python 3.13 and the pinned dependencies on Ubuntu 24.04, checks syntax/local links, runs all 16 tests and nine synthetic environment checks, and inspects the runner without research data. The [first hosted run](hosted-ci.md) passed on Ubuntu 24.04 with Python 3.13.16 after publication; this establishes the recorded data-independent Ubuntu coverage.
 
 ## Input and release boundary
 
@@ -20,7 +20,7 @@ All 18 reachable commits and 200 reachable blobs at the start of this change wer
 
 Historical validation helpers contain local absolute paths/usernames, and Git author metadata includes a personal name/email. These are retained as existing provenance; the maintained reproduction commands do not use those historical paths. No history rewrite was performed. No repository code license has been selected; dataset distribution/licensing also remains unresolved. Choose appropriate licenses before promising reuse rights.
 
-The final release tree contains 176 files totaling 5,913,152 bytes (5.64 MiB), measured as the sum of file contents; this excludes ignored local data, virtual environments and `.git` storage.
+At publication-preparation commit `1d4b7a9`, the tree contained 176 files totaling 5,913,152 bytes (5.64 MiB), measured as the sum of file contents; this excludes ignored local data, virtual environments and `.git` storage.
 
 The empty GTFS downloader placeholder was removed. No downloader is implemented, and supplied extracted files are required. Stale claims about figure execution and checksums were updated. Local Markdown targets and diff whitespace are checked by the maintained repository checker and Git.
 
@@ -30,6 +30,6 @@ The empty GTFS downloader placeholder was removed. No downloader is implemented,
 - Raw-to-cleaned validation, complete report validation and visual approval of every unselected figure remain incomplete. Later GTFS topology does not verify historical 2024 service.
 - The parking map's validated path uses canonical full-period summaries. The legacy candidate fallback remains incompatible with the current candidate schema; the runner requires the canonical upstream files.
 - The commuting Stage 4→5 handoff remains manual. Its new gate detects inconsistency at the embedded rounding precision and stops before changing calculations; it does not propagate updated costs automatically.
-- Preflight cannot detect stale or scientifically invalid intermediate content. Hosted Ubuntu CI and broader platform support remain pending.
+- Preflight cannot detect stale or scientifically invalid intermediate content. Hosted Ubuntu data-independent CI passed; broader full-data platform support remains unvalidated.
 
-**Verdict:** ready for a transparent source/results publication with local checks passed, with the above data-access, licensing and validation limitations stated. It is not a verified end-to-end data/report release. Nothing has been pushed.
+**Verdict:** published as a source/results repository with local and hosted data-independent checks passed, and the above data-access, licensing and validation limitations stated. It is not a verified end-to-end data/report release. The original 21 commits were preserved on public `main`; excluded datasets were not uploaded and no release was created.

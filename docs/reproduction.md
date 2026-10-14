@@ -16,7 +16,7 @@ python -m unittest discover -s tests -v
 python scripts/check_environment.py
 ```
 
-The lock records the tested macOS arm64 environment, including PyProj 3.7.2. Other platforms are not yet validated. The GitHub Actions workflow attempts these data-independent checks on Ubuntu with Python 3.13; **hosted CI remains pending until it actually runs**. The environment checks create only synthetic temporary files and include optional report-library imports; passing them does not validate reports.
+The lock records the tested macOS arm64 environment, including PyProj 3.7.2. Full-data analytical reproduction remains limited to the recorded macOS environment. The [hosted data-independent checks](validation/hosted-ci.md) passed on Ubuntu 24.04 with Python 3.13.16; this covers installation and synthetic checks, not Linux full-data analytical reproduction. The environment checks create only synthetic temporary files and include optional report-library imports; passing them does not validate reports.
 
 The runner uses the active `sys.executable` for child processes; activating the intended environment matters. It resolves the repository root from its own script location, so it also works when invoked by absolute path from another directory. No production command depends on an earlier temporary validation workspace. Scripts under `docs/validation/*-evidence/` are historical run records, not the maintained entry point.
 
