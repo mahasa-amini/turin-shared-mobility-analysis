@@ -625,6 +625,25 @@ def find_precomputed_zone_summary() -> pd.DataFrame | None:
     This prevents accidentally reading a Top-10-only diagnostic table.
     """
 
+    # Prefer the analytical pipeline's complete, full-period outputs. Recursive
+    # discovery also finds period-specific tables with conflicting zone rows.
+    canonical_dir = ROOT / "outputs/tables/exercise_4/parking_by_zone"
+    canonical_paths = [
+        canonical_dir / f"parking_by_zone_{scope}_2024.csv"
+        for scope in SCOPES
+    ]
+    if all(path.exists() for path in canonical_paths):
+        tables = [
+            standardize_zone_summary(pd.read_csv(path), inferred_scope=scope)
+            for scope, path in zip(SCOPES, canonical_paths)
+        ]
+        if any(table is None for table in tables):
+            raise ValueError("Invalid canonical zone parking summary schema.")
+        print("Using canonical full-period zone parking summaries:")
+        for path in canonical_paths:
+            print(path)
+        return pd.concat(tables, ignore_index=True)
+
     csv_paths = []
 
     for directory in TABLE_SEARCH_DIRS:
