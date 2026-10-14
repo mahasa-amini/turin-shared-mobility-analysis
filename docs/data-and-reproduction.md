@@ -35,7 +35,7 @@ Voi January 2024 must not be assigned artificial daily/hourly detail. Full-year 
 
 ## Dependency map from source inspection
 
-This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. [Exercise 2](validation/exercise-2-reproduction.md) subsequently passed its six analytical stages and 58 artifact comparisons. Completed additional analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md). Remaining exercises are unverified.
+This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. [Exercise 2](validation/exercise-2-reproduction.md) subsequently passed its six analytical stages and 58 artifact comparisons. Completed additional analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md), [Exercise 4](validation/exercise-4-reproduction.md), and [Exercise 5](validation/exercise-5-reproduction.md). Figure/Word report production remains deferred.
 
 | Stage | Principal entry points and prerequisites |
 |---|---|
@@ -89,7 +89,7 @@ check_dir=$(mktemp -d /private/tmp/transport-env-check-XXXXXXXX)
 "$check_dir/venv/bin/python" -I -B scripts/check_environment.py > "$check_dir/smoke.log" 2>&1
 ```
 
-To request the exact resolved package set on the tested platform, substitute `requirements-lock.txt` for `requirements-reports.txt` in the installation command. That separate installation has not been rerun; lock consistency was checked against the freshly tested environment without changing it:
+To request the exact resolved package set on the tested platform, substitute `requirements-lock.txt` for `requirements-reports.txt` in the installation command. The current locked package set was installed in the controlled PyProj experiment, and consistency was checked against that environment without changing it:
 
 ```sh
 "$check_dir/venv/bin/python" -I -B -m pip --disable-pip-version-check --no-cache-dir install --dry-run --no-index --report "$check_dir/lock-check.json" -r requirements-lock.txt > "$check_dir/lock-check.log" 2>&1
@@ -99,7 +99,7 @@ The dry-run report proposed no installations. This verifies consistency with ins
 
 ### Remaining analysis blockers
 
-[Harmonization and Exercise 1](validation/usage-reproduction.md) reproduced 98 artifacts, and [Exercise 2](validation/exercise-2-reproduction.md) reproduced 58. Additional completed analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md); [Exercise 4](validation/exercise-4-reproduction.md). All use isolated regenerated prerequisites and content comparisons. Raw-to-cleaned processing, Exercises 5, figure/Word report production, and the separate commuting exercise remain unverified. Reports record excluded legacy artifacts and validation-helper corrections. No Python/platform support beyond the tested environment is established.
+[Harmonization and Exercise 1](validation/usage-reproduction.md) reproduced 98 artifacts, and [Exercise 2](validation/exercise-2-reproduction.md) reproduced 58. Additional completed analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md); [Exercise 4](validation/exercise-4-reproduction.md); [Exercise 5](validation/exercise-5-reproduction.md). All use isolated regenerated prerequisites and content comparisons. Raw-to-cleaned processing, figure/Word report production, and the separate commuting exercise remain unverified. Reports record excluded legacy artifacts and validation-helper corrections. No Python/platform support beyond the tested environment is established.
 
 Known blockers and limitations:
 
@@ -108,4 +108,4 @@ Known blockers and limitations:
 - Stage 4 → Stage 5 commuting costs are manually copied constants; their agreement has not been independently checked.
 - The focused zone-assignment regression tests cover six synthetic equivalence cases; full-reference reproduction is documented separately. The environment smoke checks also use synthetic fixtures. Several analysis scripts assert dataset-specific counts, and some create directories or perform work at module scope; importing them is not a safe substitute for static inspection.
 
-A full reproduction still needs an agreed data distribution/provenance record, raw-to-cleaned validation, and controlled execution/reconciliation of the remaining analyses and figure/report workflows. The completed usage check does not establish those results.
+A full reproduction still needs an agreed data distribution/provenance record, raw-to-cleaned validation, and controlled execution/reconciliation of figure/report production and the separate commuting exercise. The completed analytical checks do not establish those results.
