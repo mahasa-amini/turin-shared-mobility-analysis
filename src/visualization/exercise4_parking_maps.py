@@ -2263,10 +2263,10 @@ def create_parking_map(
         0.5,
         0.025,
         (
-            "Parking event: positive inter-trip gap; "
+            "Inactivity proxy: positive inter-trip gap; "
             "end-to-next-start displacement ≤100 m; "
-            "duration ≤7 days. "
-            "Official Torino statistical zones."
+            "duration ≤7 days.\n"
+            "Not confirmed continuous parking. Official Torino statistical zones."
         ),
         ha="center",
         va="center",

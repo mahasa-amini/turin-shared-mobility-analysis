@@ -789,7 +789,9 @@ def main():
         (
             "100 m endpoint-to-stop threshold; "
             "ordered direct PT-route compatibility. "
-            "Winter and summer use the same normalized scale."
+            "Winter and summer use the same normalized scale.\n"
+            "Later GTFS reference: 12 Aug 2026–31 Jan 2027; "
+            "spatial/topological compatibility, not historical service or observed transfers."
         ),
         ha="center",
         fontsize=10,
@@ -876,7 +878,8 @@ def main():
             0.022,
             (
                 "100 m endpoint-to-stop threshold; "
-                "GTFS used as a spatial reference network."
+                "later GTFS reference: 12 Aug 2026–31 Jan 2027.\n"
+                "Spatial/topological compatibility, not historical service or observed transfers."
             ),
             ha="center",
             fontsize=9,
