@@ -1,6 +1,6 @@
 # Methodology
 
-This document describes the implemented analysis from source inspection. Existing local audit tables support provenance and coverage descriptions. [Isolated reproduction](validation/usage-reproduction.md) verified computational agreement for harmonization and Exercise 1 analytical outputs from existing cleaned datasets; [Exercise 2 reproduction](validation/exercise-2-reproduction.md) also passed; raw-to-cleaned processing and Exercises 3–5 remain unverified.
+This document describes the implemented analysis from source inspection. Existing local audit tables support provenance and coverage descriptions. [Isolated reproduction](validation/usage-reproduction.md) verified computational agreement for harmonization and Exercise 1 analytical outputs from existing cleaned datasets; [Exercise 2 reproduction](validation/exercise-2-reproduction.md) also passed; additional completed analytical scopes are listed in [Data and reproduction](data-and-reproduction.md). Raw-to-cleaned processing remains unverified.
 
 ## What the quantities represent
 

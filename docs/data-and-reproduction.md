@@ -35,7 +35,7 @@ Voi January 2024 must not be assigned artificial daily/hourly detail. Full-year 
 
 ## Dependency map from source inspection
 
-This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. [Exercise 2](validation/exercise-2-reproduction.md) subsequently passed its six analytical stages and 58 artifact comparisons. Exercises 3–5 remain unverified.
+This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. [Exercise 2](validation/exercise-2-reproduction.md) subsequently passed its six analytical stages and 58 artifact comparisons. Completed additional analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md). Remaining exercises are unverified.
 
 | Stage | Principal entry points and prerequisites |
 |---|---|
@@ -99,7 +99,7 @@ The dry-run report proposed no installations. This verifies consistency with ins
 
 ### Remaining analysis blockers
 
-An [isolated cleaned-data-to-usage run](validation/usage-reproduction.md) reproduced all 98 artifacts emitted by harmonization and Exercise 1 analytical scripts, with no material discrepancy against local references. Raw-to-cleaned processing was not rerun. Six legacy hourly artifacts were not emitted or validated; figures/reports and Exercises 3–5 remain unverified. [Exercise 2](validation/exercise-2-reproduction.md) passed assignment/OD accounting and all 58 emitted artifact comparisons. No supported Python/platform range beyond the environment above has been established.
+[Harmonization and Exercise 1](validation/usage-reproduction.md) reproduced 98 artifacts, and [Exercise 2](validation/exercise-2-reproduction.md) reproduced 58. Additional completed analytical scopes: [Exercise 3](validation/exercise-3-reproduction.md). All use isolated regenerated prerequisites and content comparisons. Raw-to-cleaned processing, Exercises 4–5, figure/Word report production, and the separate commuting exercise remain unverified. Reports record excluded legacy artifacts and validation-helper corrections. No Python/platform support beyond the tested environment is established.
 
 Known blockers and limitations:
 
