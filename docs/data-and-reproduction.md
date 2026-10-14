@@ -35,7 +35,7 @@ Voi January 2024 must not be assigned artificial daily/hourly detail. Full-year 
 
 ## Dependency map from source inspection
 
-This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. The remaining workflows are not a tested quickstart or guaranteed execution sequence.
+This is a map of principal dependencies. The harmonization and Exercise 1 analytical sequence was subsequently executed in an isolated copy; see the [usage reproduction report](validation/usage-reproduction.md) for exact inputs, script order, comparisons, and exclusions. [Exercise 2](validation/exercise-2-reproduction.md) subsequently passed its six analytical stages and 58 artifact comparisons. Exercises 3–5 remain unverified.
 
 | Stage | Principal entry points and prerequisites |
 |---|---|
@@ -99,13 +99,13 @@ The dry-run report proposed no installations. This verifies consistency with ins
 
 ### Remaining analysis blockers
 
-An [isolated cleaned-data-to-usage run](validation/usage-reproduction.md) reproduced all 98 artifacts emitted by harmonization and Exercise 1 analytical scripts, with no material discrepancy against local references. Raw-to-cleaned processing was not rerun. Six legacy hourly artifacts were not emitted or validated; figures/reports and other exercises remain unverified. No supported Python/platform range beyond the environment above has been established.
+An [isolated cleaned-data-to-usage run](validation/usage-reproduction.md) reproduced all 98 artifacts emitted by harmonization and Exercise 1 analytical scripts, with no material discrepancy against local references. Raw-to-cleaned processing was not rerun. Six legacy hourly artifacts were not emitted or validated; figures/reports and Exercises 3–5 remain unverified. [Exercise 2](validation/exercise-2-reproduction.md) passed assignment/OD accounting and all 58 emitted artifact comparisons. No supported Python/platform range beyond the environment above has been established.
 
 Known blockers and limitations:
 
 - The four Exercise 2 map/appendix scripts and root Stages 5–7 now derive project paths from their script locations. Isolated path-expression checks confirmed the same intended input/output locations from the repository root and an unrelated temporary working directory; no analyses were executed. Explicit absolute PT-proximity input overrides remain supported. The shell commands above still assume invocation from the repository root.
 - [GTFS acquisition script](../src/data_loading/download_gtt_gtfs_archive.py) is empty. A historical feed matching the scooter observation period is not established by the local feed.
 - Stage 4 → Stage 5 commuting costs are manually copied constants; their agreement has not been independently checked.
-- There are no scientific pipeline regression tests; the new environment smoke checks use only synthetic fixtures. Several analysis scripts assert dataset-specific counts, and some create directories or perform work at module scope; importing them is not a safe substitute for static inspection.
+- The focused zone-assignment regression tests cover six synthetic equivalence cases; full-reference reproduction is documented separately. The environment smoke checks also use synthetic fixtures. Several analysis scripts assert dataset-specific counts, and some create directories or perform work at module scope; importing them is not a safe substitute for static inspection.
 
 A full reproduction still needs an agreed data distribution/provenance record, raw-to-cleaned validation, and controlled execution/reconciliation of the remaining analyses and figure/report workflows. The completed usage check does not establish those results.
