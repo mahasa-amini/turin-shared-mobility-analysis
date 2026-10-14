@@ -32,6 +32,6 @@ See [Methodology](docs/methodology.md) for analytical definitions and [Data and 
 
 ## Status and limitations
 
-All 69 project Python files passed in-memory syntax parsing with Python 3.13.13 after the PT-reference syntax repair. Environment installation and end-to-end execution have not yet been verified during this repository upgrade. Existing local outputs document a previous run; they are not independently reproduced results.
+The original 69 analysis Python files passed in-memory syntax parsing with Python 3.13.13 after the PT-reference syntax repair. A fresh environment on CPython 3.13.13, macOS 14.6 arm64 passed dependency installation, `pip check`, and all nine synthetic environment smoke checks, including the optional Word check. See [tested commands and resolved dependencies](docs/data-and-reproduction.md). End-to-end analysis remains unverified during this repository upgrade; existing local outputs document a previous run, not independently reproduced results.
 
 The GTFS feed covers August 2026–January 2027 and serves as a later spatial/topological reference for earlier scooter observations, not verified historical service. Proximity and route compatibility cannot establish actual transfers or substitution. Inter-trip gaps and fleet exposure are proxies; revenues, profitability, and commuting costs depend on assumptions. Unequal temporal coverage also limits direct comparisons between operators and years.
