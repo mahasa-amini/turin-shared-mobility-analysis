@@ -1,0 +1,29 @@
+
+=========================================================================================================
+EXERCISE 1 — HOURLY PATTERN FIGURES
+=========================================================================================================
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/hourly/hourly_activity_index_2024.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/hourly/system_hourly_weekday_heatmap_2024.png
+
+Generated figures:
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/hourly/hourly_activity_index_2024.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/hourly/system_hourly_weekday_heatmap_2024.png
+
+=========================================================================================================
+VALIDATION / INTERPRETATION
+=========================================================================================================
+- Hourly profile is normalized within operator.
+- Activity index = 100 represents each operator's mean hourly activity.
+- AM and PM transport peaks are predefined transport-analysis periods.
+- AM peak = 07:00-09:59.
+- PM peak = 16:00-19:59.
+- Empirical system peak hours are 15:00-20:59.
+- Empirical peak boundaries are visually separated from conventional peak shading.
+- Heatmap uses absolute pooled system activity.
+- Heatmap values are average trips per weekday-hour occurrence.
+- Heatmap rectangles identify observed weekday-specific maximum activity cells.
+- Both figures use the common Feb-Dec 2024 detailed-time window.
+- VOI January 2024 is excluded because detailed timestamps are unavailable.
+- No behavioural trip-purpose interpretation is imposed by these figures.
+
+Analysis figures completed successfully.

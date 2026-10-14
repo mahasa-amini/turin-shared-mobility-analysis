@@ -1,0 +1,58 @@
+==============================================================================================================
+EXERCISE 3 — NORMALIZED DIRECT-ROUTE OVERLAP FIGURES
+==============================================================================================================
+
+Season denominators:
+winter_february      trips=82,396 | direct candidates=7,231 (8.78%)
+summer_july          trips=186,194 | direct candidates=15,568 (8.36%)
+
+winter_february: 448 raw GTFS route-shape records
+winter_february: 108 route-level records
+
+summer_july: 448 raw GTFS route-shape records
+summer_july: 108 route-level records
+
+Shared normalized scale:
+Maximum route-overlap intensity: 6.46 mentions per 1,000 trips
+
+Top 10 routes — winter_february
+route_id route_short_name  candidate_trip_mentions  direct_overlap_mentions_per_1000_trips
+      4U                4                   532.00                                    6.46
+     56U               56                   521.00                                    6.32
+     68U               68                   500.00                                    6.07
+    ST2U           STAR 2                   452.00                                    5.49
+     92U               92                   451.00                                    5.47
+    S04U              S04                   419.00                                    5.09
+    W15U              W15                   383.00                                    4.65
+     55U               55                   383.00                                    4.65
+     61U               61                   379.00                                    4.60
+   W15BU             W15B                   351.00                                    4.26
+
+Top 10 routes — summer_july
+route_id route_short_name  candidate_trip_mentions  direct_overlap_mentions_per_1000_trips
+     56U               56                  1167.00                                    6.27
+     68U               68                  1103.00                                    5.92
+     67U               67                   856.00                                    4.60
+    ST2U           STAR 2                   813.00                                    4.37
+      4U                4                   799.00                                    4.29
+    W15U              W15                   737.00                                    3.96
+    S04U              S04                   733.00                                    3.94
+     55U               55                   709.00                                    3.81
+     11U               11                   698.00                                    3.75
+     92U               92                   673.00                                    3.61
+
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_3/direct_route_overlap_winter_summer.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_3/direct_route_overlap_winter.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_3/direct_route_overlap_summer.png
+
+==============================================================================================================
+FIGURE VALIDATION
+==============================================================================================================
+- Route geometries were dissolved to one feature per route.
+- Raw February and July scooter volumes are NOT directly compared through colour.
+- Route intensity is normalized per 1,000 analyzed scooter trips in each season.
+- Winter and summer use the same colour and line-width scale.
+- Colour is the primary intensity encoding; line-width variation is deliberately modest.
+- candidate_trip_mentions may count one scooter trip against multiple compatible PT routes.
+- Therefore the mapped measure is correctly labelled as route-overlap MENTIONS per 1,000 scooter trips.
+- Direct-route compatibility represents potential competition, not observed mode substitution.

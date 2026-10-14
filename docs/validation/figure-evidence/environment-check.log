@@ -1,0 +1,16 @@
+test_docx (__main__.EnvironmentChecks.test_docx) ... ok
+test_excel (__main__.EnvironmentChecks.test_excel) ... ok
+test_geopackage (__main__.EnvironmentChecks.test_geopackage) ... ok
+test_groupby_apply (__main__.EnvironmentChecks.test_groupby_apply) ... ok
+test_matplotlib_png (__main__.EnvironmentChecks.test_matplotlib_png) ... 2026-10-14 21:48:34.021 system_profiler[1847:17169] XType: Using static font registry.
+Matplotlib is building the font cache; this may take a moment.
+ok
+test_parquet (__main__.EnvironmentChecks.test_parquet) ... ok
+test_projection_and_nearest_join (__main__.EnvironmentChecks.test_projection_and_nearest_join) ... ok
+test_spearman (__main__.EnvironmentChecks.test_spearman) ... ok
+test_union_all (__main__.EnvironmentChecks.test_union_all) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 149.482s
+
+OK

@@ -1,0 +1,28 @@
+
+====================================================================================================
+EXERCISE 1 — TEMPORAL FIGURE GENERATION
+====================================================================================================
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/daily_matched_yoy_7d.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/weekly_matched_yoy.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/monthly_2024_seasonality_index.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/monthly_system_2024_daily_rate.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/jan_mar_2024_2025_daily_activity.png
+
+====================================================================================================
+FIGURE GENERATION COMPLETED
+====================================================================================================
+
+Generated figures:
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/daily_matched_yoy_7d.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/weekly_matched_yoy.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/monthly_2024_seasonality_index.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/monthly_system_2024_daily_rate.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/temporal/jan_mar_2024_2025_daily_activity.png
+
+IMPORTANT:
+- No raw or cleaned trip data were modified.
+- Daily rolling averages are visualization-only.
+- Daily and weekly YoY plots use matched seasonal windows.
+- Monthly seasonality is normalized within operator to compare temporal shape rather than operator size.
+- 2024 system-wide monthly activity uses all three operators.
+- Jan-Mar is used for the common 2024-vs-2025 monthly comparison.

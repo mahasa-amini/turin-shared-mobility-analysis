@@ -1,0 +1,11 @@
+season,interaction_class,trips,total_trips,share_pct
+summer_july,Direct PT-route overlap candidate,15568,186194,8.361171681149768
+summer_july,PT-network overlap / no direct route,59356,186194,31.878578257086694
+summer_july,Potential access / first-mile,40673,186194,21.84442033577881
+summer_july,Potential egress / last-mile,41952,186194,22.53133828157728
+summer_july,Potential independent / spatial-gap,28645,186194,15.384491444407447
+winter_february,Direct PT-route overlap candidate,7231,82396,8.775911452012233
+winter_february,PT-network overlap / no direct route,26400,82396,32.04039031020923
+winter_february,Potential access / first-mile,18039,82396,21.893053060828194
+winter_february,Potential egress / last-mile,18739,82396,22.742608864507986
+winter_february,Potential independent / spatial-gap,11987,82396,14.54803631244235

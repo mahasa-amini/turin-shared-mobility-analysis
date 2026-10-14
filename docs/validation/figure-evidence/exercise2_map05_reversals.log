@@ -1,0 +1,22 @@
+====================================================================================================
+EXERCISE 2 — AM↔PM DIRECTION REVERSAL MAP
+====================================================================================================
+Selected zone pairs: 5
+Directional records: 10
+
+Selected pairs:
+ reversal_rank zone_pair  reversal_score
+             1     18↔26        0.889824
+             2     18↔33        0.599608
+             3     17↔33        0.593068
+             4     18↔35        0.592701
+             5     08↔26        0.569204
+
+Temporal specialization range:
+0.1165 pp to 0.7090 pp
+/private/tmp/transport-showcase/project/src/analysis/exercise2_map05_reversals.py:1326: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout(
+findfont: Failed to find font weight semibold, now using 700.
+
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map05_selected_am_pm_direction_reversals.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map05_selected_am_pm_direction_reversals.pdf

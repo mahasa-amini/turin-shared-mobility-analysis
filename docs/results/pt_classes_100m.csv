@@ -1,0 +1,41 @@
+operator,season,threshold_m,interaction_class,trips,share_pct,total_trips
+bird,winter_february,100,PT-network overlap / no direct route,7113,31.911170928667563,22290
+bird,winter_february,100,Potential egress / last-mile,5260,23.598026020637057,22290
+bird,winter_february,100,Potential access / first-mile,4758,21.345895020188426,22290
+bird,winter_february,100,Potential independent / spatial-gap,3289,14.755495737999103,22290
+bird,winter_february,100,Direct PT-route overlap candidate,1870,8.389412292507851,22290
+bird,summer_july,100,PT-network overlap / no direct route,11848,30.867832113175105,38383
+bird,summer_july,100,Potential egress / last-mile,9234,24.05752546700362,38383
+bird,summer_july,100,Potential access / first-mile,8216,21.405309642289556,38383
+bird,summer_july,100,Potential independent / spatial-gap,6025,15.697053383008102,38383
+bird,summer_july,100,Direct PT-route overlap candidate,3060,7.972279394523618,38383
+lime,winter_february,100,PT-network overlap / no direct route,17364,31.569761099596377,55002
+lime,winter_february,100,Potential egress / last-mile,12423,22.58645140176721,55002
+lime,winter_february,100,Potential access / first-mile,12236,22.246463764954,55002
+lime,winter_february,100,Potential independent / spatial-gap,8034,14.606741573033707,55002
+lime,winter_february,100,Direct PT-route overlap candidate,4945,8.990582160648703,55002
+lime,summer_july,100,PT-network overlap / no direct route,43677,31.95566286215979,136680
+lime,summer_july,100,Potential egress / last-mile,30293,22.163447468539655,136680
+lime,summer_july,100,Potential access / first-mile,30033,21.97322212467076,136680
+lime,summer_july,100,Potential independent / spatial-gap,20999,15.363623061164764,136680
+lime,summer_july,100,Direct PT-route overlap candidate,11678,8.544044483465028,136680
+voi,winter_february,100,PT-network overlap / no direct route,1923,37.676332288401255,5104
+voi,winter_february,100,Potential egress / last-mile,1056,20.689655172413794,5104
+voi,winter_february,100,Potential access / first-mile,1045,20.474137931034484,5104
+voi,winter_february,100,Potential independent / spatial-gap,664,13.009404388714731,5104
+voi,winter_february,100,Direct PT-route overlap candidate,416,8.150470219435737,5104
+voi,summer_july,100,PT-network overlap / no direct route,3831,34.41739286676849,11131
+voi,summer_july,100,Potential egress / last-mile,2425,21.786003054532387,11131
+voi,summer_july,100,Potential access / first-mile,2424,21.77701913574701,11131
+voi,summer_july,100,Potential independent / spatial-gap,1621,14.562932351091549,11131
+voi,summer_july,100,Direct PT-route overlap candidate,830,7.4566525918605695,11131
+system,winter_february,100,PT-network overlap / no direct route,26400,32.04039031020923,82396
+system,winter_february,100,Potential egress / last-mile,18739,22.742608864507982,82396
+system,winter_february,100,Potential access / first-mile,18039,21.89305306082819,82396
+system,winter_february,100,Potential independent / spatial-gap,11987,14.54803631244235,82396
+system,winter_february,100,Direct PT-route overlap candidate,7231,8.775911452012233,82396
+system,summer_july,100,PT-network overlap / no direct route,59356,31.878578257086694,186194
+system,summer_july,100,Potential egress / last-mile,41952,22.53133828157728,186194
+system,summer_july,100,Potential access / first-mile,40673,21.84442033577881,186194
+system,summer_july,100,Potential independent / spatial-gap,28645,15.384491444407448,186194
+system,summer_july,100,Direct PT-route overlap candidate,15568,8.361171681149768,186194

@@ -1,0 +1,11 @@
+Selected PM flows: 100
+PM inter-zonal trips represented: 89,130
+PM demand share represented: 25.14%
+
+Common temporal flow-share scale:
+Minimum = 0.1577%
+Maximum = 0.9239%
+findfont: Failed to find font weight semibold, now using 700.
+
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map03_pm_peak_od_demand_core.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map03_pm_peak_od_demand_core.pdf

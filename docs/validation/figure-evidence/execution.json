@@ -1,0 +1,716 @@
+[
+  {
+    "kind": "prerequisite",
+    "script": "src/harmonization/harmonize_operators.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/harmonization/harmonize_operators.py"
+    ],
+    "exit": 0,
+    "seconds": 8.13,
+    "log": "harmonize_operators.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_cleaning_impact.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_cleaning_impact.py"
+    ],
+    "exit": 0,
+    "seconds": 0.29,
+    "log": "exercise1_cleaning_impact.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_temporal_coverage.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_temporal_coverage.py"
+    ],
+    "exit": 0,
+    "seconds": 0.46,
+    "log": "exercise1_temporal_coverage.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_daily_trends.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_daily_trends.py"
+    ],
+    "exit": 0,
+    "seconds": 0.27,
+    "log": "exercise1_daily_trends.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_weekly_trends.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_weekly_trends.py"
+    ],
+    "exit": 0,
+    "seconds": 0.24,
+    "log": "exercise1_weekly_trends.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_monthly_trends.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_monthly_trends.py"
+    ],
+    "exit": 0,
+    "seconds": 0.24,
+    "log": "exercise1_monthly_trends.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_yearly_comparison.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_yearly_comparison.py"
+    ],
+    "exit": 0,
+    "seconds": 0.23,
+    "log": "exercise1_yearly_comparison.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_usage_patterns.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_usage_patterns.py"
+    ],
+    "exit": 0,
+    "seconds": 0.26,
+    "log": "exercise1_usage_patterns.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_hourly_weekday.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_hourly_weekday.py"
+    ],
+    "exit": 0,
+    "seconds": 2.52,
+    "log": "exercise1_hourly_weekday.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise1_vehicle_utilization.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_vehicle_utilization.py"
+    ],
+    "exit": 0,
+    "seconds": 1.52,
+    "log": "exercise1_vehicle_utilization.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_zoning_audit.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_zoning_audit.py"
+    ],
+    "exit": 0,
+    "seconds": 0.49,
+    "log": "exercise2_zoning_audit.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_assign_zones.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_assign_zones.py"
+    ],
+    "exit": 0,
+    "seconds": 31.92,
+    "log": "exercise2_assign_zones.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_build_od.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_build_od.py"
+    ],
+    "exit": 0,
+    "seconds": 0.79,
+    "log": "exercise2_build_od.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_temporal_od.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_temporal_od.py"
+    ],
+    "exit": 0,
+    "seconds": 2.79,
+    "log": "exercise2_temporal_od.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_temporal_flow_contrasts.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_temporal_flow_contrasts.py"
+    ],
+    "exit": 0,
+    "seconds": 0.37,
+    "log": "exercise2_temporal_flow_contrasts.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise2_prepare_gis.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_prepare_gis.py"
+    ],
+    "exit": 0,
+    "seconds": 0.95,
+    "log": "exercise2_prepare_gis.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise3_prepare_pt_reference.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_prepare_pt_reference.py"
+    ],
+    "exit": 0,
+    "seconds": 0.72,
+    "log": "exercise3_prepare_pt_reference.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise3_pt_proximity.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_pt_proximity.py"
+    ],
+    "exit": 0,
+    "seconds": 8.89,
+    "log": "exercise3_pt_proximity.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise3_route_overlap.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_route_overlap.py"
+    ],
+    "exit": 0,
+    "seconds": 21.3,
+    "log": "exercise3_route_overlap.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise3_temporal_adduction.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_temporal_adduction.py"
+    ],
+    "exit": 0,
+    "seconds": 1.21,
+    "log": "exercise3_temporal_adduction.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise3_prepare_gis.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_prepare_gis.py"
+    ],
+    "exit": 0,
+    "seconds": 0.45,
+    "log": "exercise3_prepare_gis.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_parking_interval_audit.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_parking_interval_audit.py"
+    ],
+    "exit": 0,
+    "seconds": 4.79,
+    "log": "exercise4_parking_interval_audit.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_parking_definition_sensitivity.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_parking_definition_sensitivity.py"
+    ],
+    "exit": 0,
+    "seconds": 3.68,
+    "log": "exercise4_parking_definition_sensitivity.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_finalize_parking_events.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_finalize_parking_events.py"
+    ],
+    "exit": 0,
+    "seconds": 4.07,
+    "log": "exercise4_finalize_parking_events.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_zone_parking_statistics.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_zone_parking_statistics.py"
+    ],
+    "exit": 0,
+    "seconds": 1.19,
+    "log": "exercise4_zone_parking_statistics.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_temporal_parking_statistics.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_temporal_parking_statistics.py"
+    ],
+    "exit": 0,
+    "seconds": 1.48,
+    "log": "exercise4_temporal_parking_statistics.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise4_od_parking_relationship.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise4_od_parking_relationship.py"
+    ],
+    "exit": 0,
+    "seconds": 0.9,
+    "log": "exercise4_od_parking_relationship.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_cost_assumption_audit.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_cost_assumption_audit.py"
+    ],
+    "exit": 0,
+    "seconds": 0.21,
+    "log": "exercise5_cost_assumption_audit.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_revenue_engine.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_revenue_engine.py"
+    ],
+    "exit": 0,
+    "seconds": 1.77,
+    "log": "exercise5_revenue_engine.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_fleet_exposure_audit.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_fleet_exposure_audit.py"
+    ],
+    "exit": 0,
+    "seconds": 1.28,
+    "log": "exercise5_fleet_exposure_audit.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_revenue_diagnostics.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_revenue_diagnostics.py"
+    ],
+    "exit": 0,
+    "seconds": 2.68,
+    "log": "exercise5_revenue_diagnostics.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_cost_profitability_engine.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_cost_profitability_engine.py"
+    ],
+    "exit": 0,
+    "seconds": 0.68,
+    "log": "exercise5_cost_profitability_engine.log"
+  },
+  {
+    "kind": "prerequisite",
+    "script": "src/analysis/exercise5_robustness_vat_sensitivity.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise5_robustness_vat_sensitivity.py"
+    ],
+    "exit": 0,
+    "seconds": 0.23,
+    "log": "exercise5_robustness_vat_sensitivity.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise1_hourly_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_hourly_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 0.87,
+    "log": "exercise1_hourly_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise1_temporal_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_temporal_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 1.19,
+    "log": "exercise1_temporal_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise1_usage_pattern_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_usage_pattern_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 0.54,
+    "log": "exercise1_usage_pattern_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise1_vehicle_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise1_vehicle_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 1.11,
+    "log": "exercise1_vehicle_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_appendixA_heatmap.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_appendixA_heatmap.py"
+    ],
+    "exit": 0,
+    "seconds": 1.13,
+    "log": "exercise2_appendixA_heatmap.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_appendixB_heatmaps.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_appendixB_heatmaps.py"
+    ],
+    "exit": 0,
+    "seconds": 2.58,
+    "log": "exercise2_appendixB_heatmaps.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map01_all_day.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map01_all_day.py"
+    ],
+    "exit": 0,
+    "seconds": 8.43,
+    "log": "exercise2_map01_all_day.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map02_am_peak.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map02_am_peak.py"
+    ],
+    "exit": 0,
+    "seconds": 0.94,
+    "log": "exercise2_map02_am_peak.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map03_pm_peak.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map03_pm_peak.py"
+    ],
+    "exit": 0,
+    "seconds": 0.97,
+    "log": "exercise2_map03_pm_peak.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map04_offpeak.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map04_offpeak.py"
+    ],
+    "exit": 0,
+    "seconds": 0.99,
+    "log": "exercise2_map04_offpeak.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map05_reversals.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map05_reversals.py"
+    ],
+    "exit": 0,
+    "seconds": 1.03,
+    "log": "exercise2_map05_reversals.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map_origin_density.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map_origin_density.py"
+    ],
+    "exit": 0,
+    "seconds": 1.04,
+    "log": "exercise2_map_origin_density.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise2_map_temporal_comparison.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise2_map_temporal_comparison.py"
+    ],
+    "exit": 0,
+    "seconds": 1.59,
+    "log": "exercise2_map_temporal_comparison.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise3_access_egress_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_access_egress_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 0.55,
+    "log": "exercise3_access_egress_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/analysis/exercise3_route_overlap_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_route_overlap_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 28.79,
+    "log": "exercise3_route_overlap_figures.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/visualization/exercise4_od_parking_overlays.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/visualization/exercise4_od_parking_overlays.py"
+    ],
+    "exit": 0,
+    "seconds": 1.45,
+    "log": "exercise4_od_parking_overlays.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/visualization/exercise4_parking_maps.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py"
+    ],
+    "exit": 1,
+    "seconds": 0.53,
+    "log": "exercise4_parking_maps.log"
+  },
+  {
+    "kind": "figure",
+    "script": "src/visualization/exercise5_business_model_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/visualization/exercise5_business_model_figures.py"
+    ],
+    "exit": 0,
+    "seconds": 1.29,
+    "log": "exercise5_business_model_figures.log"
+  }
+]

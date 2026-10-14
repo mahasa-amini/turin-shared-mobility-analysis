@@ -1,0 +1,11 @@
+Selected AM flows: 73
+AM inter-zonal trips represented: 33,211
+AM demand share represented: 25.09%
+
+Common temporal flow-share scale:
+Minimum = 0.1577%
+Maximum = 0.9239%
+findfont: Failed to find font weight semibold, now using 700.
+
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map02_am_peak_od_demand_core.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map02_am_peak_od_demand_core.pdf

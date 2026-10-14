@@ -1,0 +1,63 @@
+{
+  "temporal_trips": 1617965,
+  "temporal_days": 335,
+  "temporal_peak": {
+    "weekday_number": 4,
+    "hour": 18,
+    "weekday": "Friday",
+    "weekday_occurrences": 48,
+    "system_trips": 19394,
+    "mean_system_trips_per_weekday_occurrence_at_hour": 404.0416666666667
+  },
+  "system_peak_hour": 18,
+  "od_valid_trips": 1681927,
+  "od_interzonal_trips": 1409705,
+  "od_displayed_trips": 354646,
+  "od_displayed_pairs": 107,
+  "od_displayed_share_pct": 25.157462022196132,
+  "pt_direct": [
+    {
+      "season": "summer_july",
+      "interaction_class": "Direct PT-route overlap candidate",
+      "trips": 15568,
+      "total_trips": 186194,
+      "share_pct": 8.361171681149768
+    },
+    {
+      "season": "winter_february",
+      "interaction_class": "Direct PT-route overlap candidate",
+      "trips": 7231,
+      "total_trips": 82396,
+      "share_pct": 8.775911452012233
+    }
+  ],
+  "parking_candidates": 1617923,
+  "parking_valid": 1458827,
+  "parking_mean_h": 9.292829028238286,
+  "economics": [
+    {
+      "operator": "bird",
+      "trips": 390844,
+      "estimated_gross_payg_revenue_eur": 1381737.5180000002,
+      "primary_total_cost_eur": 753253.3235118209,
+      "operating_profit_proxy_eur": 628484.1944881793,
+      "operating_margin_pct": 45.485064008240904
+    },
+    {
+      "operator": "lime",
+      "trips": 1196200,
+      "estimated_gross_payg_revenue_eur": 3362506.6378333336,
+      "primary_total_cost_eur": 1547748.1321007763,
+      "operating_profit_proxy_eur": 1814758.5057325573,
+      "operating_margin_pct": 53.970406639908255
+    },
+    {
+      "operator": "voi",
+      "trips": 106115,
+      "estimated_gross_payg_revenue_eur": 292840.00799639,
+      "primary_total_cost_eur": 358710.5760245522,
+      "operating_profit_proxy_eur": -65870.56802816223,
+      "operating_margin_pct": -22.49370517329526
+    }
+  ]
+}

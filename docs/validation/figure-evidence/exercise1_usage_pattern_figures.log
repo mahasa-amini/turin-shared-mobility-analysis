@@ -1,0 +1,11 @@
+
+====================================================================================================
+EXERCISE 1 — WEEKDAY PATTERN FIGURE
+====================================================================================================
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/patterns/weekday_activity_index_2024.png
+
+IMPORTANT:
+- The figure uses the common Feb-Dec 2024 detailed-time window.
+- Activity is normalized within operator.
+- 100 represents each operator's mean daily activity.
+- The plot describes day-of-week pattern, not causal travel purpose.

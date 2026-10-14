@@ -1,0 +1,130 @@
+[
+  {
+    "path": "data/cleaned/voi/voi_2024_clean.parquet",
+    "sha256": "9e335243b123425f614bec2d84a43900df85ff5858440700122579b1d733c200"
+  },
+  {
+    "path": "data/cleaned/voi/voi_2025_clean.parquet",
+    "sha256": "4ae79cadfe4ba37284f2639bb75a400ac3223629241b46353d5647d797438ede"
+  },
+  {
+    "path": "data/cleaned/lime/lime_2025_clean.parquet",
+    "sha256": "b826e5cf5b34d5bb14de344436d3a4df414553d8f4ae59040e0fbce2e99e9662"
+  },
+  {
+    "path": "data/cleaned/lime/lime_2024_clean.parquet",
+    "sha256": "ab433df9d699975f1c7b8121ceaaa9e13e6ddc737a3fb190ae357dcceb97d302"
+  },
+  {
+    "path": "data/cleaned/bird/bird_2024_clean.parquet",
+    "sha256": "94aa899f9baade764ec4c592bdcbbeef0e202d6b5c7980db8959a17282112fb1"
+  },
+  {
+    "path": "data/cleaned/bird/bird_2025_clean.parquet",
+    "sha256": "daaf5eb06d69f728ff10ce8b217ec7e3a85607516a15e8bfed5d91ccdcb167fb"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/timetables.txt",
+    "sha256": "856eb92d707a39d19fee03458d1fc521200a156dd8aa00bb01c8b928c22fc749"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/fare_attributes.txt",
+    "sha256": "0538fb0288e91ec8d88d166adb490a437c1855803feb79e09e03be9f1c62a173"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/stop_attributes.txt",
+    "sha256": "b0fdb106ad2474c2bf169552fbeffd2f25716f981810959287e86537f4ab6c30"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/agency.txt",
+    "sha256": "3e102cbbb3456129a144de33ff123957ec7d2638b50291cac52a1bf504adcb93"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/fare_rules.txt",
+    "sha256": "04702cf3cdf885ec90cd95506de2c2e256c211c826baa3c93a353f98acd9b4ea"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/calendar_dates.txt",
+    "sha256": "8e2f37c2ac7a7cdc5d2616863ad06803a6ee823ac07dcb16f389098dfb2dfdb9"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/stop_times.txt",
+    "sha256": "77373afb2e897092949b1366c3b545a5bbd8553b23d524d8d32dbb0ec6be1f09"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/shapes.txt",
+    "sha256": "0d6136c96f8278e87019c36158c5b6d09e40bcbbc7a5c180a712d5ca5d52733f"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/trips.txt",
+    "sha256": "04c962be7530238360ccad07179c54a1cced2e830480bf9736fe6b418c8b1056"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/timetable_pages.txt",
+    "sha256": "c081011d196a1b7cb1d2783fcf4f2b36c058bc7e824b9f784e97dffe555d4536"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/feed_info.txt",
+    "sha256": "b8e02b9b731cdcdfbfd11c2738c5c01e472313d86b583dffa32ada88fb7a1fc5"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/vehicles.txt",
+    "sha256": "6c2d0ed741b5c2dc54d523f73d0a93fee45e91c2d5a39ad23fe61b0b1918a11d"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/vehicle_categories.txt",
+    "sha256": "54a0ab8c11e1f0386937e001968babcb22ae9908df645143036aedd0680073b7"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/trips_booking.txt",
+    "sha256": "d8b79a66e4c6b6ee7ec5956f99643ce180d33ec01890f909f803840dba24823b"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/stops.txt",
+    "sha256": "d333f7a03fd4c5c7ee0933da2ff9624bc14de99add146d3a61dcb572ae40fd51"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/timetable_stop_order.txt",
+    "sha256": "2bb39006fb1bcb14a9140660b8a84303d0497a71ec0fcb44fd5a9bd5df9ae3c6"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/calendar.txt",
+    "sha256": "f402d384b205c5f633b360f971453544429644a3766fea156a479097d0b551af"
+  },
+  {
+    "path": "data/raw/external/gtt_gtfs/routes.txt",
+    "sha256": "7baf28093f9da6e57eaaaf24e3e031ad0abd002cb7011cebdc0cdafa628817cb"
+  },
+  {
+    "path": "data/raw/external/torino_zones/zone_statistiche_geo.dbf",
+    "sha256": "92e775b381914290b7c95ead99fdd363e146c34e5c2c50fb2b2ec410512e2dbc"
+  },
+  {
+    "path": "data/raw/external/torino_zones/zone_statistiche_geo.shx",
+    "sha256": "4cc97be0cba5d1c2d1fb9ca627233898475977ea26408ff11a9a390038be3d55"
+  },
+  {
+    "path": "data/raw/external/torino_zones/zone_statistiche_geo.shp",
+    "sha256": "976b6bb057d3eaa9cfc306f02530d4fbf22a702ccba7c1584c8ba95d6d1ab3c4"
+  },
+  {
+    "path": "data/raw/external/torino_zones/zone_statistiche_geo.qml",
+    "sha256": "72c04c515033342ab0fe96ca282f9443feae7a02f10995b89fd7ac63792b7257"
+  },
+  {
+    "path": "data/raw/external/torino_zones/zone_statistiche_geo.prj",
+    "sha256": "b860cf0cfdb0047b3afd7965ced7cf74493ed41a4e11cb4ab889765df0b98404"
+  },
+  {
+    "path": "audit/bird/bird_final_cleaning_summary.csv",
+    "sha256": "07b2131a893c7ec0b9b59a41a54a92a1a484c0cc5a4364dfdfab57084a0732df"
+  },
+  {
+    "path": "audit/lime/lime_final_cleaning_summary.csv",
+    "sha256": "bf681ebe252fbc3fd3234b24a841ef9d415d8a0f1b7128764bacd75fd5eb0f54"
+  },
+  {
+    "path": "audit/voi/voi_final_cleaning_summary.csv",
+    "sha256": "0566b1b3063bcd77d2932320697780ad9a4a4dced8244ff63c36fefbe75b2274"
+  }
+]

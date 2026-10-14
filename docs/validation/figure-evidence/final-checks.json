@@ -1,0 +1,13 @@
+{
+  "local_markdown_targets_checked": 163,
+  "missing_local_targets": 0,
+  "selected_artifact_hashes": "pass",
+  "executed_source_hashes": "pass",
+  "csv_comparisons": {
+    "matched": 200,
+    "seeded_inputs_excluded": 3
+  },
+  "python_syntax": "pass",
+  "git_diff_whitespace": "pass",
+  "original_data_audit_output_files_unchanged": 558
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "script": "src/analysis/exercise3_route_overlap_figures.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/analysis/exercise3_route_overlap_figures.py"
+    ],
+    "exit": 0,
+    "log": "exercise3_route_overlap_figures-final.log"
+  },
+  {
+    "script": "src/visualization/exercise4_parking_maps.py",
+    "command": [
+      "/private/tmp/transport-showcase-env/bin/python",
+      "-I",
+      "-B",
+      "-u",
+      "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py"
+    ],
+    "exit": 0,
+    "log": "exercise4_parking_maps-final.log"
+  }
+]

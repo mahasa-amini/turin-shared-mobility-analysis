@@ -1,0 +1,1202 @@
+[
+  {
+    "path": "audit/exercise_2/spatial_assignment/bird_2024_unassigned_endpoints.csv",
+    "rows": 8311,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_2/spatial_assignment/lime_2024_unassigned_endpoints.csv",
+    "rows": 2628,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_2/spatial_assignment/spatial_assignment_summary_2024.csv",
+    "rows": 3,
+    "columns": 22,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_2/spatial_assignment/voi_2024_unassigned_endpoints.csv",
+    "rows": 293,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_2/temporal_od/temporal_od_coverage_2024.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_2/zoning/torino_zoning_audit_summary.csv",
+    "rows": 1,
+    "columns": 28,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/proximity/baseline_400m_seasonal_comparison.csv",
+    "rows": 12,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/proximity/canonical_pt_stops.csv",
+    "rows": 2197,
+    "columns": 23,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/proximity/nearest_pt_stop_distance_summary.csv",
+    "rows": 16,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/proximity/pt_interaction_sensitivity_summary.csv",
+    "rows": 66,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/proximity/spatial_scope_summary.csv",
+    "rows": 6,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/pt_reference/gtfs_reference_network_audit.csv",
+    "rows": 16,
+    "columns": 2,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/pt_reference/stop_scope_crosscheck.csv",
+    "rows": 3,
+    "columns": 2,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/pt_reference/stop_scope_mismatches.csv",
+    "rows": 3,
+    "columns": 19,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/pt_reference/urban_route_mode_summary.csv",
+    "rows": 3,
+    "columns": 3,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/route_overlap/direct_route_frequency_100m.csv",
+    "rows": 765,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/route_overlap/route_aware_100m_seasonal_comparison.csv",
+    "rows": 20,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/route_overlap/route_aware_classification_summary.csv",
+    "rows": 120,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/route_overlap/route_overlap_diagnostic_summary.csv",
+    "rows": 24,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/route_overlap/selected_reference_routes.csv",
+    "rows": 127,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/temporal_adduction/feeder_stop_bidirectional_hotspots_100m.csv",
+    "rows": 31988,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/temporal_adduction/feeder_stop_direction_hotspots_100m.csv",
+    "rows": 53845,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/temporal_adduction/pt_interaction_by_transport_period_100m.csv",
+    "rows": 32,
+    "columns": 22,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_3/temporal_adduction/system_seasonal_period_comparison_100m.csv",
+    "rows": 24,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/bird_large_relocation_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/bird_long_gap_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/bird_negative_gap_examples.csv",
+    "rows": 0,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/final_parking_event_summary_2024.csv",
+    "rows": 3,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/lime_large_relocation_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/lime_long_gap_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/lime_negative_gap_examples.csv",
+    "rows": 9,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_base_population_summary_2024.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_duration_bins_2024.csv",
+    "rows": 36,
+    "columns": 3,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_duration_cap_sensitivity_2024.csv",
+    "rows": 12,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_duration_quantiles_2024.csv",
+    "rows": 3,
+    "columns": 17,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_duration_x_relocation_2024.csv",
+    "rows": 360,
+    "columns": 4,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_event_exclusion_reasons_2024.csv",
+    "rows": 23,
+    "columns": 4,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_interval_audit_summary_2024.csv",
+    "rows": 3,
+    "columns": 26,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_relocation_threshold_sensitivity_2024.csv",
+    "rows": 15,
+    "columns": 18,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/parking_zone_sample_size_summary_2024.csv",
+    "rows": 4,
+    "columns": 12,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/relocation_distance_bins_2024.csv",
+    "rows": 30,
+    "columns": 3,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/relocation_distance_quantiles_2024.csv",
+    "rows": 3,
+    "columns": 17,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/temporal_parking_period_summary_2024.csv",
+    "rows": 12,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/temporal_parking_sample_size_summary_2024.csv",
+    "rows": 12,
+    "columns": 12,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/voi_large_relocation_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/voi_long_gap_examples.csv",
+    "rows": 1000,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_4/parking/voi_negative_gap_examples.csv",
+    "rows": 0,
+    "columns": 50,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_5/costs/electricity_distance_proxy_audit_2024.csv",
+    "rows": 3,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_5/fleet_exposure/common_window_coverage_2024.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_5/revenue/monthly_revenue_diagnostics_2024.csv",
+    "rows": 3,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "audit/exercise_5/revenue/revenue_duration_unestimable_trips_2024.csv",
+    "rows": 10,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "audit/harmonization/harmonization_coverage.csv",
+    "rows": 6,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "audit/harmonization/harmonization_data_dictionary.csv",
+    "rows": 45,
+    "columns": 2,
+    "status": "match"
+  },
+  {
+    "path": "audit/harmonization/harmonization_summary.csv",
+    "rows": 6,
+    "columns": 19,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/cleaning_impact_by_operator.csv",
+    "rows": 3,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/cleaning_impact_by_operator_year.csv",
+    "rows": 6,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/cleaning_impact_by_year.csv",
+    "rows": 2,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/cleaning_impact_total.csv",
+    "rows": 1,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/data_quality_inventory.csv",
+    "rows": 52,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/empirical_peak_hours_2024.csv",
+    "rows": 6,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/empirical_peak_summary_2024.csv",
+    "rows": 6,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/empirical_peak_summary_matched_12_full_weeks_yoy.csv",
+    "rows": 12,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/hourly_profile_2024_common.csv",
+    "rows": 72,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/hourly_profile_matched_12_full_weeks_yoy.csv",
+    "rows": 144,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/hourly_weekday_profile_2024_common.csv",
+    "rows": 504,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/matched_12_full_weeks_calendar_validation.csv",
+    "rows": 6,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/matched_12_full_weeks_weekday_validation.csv",
+    "rows": 42,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/operator_weekday_peak_hours_2024.csv",
+    "rows": 21,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/peak_offpeak_matched_12_full_weeks_yoy_comparison.csv",
+    "rows": 6,
+    "columns": 14,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/peak_offpeak_summary_2024_common.csv",
+    "rows": 6,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/peak_offpeak_summary_matched_12_full_weeks_yoy.csv",
+    "rows": 12,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/system_hourly_profile_2024_common.csv",
+    "rows": 24,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/system_hourly_weekday_2024_common.csv",
+    "rows": 168,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/system_weekday_peak_hours_2024.csv",
+    "rows": 7,
+    "columns": 4,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/transport_period_summary_2024_common.csv",
+    "rows": 9,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/hourly/transport_period_summary_matched_12_full_weeks_yoy.csv",
+    "rows": 18,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/seasonal_operator_shares_2024.csv",
+    "rows": 12,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/seasonal_profile_2024.csv",
+    "rows": 12,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/system_seasonal_profile_2024.csv",
+    "rows": 4,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_profile_2024_common.csv",
+    "rows": 21,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_profile_matched_yoy.csv",
+    "rows": 42,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_weekend_detail_2024_common.csv",
+    "rows": 6,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_weekend_detail_matched_yoy.csv",
+    "rows": 12,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_weekend_summary_2024_common.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/patterns/weekday_weekend_summary_matched_yoy.csv",
+    "rows": 6,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_common_window_summary.csv",
+    "rows": 6,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_matched_yoy_comparison.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_matched_yoy_summary.csv",
+    "rows": 6,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_trend_summary.csv",
+    "rows": 6,
+    "columns": 16,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_trip_counts.csv",
+    "rows": 1812,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_trip_counts_common_windows.csv",
+    "rows": 1362,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/daily_very_low_volume_diagnostic.csv",
+    "rows": 2,
+    "columns": 12,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_2024_full_year_summary.csv",
+    "rows": 3,
+    "columns": 17,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_2025_available_summary.csv",
+    "rows": 3,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_jan_mar_yoy_comparison.csv",
+    "rows": 3,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_jan_mar_yoy_summary.csv",
+    "rows": 6,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_month_specific_yoy.csv",
+    "rows": 9,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_operator_shares_2024.csv",
+    "rows": 36,
+    "columns": 16,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_system_2024.csv",
+    "rows": 12,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_trip_counts.csv",
+    "rows": 61,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/monthly_trip_counts_common_full_months.csv",
+    "rows": 45,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/temporal_comparison_windows.csv",
+    "rows": 6,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/temporal_coverage_registry.csv",
+    "rows": 6,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_full_coverage_summary.csv",
+    "rows": 6,
+    "columns": 16,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_matched_yoy_comparison.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_matched_yoy_summary.csv",
+    "rows": 6,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_operator_shares.csv",
+    "rows": 189,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_system_common_totals.csv",
+    "rows": 63,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_trip_counts.csv",
+    "rows": 264,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/weekly_trip_counts_common_full_weeks.csv",
+    "rows": 189,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_2024_full_year_operator_summary.csv",
+    "rows": 3,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_2025_observed_coverage.csv",
+    "rows": 3,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_operator_summary.csv",
+    "rows": 6,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_system_summary.csv",
+    "rows": 2,
+    "columns": 4,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_system_yoy.csv",
+    "rows": 1,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_yoy_comparison.csv",
+    "rows": 3,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/temporal/yearly_trip_counts_with_coverage.csv",
+    "rows": 6,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/daily_active_vehicle_intensity.csv",
+    "rows": 528,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_2024_full_year_summary.csv",
+    "rows": 3,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_2025_observed_summary.csv",
+    "rows": 3,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_matched_yoy_comparison.csv",
+    "rows": 3,
+    "columns": 22,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_matched_yoy_summary.csv",
+    "rows": 6,
+    "columns": 25,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_system_2024_summary.csv",
+    "rows": 1,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_1/vehicles/vehicle_year_summary.csv",
+    "rows": 6,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/gis/gis_flow_filter_summary.csv",
+    "rows": 4,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/gis/top_temporal_direction_reversal_pairs_2024.csv",
+    "rows": 10,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/intra_zonal_flows_2024.csv",
+    "rows": 327,
+    "columns": 22,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_bird_2024_long.csv",
+    "rows": 5629,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_concentration_summary_2024.csv",
+    "rows": 8,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_lime_2024_long.csv",
+    "rows": 5718,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_matrix_bird_2024.csv",
+    "rows": 94,
+    "columns": 95,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_matrix_lime_2024.csv",
+    "rows": 94,
+    "columns": 95,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_matrix_system_2024.csv",
+    "rows": 94,
+    "columns": 95,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_matrix_voi_2024.csv",
+    "rows": 94,
+    "columns": 95,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_structural_summary_2024.csv",
+    "rows": 4,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_system_2024_long.csv",
+    "rows": 6154,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/od_voi_2024_long.csv",
+    "rows": 3683,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/top_15_system_destination_zones_2024.csv",
+    "rows": 15,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/top_15_system_origin_zones_2024.csv",
+    "rows": 15,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/top_50_interzonal_od_flows_2024.csv",
+    "rows": 200,
+    "columns": 22,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/zone_production_attraction_bird_2024.csv",
+    "rows": 94,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/zone_production_attraction_lime_2024.csv",
+    "rows": 94,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/zone_production_attraction_system_2024.csv",
+    "rows": 94,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/od/zone_production_attraction_voi_2024.csv",
+    "rows": 94,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_contrasts/system_temporal_od_contrasts_2024.csv",
+    "rows": 6062,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_contrasts/top_20_am_vs_offpeak_specialized_flows_2024.csv",
+    "rows": 20,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_contrasts/top_20_am_vs_pm_specialized_flows_2024.csv",
+    "rows": 20,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_contrasts/top_20_pm_vs_am_specialized_flows_2024.csv",
+    "rows": 20,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_contrasts/top_20_pm_vs_offpeak_specialized_flows_2024.csv",
+    "rows": 20,
+    "columns": 20,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/conventional_period_concentration_2024.csv",
+    "rows": 6,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/conventional_period_summary_2024.csv",
+    "rows": 12,
+    "columns": 18,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/empirical_period_concentration_2024.csv",
+    "rows": 4,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/empirical_period_summary_2024.csv",
+    "rows": 8,
+    "columns": 18,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/hourly_od_cosine_similarity_2024.csv",
+    "rows": 24,
+    "columns": 25,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/hourly_od_structural_summary_2024.csv",
+    "rows": 24,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/period_od_cosine_similarity_2024.csv",
+    "rows": 8,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/top_50_conventional_period_flows_2024.csv",
+    "rows": 150,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/top_50_conventional_period_overlap_2024.csv",
+    "rows": 3,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/top_50_empirical_period_flows_2024.csv",
+    "rows": 100,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/temporal_od/top_50_empirical_period_overlap_2024.csv",
+    "rows": 1,
+    "columns": 6,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_2/zoning/torino_zone_dictionary.csv",
+    "rows": 94,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/od_parking_relationship/od_parking_correlations_2024.csv",
+    "rows": 9,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/od_parking_relationship/od_parking_demand_quartiles_2024.csv",
+    "rows": 12,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/od_parking_relationship/od_parking_zone_level_2024.csv",
+    "rows": 282,
+    "columns": 14,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/od_parking_relationship/od_parking_zone_profiles_2024.csv",
+    "rows": 245,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_bird_2024.csv",
+    "rows": 83,
+    "columns": 19,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_lime_2024.csv",
+    "rows": 84,
+    "columns": 19,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_system_pooled_2024.csv",
+    "rows": 84,
+    "columns": 27,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_voi_2024.csv",
+    "rows": 77,
+    "columns": 19,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_zone_cross_operator_comparison_2024.csv",
+    "rows": 94,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/parking_by_zone/parking_zone_high_low_rankings_2024.csv",
+    "rows": 80,
+    "columns": 28,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_bird_2024.csv",
+    "rows": 246,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_lime_2024.csv",
+    "rows": 249,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_system_pooled_2024.csv",
+    "rows": 249,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_voi_2024.csv",
+    "rows": 229,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_4/temporal_parking/system_parking_period_comparison_by_zone_2024.csv",
+    "rows": 94,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/costs/base_case_profitability_2024.csv",
+    "rows": 3,
+    "columns": 39,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/costs/cost_breakdown_long_2024.csv",
+    "rows": 45,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/costs/cost_profitability_scenarios_2024.csv",
+    "rows": 9,
+    "columns": 39,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/costs/electricity_cost_memo_2024.csv",
+    "rows": 9,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/fleet_exposure/daily_active_fleet_common_window_2024.csv",
+    "rows": 1005,
+    "columns": 4,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/fleet_exposure/fleet_exposure_scenarios_2024.csv",
+    "rows": 3,
+    "columns": 23,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/fleet_exposure/monthly_fleet_activity_common_window_2024.csv",
+    "rows": 33,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/fleet_exposure/vehicle_exposure_common_window_2024.csv",
+    "rows": 5387,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/fleet_exposure/vehicle_service_span_distribution_2024.csv",
+    "rows": 3,
+    "columns": 15,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue/payg_revenue_by_vehicle_2024.csv",
+    "rows": 5462,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue/payg_revenue_monthly_2024.csv",
+    "rows": 36,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue/payg_revenue_operator_summary_2024.csv",
+    "rows": 3,
+    "columns": 21,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/active_vehicle_day_summary_common_window_2024.csv",
+    "rows": 3,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/monthly_revenue_structure_2024.csv",
+    "rows": 36,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/revenue_by_active_vehicle_day_common_window_2024.csv",
+    "rows": 526176,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/revenue_by_vehicle_2024.csv",
+    "rows": 5462,
+    "columns": 5,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/revenue_composition_2024.csv",
+    "rows": 3,
+    "columns": 8,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/revenue_per_trip_distribution_2024.csv",
+    "rows": 3,
+    "columns": 11,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/vehicle_active_day_performance_common_window_2024.csv",
+    "rows": 5387,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/revenue_diagnostics/vehicle_revenue_concentration_2024.csv",
+    "rows": 3,
+    "columns": 10,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/robustness/one_at_a_time_sensitivity_2024.csv",
+    "rows": 36,
+    "columns": 13,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/robustness/profitability_robustness_summary_2024.csv",
+    "rows": 3,
+    "columns": 7,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/robustness/sensitivity_driver_ranking_2024.csv",
+    "rows": 12,
+    "columns": 9,
+    "status": "match"
+  },
+  {
+    "path": "outputs/tables/exercise_5/robustness/vat_sensitivity_2024.csv",
+    "rows": 3,
+    "columns": 12,
+    "status": "match"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "path": "docs/results/temporal_hour_weekday_2024.csv",
+    "source": "outputs/tables/exercise_1/hourly/system_hourly_weekday_2024_common.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "ede1ad14be2ac6bcc26cae5795e7005313147f3adbe287f2fc98f34364778584"
+  },
+  {
+    "path": "docs/results/temporal_hourly_2024.csv",
+    "source": "outputs/tables/exercise_1/hourly/system_hourly_profile_2024_common.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "a305a8f07583e24a23ba245354da2d04f12eb3029447c6fea15ed8678d53065e"
+  },
+  {
+    "path": "docs/results/temporal_coverage.csv",
+    "source": "outputs/tables/exercise_1/temporal/temporal_coverage_registry.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "de66e6a2a2a9dacfd73704994830445273e8f45350a3086b50cfa1e8864ff717"
+  },
+  {
+    "path": "docs/results/parking_zone_pooled_2024.csv",
+    "source": "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_system_pooled_2024.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "315a2fdd4175bac977d42dc37fdb3a2985068b930b1db6590a7f3bffa3eb305c"
+  },
+  {
+    "path": "docs/results/parking_event_summary_2024.csv",
+    "source": "audit/exercise_4/parking/final_parking_event_summary_2024.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "b29765861ca6d00c5357be6c283daa23f5cd98f0b51ea83c1af6867e75729d5a"
+  },
+  {
+    "path": "docs/results/economics_base_scenario_2024.csv",
+    "source": "outputs/tables/exercise_5/costs/base_case_profitability_2024.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "4bf1aec377124642e87e44eadf5073a96c0ffc07449d82d1061bebff00f7990a"
+  },
+  {
+    "path": "docs/results/pt_route_mentions_100m.csv",
+    "source": "audit/exercise_3/route_overlap/direct_route_frequency_100m.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "0788a0176f18245caba2f03c1a923dea00c050f4b1f4f79a17295f2d4910bbfb"
+  },
+  {
+    "path": "docs/results/pt_classes_100m.csv",
+    "source": "audit/exercise_3/route_overlap/route_aware_classification_summary.csv",
+    "method": "filter threshold_m == 100",
+    "sha256": "381bd1951cb03d169016e243ee586c6c5e80a35da3a581020f2bfb70349b5b09"
+  },
+  {
+    "path": "docs/results/pt_system_100m.csv",
+    "source": "audit/exercise_3/route_overlap/route_aware_classification_summary.csv",
+    "method": "threshold 100 m; sum bird/lime/voi counts by season/class (exclude existing system rows); divide by season total",
+    "sha256": "99ac6bd7c617879e454281bedfadb36de91daee2d195083c58ec27085a531fdf"
+  },
+  {
+    "path": "docs/results/od_displayed_core_2024.csv",
+    "source": "data/processed/exercise_2/gis/exercise2_od_layers.gpkg:flows_all_day",
+    "method": "filter demand_core_25pct; retain displayed directional zone pairs and counts",
+    "sha256": "ab28c44146eb6cf766c10f9885e086e0b964ea8281e48a4a6a69c82dac6ed476"
+  },
+  {
+    "path": "docs/results/od_structural_summary_2024.csv",
+    "source": "outputs/tables/exercise_2/od/od_structural_summary_2024.csv",
+    "method": "byte-for-byte copy",
+    "sha256": "9cb7a7f250b833936b151c1122d50f370de45e3501b09ffc6e595a6e6d9e3e6b"
+  }
+]

@@ -1,0 +1,53 @@
+====================================================================================================
+FIGURE E2.6 — ORIGIN PRODUCTION-DENSITY CHOROPLETH
+====================================================================================================
+Loaded layer: zones_all_day
+Rows: 94
+CRS: EPSG:3003
+Columns: ['zone_id', 'zone_name', 'area_m2', 'area_km2', 'centroid_x', 'centroid_y', 'representative_x', 'representative_y', 'centroid_inside', 'production_trips', 'attraction_trips', 'production_share_pct', 'attraction_share_pct', 'net_attraction_trips', 'production_density_trips_per_km2', 'attraction_density_trips_per_km2', 'geometry']
+
+Canonical mapping fields:
+  Zone ID     -> zone_id
+  Zone name   -> zone_name
+  Production  -> production_trips
+  Area        -> area_km2
+  Density     -> production_density_trips_per_km2
+
+Maximum stored-vs-recomputed density difference: 0.000000 trips/km²
+Production-density validation: PASSED
+
+Missing density zones: 0
+Zero-density zones: 6
+
+Classification breaks [trips/km²]:
+  Class 1: 0.0 – 616.5
+  Class 2: 616.5 – 6,185.6
+  Class 3: 6,185.6 – 21,316.8
+  Class 4: 21,316.8 – 40,492.3
+  Class 5: 40,492.3 – 204,755.9
+
+Top origin-production-density zones:
+zone_id                                          zone_name  production_trips_plot  origin_density_km2
+     04             Piazza San Carlo - Piazza Carlo Felice                  96170       204755.857195
+     03 Palazzo Carignano - Vecchio Ospedate (Borgo Nuovo)                  66461       147615.085173
+     06                             Piazza Vittorio Veneto                  59810       147288.949093
+     01                                          Municipio                  69993       133025.337573
+     09        Piazza Madama Cristina (Borgo San Salvario)                  50938       122450.185965
+     10           Borgo San Secondo - Stazione Porta Nuova                  57534       111085.600127
+
+====================================================================================================
+FIGURE E2.6 COMPLETED
+====================================================================================================
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/figure_e2_6_origin_production_density.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/figure_e2_6_origin_production_density.pdf
+
+Scientific mapping variable:
+  production_density_trips_per_km2
+
+Definition:
+  production_trips / area_km2
+
+Classification:
+  5-class quantile choropleth
+
+DONE.

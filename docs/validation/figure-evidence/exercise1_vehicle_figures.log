@@ -1,0 +1,20 @@
+
+=========================================================================================================
+EXERCISE 1 — VEHICLE UTILIZATION FIGURES
+=========================================================================================================
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_2024.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_matched_yoy.png
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/vehicle_utilization_decomposition_matched_yoy.png
+
+Generated figures:
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_2024.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_matched_yoy.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_1/vehicles/vehicle_utilization_decomposition_matched_yoy.png
+
+IMPORTANT:
+- 2024 histogram uses the complete calendar year.
+- Matched YoY histograms use identical 88-day windows.
+- Histogram y-axes show vehicle shares, not raw counts.
+- 2024 and 2025 use identical bin edges within each operator.
+- Utilization decomposition separates daily vehicle activation from trips generated per active vehicle-day.
+- Unique observed vehicles are not interpreted as official fleet size.

@@ -1,0 +1,22 @@
+====================================================================================================
+EXERCISE 2 — TEMPORAL OD DEMAND-CORE COMPARISON
+====================================================================================================
+
+AM demand-core flows       : 73
+PM demand-core flows       : 100
+Off-peak demand-core flows : 110
+
+Common flow-share scale:
+Minimum: 0.1577%
+Maximum: 0.9239%
+findfont: Failed to find font weight semibold, now using 700.
+
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/figure_E2_temporal_comparison_3panel.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/figure_E2_temporal_comparison_3panel.pdf
+
+VALIDATION PASSED:
+- Only demand_core_25pct flows were mapped.
+- AM = 73 flows.
+- PM = 100 flows.
+- Off-peak = 110 flows.
+- One common flow-share scale was used.

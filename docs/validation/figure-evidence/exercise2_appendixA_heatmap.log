@@ -1,0 +1,25 @@
+
+====================================================================================================
+EXERCISE 2 — APPENDIX A HEATMAP
+====================================================================================================
+Using matrix file:
+/private/tmp/transport-showcase/project/outputs/tables/exercise_2/od/od_matrix_system_2024.csv
+/private/tmp/transport-showcase-env/lib/python3.13/site-packages/pyogrio/geopandas.py:382: UserWarning: More than one layer found in 'torino_statistical_zones.gpkg': 'zones' (default), 'zone_centroids', 'zone_representative_points'. Specify layer parameter to avoid this warning.
+  result = read_func(
+Loaded official zoning order: 94 zones
+
+====================================================================================================
+APPENDIX A HEATMAP SUMMARY
+====================================================================================================
+Matrix shape:                94 x 94
+Possible OD cells:           8,836
+Total valid OD trips:        1,681,927
+Intra-zonal trips:           272,222
+Inter-zonal trips:           1,409,705
+Active OD cells:             6,154
+Active inter-zonal cells:    6,070
+
+Saved heatmap ->
+/private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_A1_all_day_OD_matrix_heatmap.png
+
+DONE.

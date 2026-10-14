@@ -1,0 +1,38 @@
+====================================================================================================
+EXERCISE 3 — AM / PM POTENTIAL ACCESS-EGRESS FIGURE
+====================================================================================================
+
+====================================================================================================
+SYSTEM AM / PM ACCESS-EGRESS FIGURE DATA — 100 m
+====================================================================================================
+         season transport_period  trips  access_pct  egress_pct  feeder_total_pct  egress_minus_access_pp  access_minus_egress_pp
+winter_february          AM peak   8701       25.50       18.29             43.79                   -7.22                    7.22
+winter_february          PM peak  22489       21.51       22.82             44.33                    1.32                   -1.32
+    summer_july          AM peak  17006       24.37       19.99             44.37                   -4.38                    4.38
+    summer_july          PM peak  45878       21.57       23.05             44.62                    1.49                   -1.49
+
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_3/am_pm_access_egress_winter_summer.png
+Figure data -> /private/tmp/transport-showcase/project/outputs/figures/exercise_3/am_pm_access_egress_figure_data.csv
+
+====================================================================================================
+DIRECTIONAL INTERPRETATION
+====================================================================================================
+
+winter_february
+AM peak: access - egress = +7.22 pp
+PM peak: access - egress = -1.32 pp
+
+summer_july
+AM peak: access - egress = +4.38 pp
+PM peak: access - egress = -1.49 pp
+
+====================================================================================================
+FIGURE VALIDATION
+====================================================================================================
+- Winter and summer use one shared y-axis scale.
+- AM and PM definitions match the Exercise 1/2 transport-period definitions.
+- Access/egress percentages are calculated relative to all scooter trips in each period.
+- Access-minus-egress is expressed in percentage points.
+- Positive values indicate stronger potential first-mile orientation.
+- Negative values indicate stronger potential last-mile orientation.
+- These are spatial feeder indicators, not observed multimodal transfers.

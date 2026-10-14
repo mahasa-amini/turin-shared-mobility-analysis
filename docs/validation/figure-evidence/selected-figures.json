@@ -1,0 +1,47 @@
+[
+  {
+    "path": "docs/figures/temporal_usage_2024.png",
+    "source": "outputs/figures/exercise_1/hourly/system_hourly_weekday_heatmap_2024.png",
+    "dimensions": [
+      3561,
+      1745
+    ],
+    "sha256": "de444429d6a21857699494f706e4b729313f8988613335d57b16ce59fa620101"
+  },
+  {
+    "path": "docs/figures/spatial_od_2024.png",
+    "source": "outputs/figures/exercise_2/maps/map01_all_day_od_demand_core.png",
+    "dimensions": [
+      3839,
+      2805
+    ],
+    "sha256": "db24cfa4e642b37f0a3e26203a80244968d5364f13fab9d1c97bf756400f76b1"
+  },
+  {
+    "path": "docs/figures/pt_compatibility_2024.png",
+    "source": "outputs/figures/exercise_3/direct_route_overlap_winter_summer.png",
+    "dimensions": [
+      4529,
+      2702
+    ],
+    "sha256": "a7de2a44f00e98d4a169ed8e416bce1f2aeb8c9008b5d5d3c69f8c10026c4dd2"
+  },
+  {
+    "path": "docs/figures/parking_proxy_2024.png",
+    "source": "outputs/figures/exercise_4/parking/parking_duration_by_zone_system_pooled_2024.png",
+    "dimensions": [
+      2550,
+      2850
+    ],
+    "sha256": "b0440c50615a84b1f6f4f73719ae5dc809a8212eac414311bff05bd6bbfe23a2"
+  },
+  {
+    "path": "docs/figures/economics_base_2024.png",
+    "source": "outputs/figures/exercise_5/figure5_2_base_cost_breakdown_2024.png",
+    "dimensions": [
+      3358,
+      2013
+    ],
+    "sha256": "26cf79163323ff4d4944bb5293f7941e1ef766c251e84f517d76bcd22225a57a"
+  }
+]

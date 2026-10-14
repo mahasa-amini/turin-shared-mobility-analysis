@@ -1,0 +1,29 @@
+====================================================================================================
+EXERCISE 4 — FINAL PARKING DURATION MAPS
+====================================================================================================
+
+Loading official Torino zoning...
+/private/tmp/transport-showcase-env/lib/python3.13/site-packages/pyogrio/geopandas.py:382: UserWarning: More than one layer found in 'torino_statistical_zones.gpkg': 'zones' (default), 'zone_centroids', 'zone_representative_points'. Specify layer parameter to avoid this warning.
+  result = read_func(
+Zones loaded: 94
+CRS: EPSG:3003
+
+No complete pre-computed zone summary found.
+Rebuilding zone summaries from validated candidate intervals...
+
+Traceback (most recent call last):
+  File "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py", line 2514, in <module>
+    main()
+    ~~~~^^
+  File "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py", line 2404, in main
+    rebuild_zone_summary_from_candidates()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py", line 1102, in rebuild_zone_summary_from_candidates
+    events = build_valid_parking_events(
+        operator
+    )
+  File "/private/tmp/transport-showcase/project/src/visualization/exercise4_parking_maps.py", line 918, in build_valid_parking_events
+    raise KeyError(
+    ...<3 lines>...
+    )
+KeyError: "\nCould not rebuild BIRD parking events.\nMissing: parking-gap column, destination/parking-zone column\n\nAvailable columns:\n['operator', 'trip_uid', 'vehicle_uid', 'start_time_local', 'end_time_local', 'start_lat', 'start_lon', 'end_lat', 'end_lon', 'year', 'source_period', 'source_row', 'valid_spatial_prezone', 'next_trip_uid', 'next_start_time_local', 'next_start_lat', 'next_start_lon', 'next_valid_spatial_prezone', 'has_next_trip', 'parking_gap_clock_min', 'parking_end_utc', 'next_start_utc', 'parking_gap_elapsed_min', 'dst_elapsed_resolved', 'dst_endpoint_unresolved', 'relocation_distance_m_raw', 'spatial_pair_valid_prezone', 'relocation_distance_m', 'gap_negative', 'gap_zero', 'gap_positive', 'gap_over_6h', 'gap_over_12h', 'gap_over_24h', 'gap_over_48h', 'gap_over_7d', 'relocation_le_20m', 'relocation_le_50m', 'relocation_le_100m', 'relocation_le_200m', 'relocation_le_500m', 'relocation_le_1000m', 'relocation_le_2000m', 'relocation_le_5000m', 'relocation_gt_1km', 'relocation_gt_5km', 'parking_duration_bin', 'relocation_distance_bin', 'parking_start_date', 'parking_start_hour']\n"

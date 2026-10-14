@@ -1,0 +1,17 @@
+
+==========================================================================================
+EXERCISE 2 — MAP 01: ALL-DAY OD DEMAND CORE
+==========================================================================================
+Official zones: 94
+Selected demand-core flows: 107
+Trips represented by selected flows: 354,646
+Minimum displayed OD flow: 2,304 trips
+Maximum displayed OD flow: 7,013 trips
+findfont: Failed to find font weight semibold, now using 700.
+
+------------------------------------------------------------------------------------------
+PNG saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map01_all_day_od_demand_core.png
+PDF saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_2/maps/map01_all_day_od_demand_core.pdf
+------------------------------------------------------------------------------------------
+
+MAP 01 COMPLETED.

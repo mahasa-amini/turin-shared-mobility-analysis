@@ -1,0 +1,79 @@
+====================================================================================================
+EXERCISE 4 — FINAL PARKING DURATION MAPS
+====================================================================================================
+
+Loading official Torino zoning...
+/private/tmp/transport-showcase-env/lib/python3.13/site-packages/pyogrio/geopandas.py:382: UserWarning: More than one layer found in 'torino_statistical_zones.gpkg': 'zones' (default), 'zone_centroids', 'zone_representative_points'. Specify layer parameter to avoid this warning.
+  result = read_func(
+Zones loaded: 94
+CRS: EPSG:3003
+Using canonical full-period zone parking summaries:
+/private/tmp/transport-showcase/project/outputs/tables/exercise_4/parking_by_zone/parking_by_zone_bird_2024.csv
+/private/tmp/transport-showcase/project/outputs/tables/exercise_4/parking_by_zone/parking_by_zone_lime_2024.csv
+/private/tmp/transport-showcase/project/outputs/tables/exercise_4/parking_by_zone/parking_by_zone_voi_2024.csv
+/private/tmp/transport-showcase/project/outputs/tables/exercise_4/parking_by_zone/parking_by_zone_system_pooled_2024.csv
+
+Zone-level parking summary validation: PASSED
+
+====================================================================================================
+GENERATING MAPS
+====================================================================================================
+
+------------------------------------------------------------------------------------------
+MAP QA — bird
+Parking events: 310,300
+Zones with parking observations: 83
+Low-sample zones (<30): 1
+Displayed labels: 20
+Suppressed labels because of collision: none
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_bird_2024.png
+
+------------------------------------------------------------------------------------------
+MAP QA — lime
+Parking events: 1,063,020
+Zones with parking observations: 84
+Low-sample zones (<30): 1
+Displayed labels: 20
+Suppressed labels because of collision: none
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_lime_2024.png
+
+------------------------------------------------------------------------------------------
+MAP QA — voi
+Parking events: 85,507
+Zones with parking observations: 77
+Low-sample zones (<30): 3
+Displayed labels: 20
+Suppressed labels because of collision: none
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_voi_2024.png
+
+------------------------------------------------------------------------------------------
+MAP QA — system_pooled
+Parking events: 1,458,827
+Zones with parking observations: 84
+Low-sample zones (<30): 1
+Displayed labels: 20
+Suppressed labels because of collision: none
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_system_pooled_2024.png
+
+====================================================================================================
+EXERCISE 4 — Q1 MAP GENERATION COMPLETED
+====================================================================================================
+
+Generated figures:
+/private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_bird_2024.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_lime_2024.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_voi_2024.png
+/private/tmp/transport-showcase/project/outputs/figures/exercise_4/parking/parking_duration_by_zone_system_pooled_2024.png
+
+FINAL CARTOGRAPHIC VALIDATION:
+- Fixed parking-duration classes are identical across all four maps.
+- Low sample = fewer than 30 valid parking events.
+- No-data zones are shown in grey.
+- Low-sample zones are hatched.
+- Labels use representative points inside official zones.
+- Label-label collisions are automatically suppressed.
+- Legend-label collisions are automatically suppressed using rendered bounding boxes.
+- Legend frame is fully opaque and rendered above every map element.
+- North arrow and 2-km metric scale bar are included.
+- System map is an event-weighted pooled estimate.
+- Figure generation does not alter any analytical trip data.

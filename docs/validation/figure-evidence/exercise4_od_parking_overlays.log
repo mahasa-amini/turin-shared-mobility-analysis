@@ -1,0 +1,28 @@
+
+==============================================================================================================
+EXERCISE 4 — OD × PARKING TEMPORAL OVERLAYS
+==============================================================================================================
+Global maximum flow share for common width scaling: 0.9239%
+
+Building am_peak overlay...
+Parking zones with data: 82
+Low-sample zones: 2
+OD demand-core flows plotted: 73
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_am_peak_2024.png
+
+Building pm_peak overlay...
+Parking zones with data: 83
+Low-sample zones: 1
+OD demand-core flows plotted: 100
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_pm_peak_2024.png
+
+Building offpeak overlay...
+Parking zones with data: 84
+Low-sample zones: 1
+OD demand-core flows plotted: 110
+Saved -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_offpeak_2024.png
+
+==============================================================================================================
+OVERLAY MAPS COMPLETED
+==============================================================================================================
+Outputs -> /private/tmp/transport-showcase/project/outputs/figures/exercise_4/od_parking_overlays

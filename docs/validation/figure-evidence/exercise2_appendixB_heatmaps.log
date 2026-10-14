@@ -1,0 +1,118 @@
+
+==============================================================================================================
+EXERCISE 2 — APPENDIX B TEMPORAL OD HEATMAPS
+==============================================================================================================
+
+==============================================================================================================
+LOADING OFFICIAL TORINO ZONING
+==============================================================================================================
+Loaded zoning layer: 94 zones
+Columns: ['zone_id', 'zone_name', 'area_m2', 'area_km2', 'centroid_x', 'centroid_y', 'representative_x', 'representative_y', 'centroid_inside', 'geometry']
+Official zone count: 94
+First IDs: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '09bis']
+Last IDs:  ['83', '84', '85', '86', '87', '88', '89', '90', '91', '92']
+
+==============================================================================================================
+LOADING SYSTEM CONVENTIONAL TEMPORAL OD DATA
+==============================================================================================================
+Rows loaded: 15,528
+Columns: ['conventional_period', 'origin_zone_id', 'destination_zone_id', 'system_trips', 'intra_zonal']
+period column: conventional_period
+origin-zone column: origin_zone_id
+destination-zone column: destination_zone_id
+trip-count column: system_trips
+
+Period values found:
+period
+Off-peak    5945
+PM peak     5383
+AM peak     4200
+
+==============================================================================================================
+BUILDING AM PEAK MATRIX
+==============================================================================================================
+Long-form OD rows: 4,200
+Matrix shape: (94, 94)
+
+AM peak validation:
+  Total trips:              153,096
+  Intra-zonal trips:        20,725
+  Inter-zonal trips:        132,371
+  Active OD cells:          4,200
+  Active inter-zonal cells: 4,118
+  Validation: PASS
+
+==============================================================================================================
+BUILDING PM PEAK MATRIX
+==============================================================================================================
+Long-form OD rows: 5,383
+Matrix shape: (94, 94)
+
+PM peak validation:
+  Total trips:              428,893
+  Intra-zonal trips:        74,389
+  Inter-zonal trips:        354,504
+  Active OD cells:          5,383
+  Active inter-zonal cells: 5,299
+  Validation: PASS
+
+==============================================================================================================
+BUILDING OFF-PEAK MATRIX
+==============================================================================================================
+Long-form OD rows: 5,945
+Matrix shape: (94, 94)
+
+Off-peak validation:
+  Total trips:              1,024,952
+  Intra-zonal trips:        165,263
+  Inter-zonal trips:        859,689
+  Active OD cells:          5,945
+  Active inter-zonal cells: 5,861
+  Validation: PASS
+
+==============================================================================================================
+CALCULATING COMMON COLOUR SCALE
+==============================================================================================================
+Common positive minimum: 1
+Common maximum:          8,149
+One common logarithmic scale will be used across AM, PM and Off-peak.
+
+==============================================================================================================
+GENERATING APPENDIX B HEATMAPS
+==============================================================================================================
+
+Creating Figure B.1...
+Saved -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B1_am_peak_OD_matrix_heatmap.png
+
+Creating Figure B.2...
+Saved -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B2_pm_peak_OD_matrix_heatmap.png
+
+Creating Figure B.3...
+Saved -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B3_offpeak_OD_matrix_heatmap.png
+
+==============================================================================================================
+APPENDIX B COMPLETE
+==============================================================================================================
+  period  total_trips  intra_zonal_trips  inter_zonal_trips  active_od_cells  active_interzonal_cells
+ AM peak       153096              20725             132371             4200                     4118
+ PM peak       428893              74389             354504             5383                     5299
+Off-peak      1024952             165263             859689             5945                     5861
+
+Generated figures:
+  Figure B.1 -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B1_am_peak_OD_matrix_heatmap.png
+  Figure B.2 -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B2_pm_peak_OD_matrix_heatmap.png
+  Figure B.3 -> /private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Figure_B3_offpeak_OD_matrix_heatmap.png
+
+Validation file ->
+/private/tmp/transport-showcase/project/outputs/report/exercise_2/appendices/Appendix_B_temporal_heatmap_validation.csv
+
+VALIDATION / INTERPRETATION:
+- Temporal matrices were reconstructed directly from system_conventional_period_od_2024.parquet.
+- All matrices contain the same 94 official Torino zones.
+- Zero-flow O–D cells are retained explicitly.
+- AM, PM and Off-peak totals reconcile exactly with the validated temporal OD pipeline.
+- All three figures use identical zone ordering.
+- All three figures use one common logarithmic colour scale.
+- Heatmaps include both intra-zonal and inter-zonal trips.
+
+All Appendix B checks: PASSED

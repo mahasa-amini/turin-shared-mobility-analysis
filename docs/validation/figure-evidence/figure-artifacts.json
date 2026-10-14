@@ -1,0 +1,289 @@
+[
+  {
+    "path": "outputs/figures/exercise_1/hourly/hourly_activity_index_2024.png",
+    "bytes": 369818,
+    "sha256": "9eb07160884b4ecee0e57971b0ec1dbcf71c7c2049f214cc87a2513ec6f28bf0",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/hourly/system_hourly_weekday_heatmap_2024.png",
+    "bytes": 156912,
+    "sha256": "de444429d6a21857699494f706e4b729313f8988613335d57b16ce59fa620101",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/patterns/weekday_activity_index_2024.png",
+    "bytes": 269930,
+    "sha256": "bf04b333f2366d5bf0192a7e7f405967a20c40db9241e28c9acef88317b37456",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/temporal/daily_matched_yoy_7d.png",
+    "bytes": 458453,
+    "sha256": "2af850e5c6f0bc86b6787a90bc9428872fbd4ef8e528860eef15226422cd6458",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/temporal/jan_mar_2024_2025_daily_activity.png",
+    "bytes": 111923,
+    "sha256": "b3d73aec3e6f92c7ba0b244a5b58272ba51604d0a6fc1069f1104be222bce856",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/temporal/monthly_2024_seasonality_index.png",
+    "bytes": 267449,
+    "sha256": "34a2efa24354503e6a47029bf0b00b6983bbc5cd1fa2293a043455bd321ef804",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/temporal/monthly_system_2024_daily_rate.png",
+    "bytes": 150748,
+    "sha256": "16fcd83cb929dcff3ec6d464cbce0bb9bff8081211b56bba0a907c0442aa1fa2",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/temporal/weekly_matched_yoy.png",
+    "bytes": 431007,
+    "sha256": "24bcf552637b0b6275fc901795db8ba26091679deff00191ef3344a7d0e2557b",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_2024.png",
+    "bytes": 268888,
+    "sha256": "7cd6814a5acf446395358e08e6129cd36c7c155f7ada44ebd40e107b262c1aaa",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/vehicles/trips_per_vehicle_histogram_matched_yoy.png",
+    "bytes": 241200,
+    "sha256": "7058e575e0ffee8b797a4cb97681066805e20aaa4b4cfa89fc8f8c394ba34efe",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_1/vehicles/vehicle_utilization_decomposition_matched_yoy.png",
+    "bytes": 203520,
+    "sha256": "3bb60c054b6fb1123d815c076948e18c4645347396178377a1857c40a6105f61",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/figure_E2_temporal_comparison_3panel.pdf",
+    "bytes": 593862,
+    "sha256": "a21c1a04250792d460d3c45e098e8bf40f5895da09500568490eb0717eeb3ada"
+  },
+  {
+    "path": "outputs/figures/exercise_2/figure_E2_temporal_comparison_3panel.png",
+    "bytes": 1526744,
+    "sha256": "26912024d7b9ced588330158616b4689e5f63b0347d0883904d29e11726a6007",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/figure_e2_6_origin_production_density.pdf",
+    "bytes": 476114,
+    "sha256": "ac3eaf94eebd59ef07e60ef80d0d16bd13f8862c9d228c5624c7b311953fc728"
+  },
+  {
+    "path": "outputs/figures/exercise_2/figure_e2_6_origin_production_density.png",
+    "bytes": 923380,
+    "sha256": "9a3ba9ec256ffaa3831c7dba96f4b261078c085d0678ade587a755ceabec4942",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map01_all_day_od_demand_core.pdf",
+    "bytes": 219603,
+    "sha256": "f11fc7b8e2b4a8ed6cfc708d49e2c5e40da8a12c3daf66e8ec2cb41e66248a86"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map01_all_day_od_demand_core.png",
+    "bytes": 786614,
+    "sha256": "db24cfa4e642b37f0a3e26203a80244968d5364f13fab9d1c97bf756400f76b1",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map02_am_peak_od_demand_core.pdf",
+    "bytes": 214928,
+    "sha256": "b09b8af4e538ffcaed9f100de49210189af9294649bd1b565bd353eac8eb158b"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map02_am_peak_od_demand_core.png",
+    "bytes": 749697,
+    "sha256": "b39c2cf3dfc9ae76ec42000d49b395df870f95c8b59a8ddf2c41fcab397c76ed",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map03_pm_peak_od_demand_core.pdf",
+    "bytes": 218376,
+    "sha256": "9f5f61a80868ad5982a91df401eb157f83faa23640f4fb56f570033b0ca6b38f"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map03_pm_peak_od_demand_core.png",
+    "bytes": 758543,
+    "sha256": "bbaf175c5cb6958e4c655f2c5165159b4c175ef44c140af55fa9a5278914d578",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map04_offpeak_od_demand_core.pdf",
+    "bytes": 221249,
+    "sha256": "11b89eacb4adfa71fe4d50b036ff80273c186f99b2f5f4f721545c16f92ff10b"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map04_offpeak_od_demand_core.png",
+    "bytes": 763771,
+    "sha256": "b8d28d6b31742e03cac47070c519da86dfe1462e0bb952a08bc09b2a317d38cb",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map05_selected_am_pm_direction_reversals.pdf",
+    "bytes": 388287,
+    "sha256": "7bc47638d04f9be97f2a0255c5899ed655b30aa731d611e07bf852254acb44b0"
+  },
+  {
+    "path": "outputs/figures/exercise_2/maps/map05_selected_am_pm_direction_reversals.png",
+    "bytes": 930123,
+    "sha256": "6b4b1cd82ea1770b2c033c42fa4c09ca0a6f9210e3df532e7c3cfba774248530",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_3/am_pm_access_egress_figure_data.csv",
+    "bytes": 601,
+    "sha256": "bad5c3fef24bd38a184299475084422d3e9ee0c9e77f5c6a19d60b373341dd74"
+  },
+  {
+    "path": "outputs/figures/exercise_3/am_pm_access_egress_winter_summer.png",
+    "bytes": 250799,
+    "sha256": "b5b9d2398fe827b42f1fac2ee2d066fe0094c00d3374e43c6ad89cbaaaf16128",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_3/direct_route_overlap_summer.png",
+    "bytes": 983138,
+    "sha256": "eb2afe4724838a15b362c4c3678fc49113f46a07cc0a334425ae7e8fd2bea797",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_3/direct_route_overlap_winter.png",
+    "bytes": 984776,
+    "sha256": "be263865a33a6907d9c09d2e66744b26ee7f7041418fa21f5e2036dbdcbb956f",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_3/direct_route_overlap_winter_summer.png",
+    "bytes": 2027474,
+    "sha256": "a7de2a44f00e98d4a169ed8e416bce1f2aeb8c9008b5d5d3c69f8c10026c4dd2",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_am_peak_2024.png",
+    "bytes": 647628,
+    "sha256": "9350ead5f58eb1caac4b0f109a3e76d81f0f03e6485dc5d8ab2a40339c159423",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_offpeak_2024.png",
+    "bytes": 643000,
+    "sha256": "61b868ccaf96a7ac1ff8e3596624ee0ff2f910c8f4b730dcfa64a29d6b198d31",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/od_parking_overlays/od_parking_overlay_pm_peak_2024.png",
+    "bytes": 651126,
+    "sha256": "2b3f90f5f0e67434f406c0d0b54f95be953a6105577ce31b64640083ea3c3819",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/parking/parking_duration_by_zone_bird_2024.png",
+    "bytes": 710734,
+    "sha256": "362ff73834967e8805624a84afcd059fa864f10f7dae70b7b8aef8a2413f2d94",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/parking/parking_duration_by_zone_lime_2024.png",
+    "bytes": 711929,
+    "sha256": "d4ca3203ea0d3adb8a85d94f6fbc5a240b1a545dc1f390c1b44c596274782a0b",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/parking/parking_duration_by_zone_system_pooled_2024.png",
+    "bytes": 724899,
+    "sha256": "b0440c50615a84b1f6f4f73719ae5dc809a8212eac414311bff05bd6bbfe23a2",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_4/parking/parking_duration_by_zone_voi_2024.png",
+    "bytes": 711050,
+    "sha256": "a6d2ec3693e55abe8761a029b14eaa0f821954021040507db60620569d9637b5",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_1_revenue_composition_2024.pdf",
+    "bytes": 34285,
+    "sha256": "e0901cd1ab39e42982e71389c004295390cbcc0cd4e01b95b633fdc57db1115c"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_1_revenue_composition_2024.png",
+    "bytes": 174196,
+    "sha256": "467550fc910db96c73172dd5adea55b9093aad6c40cc8be936fbffc23e018213",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_2_base_cost_breakdown_2024.pdf",
+    "bytes": 33928,
+    "sha256": "bb9696501c853716593e1e956f7bf1380e250b326a695f655003e2666b072f47"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_2_base_cost_breakdown_2024.png",
+    "bytes": 188587,
+    "sha256": "26cf79163323ff4d4944bb5293f7941e1ef766c251e84f517d76bcd22225a57a",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_3_profitability_scenarios_2024.pdf",
+    "bytes": 30990,
+    "sha256": "57bf4010ace3808a73190bce357f487f08f979b12017f2bb5224605ec9bf8fab"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_3_profitability_scenarios_2024.png",
+    "bytes": 157169,
+    "sha256": "9107e86e425dbfea7b390ab2b3ff673ec0e1a22c418905c8966f9d8db35597cb",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_4_oat_sensitivity_2024.pdf",
+    "bytes": 38207,
+    "sha256": "f2a12b223bcab61867a42f042daf5bcc16c30456345e6308acf293c7e7029270"
+  },
+  {
+    "path": "outputs/figures/exercise_5/figure5_4_oat_sensitivity_2024.png",
+    "bytes": 361370,
+    "sha256": "1988c9fd234022f6e58c47558165a850f30bdf9132191c2b1727e276c2bf6a63",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/report/exercise_2/appendices/Appendix_B_temporal_heatmap_validation.csv",
+    "bytes": 212,
+    "sha256": "18f1ac78f8bae08fe38b2a9ffb977272118bd1f5c6b1b1d17bf5da335c4d16a8"
+  },
+  {
+    "path": "outputs/report/exercise_2/appendices/Figure_A1_all_day_OD_matrix_heatmap.png",
+    "bytes": 287101,
+    "sha256": "2de2249ebd470e602f51c60bc6b1ef8bf44373c70127f0fef8b90cc8b30c6f3a",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/report/exercise_2/appendices/Figure_B1_am_peak_OD_matrix_heatmap.png",
+    "bytes": 319380,
+    "sha256": "0acb6347282c080b63ddef736e1c767cb7a279b53b834d2febae4f1c07173361",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/report/exercise_2/appendices/Figure_B2_pm_peak_OD_matrix_heatmap.png",
+    "bytes": 323563,
+    "sha256": "fc0c662fe7fdc1aa037f30e5d18facb88dd88d68fb129d5bdca587a3e4376c18",
+    "png_decode": "pass"
+  },
+  {
+    "path": "outputs/report/exercise_2/appendices/Figure_B3_offpeak_OD_matrix_heatmap.png",
+    "bytes": 328862,
+    "sha256": "2a60f525ec5e6b0ba1ea06ad5dbbaa133d5ed0b5ecdad05ea759bd868d3df0ec",
+    "png_decode": "pass"
+  }
+]
