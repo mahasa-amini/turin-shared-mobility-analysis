@@ -1,0 +1,467 @@
+{
+  "harmonize": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/harmonization/harmonize_operators.py"
+    ],
+    "requires": [],
+    "outputs": [
+      "audit/harmonization/harmonization_coverage.csv",
+      "audit/harmonization/harmonization_data_dictionary.csv",
+      "audit/harmonization/harmonization_summary.csv",
+      "data/processed/harmonized/all_operators_2024_harmonized.parquet",
+      "data/processed/harmonized/all_operators_2025_harmonized.parquet",
+      "data/processed/harmonized/bird_2024_harmonized.parquet",
+      "data/processed/harmonized/bird_2025_harmonized.parquet",
+      "data/processed/harmonized/lime_2024_harmonized.parquet",
+      "data/processed/harmonized/lime_2025_harmonized.parquet",
+      "data/processed/harmonized/voi_2024_harmonized.parquet",
+      "data/processed/harmonized/voi_2025_harmonized.parquet"
+    ]
+  },
+  "exercise1": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/analysis/exercise1_cleaning_impact.py",
+      "src/analysis/exercise1_temporal_coverage.py",
+      "src/analysis/exercise1_daily_trends.py",
+      "src/analysis/exercise1_weekly_trends.py",
+      "src/analysis/exercise1_monthly_trends.py",
+      "src/analysis/exercise1_yearly_comparison.py",
+      "src/analysis/exercise1_usage_patterns.py",
+      "src/analysis/exercise1_hourly_weekday.py",
+      "src/analysis/exercise1_vehicle_utilization.py"
+    ],
+    "requires": [
+      "harmonize"
+    ],
+    "outputs": [
+      "data/processed/exercise_1/hourly/hourly_profile_matched_12_full_weeks_yoy.parquet",
+      "data/processed/exercise_1/hourly/hourly_weekday_profile_2024_common.parquet",
+      "data/processed/exercise_1/hourly/system_hourly_weekday_2024_common.parquet",
+      "data/processed/exercise_1/patterns/daily_2024_common_detailed.parquet",
+      "data/processed/exercise_1/temporal/daily_trip_counts.parquet",
+      "data/processed/exercise_1/temporal/daily_trip_counts_matched_yoy.parquet",
+      "data/processed/exercise_1/temporal/daily_trip_counts_with_trends.parquet",
+      "data/processed/exercise_1/temporal/monthly_matched_yoy.parquet",
+      "data/processed/exercise_1/temporal/monthly_trip_counts.parquet",
+      "data/processed/exercise_1/temporal/monthly_trip_counts_with_trends.parquet",
+      "data/processed/exercise_1/temporal/weekly_matched_yoy.parquet",
+      "data/processed/exercise_1/temporal/weekly_trip_counts.parquet",
+      "data/processed/exercise_1/temporal/weekly_trip_counts_with_trends.parquet",
+      "data/processed/exercise_1/temporal/yearly_common_jan_mar_source_data.parquet",
+      "data/processed/exercise_1/vehicles/daily_active_vehicle_intensity.parquet",
+      "data/processed/exercise_1/vehicles/vehicle_level_annual_observed.parquet",
+      "data/processed/exercise_1/vehicles/vehicle_level_matched_feb_apr_yoy.parquet",
+      "outputs/tables/exercise_1/cleaning_impact_by_operator.csv",
+      "outputs/tables/exercise_1/cleaning_impact_by_operator_year.csv",
+      "outputs/tables/exercise_1/cleaning_impact_by_year.csv",
+      "outputs/tables/exercise_1/cleaning_impact_total.csv",
+      "outputs/tables/exercise_1/data_quality_inventory.csv",
+      "outputs/tables/exercise_1/hourly/empirical_peak_hours_2024.csv",
+      "outputs/tables/exercise_1/hourly/empirical_peak_summary_2024.csv",
+      "outputs/tables/exercise_1/hourly/empirical_peak_summary_matched_12_full_weeks_yoy.csv",
+      "outputs/tables/exercise_1/hourly/hourly_profile_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/hourly_profile_matched_12_full_weeks_yoy.csv",
+      "outputs/tables/exercise_1/hourly/hourly_weekday_profile_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/matched_12_full_weeks_calendar_validation.csv",
+      "outputs/tables/exercise_1/hourly/matched_12_full_weeks_weekday_validation.csv",
+      "outputs/tables/exercise_1/hourly/operator_weekday_peak_hours_2024.csv",
+      "outputs/tables/exercise_1/hourly/peak_offpeak_matched_12_full_weeks_yoy_comparison.csv",
+      "outputs/tables/exercise_1/hourly/peak_offpeak_summary_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/peak_offpeak_summary_matched_12_full_weeks_yoy.csv",
+      "outputs/tables/exercise_1/hourly/system_hourly_profile_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/system_hourly_weekday_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/system_weekday_peak_hours_2024.csv",
+      "outputs/tables/exercise_1/hourly/transport_period_summary_2024_common.csv",
+      "outputs/tables/exercise_1/hourly/transport_period_summary_matched_12_full_weeks_yoy.csv",
+      "outputs/tables/exercise_1/patterns/seasonal_operator_shares_2024.csv",
+      "outputs/tables/exercise_1/patterns/seasonal_profile_2024.csv",
+      "outputs/tables/exercise_1/patterns/system_seasonal_profile_2024.csv",
+      "outputs/tables/exercise_1/patterns/weekday_profile_2024_common.csv",
+      "outputs/tables/exercise_1/patterns/weekday_profile_matched_yoy.csv",
+      "outputs/tables/exercise_1/patterns/weekday_weekend_detail_2024_common.csv",
+      "outputs/tables/exercise_1/patterns/weekday_weekend_detail_matched_yoy.csv",
+      "outputs/tables/exercise_1/patterns/weekday_weekend_summary_2024_common.csv",
+      "outputs/tables/exercise_1/patterns/weekday_weekend_summary_matched_yoy.csv",
+      "outputs/tables/exercise_1/temporal/daily_common_window_summary.csv",
+      "outputs/tables/exercise_1/temporal/daily_matched_yoy_comparison.csv",
+      "outputs/tables/exercise_1/temporal/daily_matched_yoy_summary.csv",
+      "outputs/tables/exercise_1/temporal/daily_trend_summary.csv",
+      "outputs/tables/exercise_1/temporal/daily_trip_counts.csv",
+      "outputs/tables/exercise_1/temporal/daily_trip_counts_common_windows.csv",
+      "outputs/tables/exercise_1/temporal/daily_very_low_volume_diagnostic.csv",
+      "outputs/tables/exercise_1/temporal/monthly_2024_full_year_summary.csv",
+      "outputs/tables/exercise_1/temporal/monthly_2025_available_summary.csv",
+      "outputs/tables/exercise_1/temporal/monthly_jan_mar_yoy_comparison.csv",
+      "outputs/tables/exercise_1/temporal/monthly_jan_mar_yoy_summary.csv",
+      "outputs/tables/exercise_1/temporal/monthly_month_specific_yoy.csv",
+      "outputs/tables/exercise_1/temporal/monthly_operator_shares_2024.csv",
+      "outputs/tables/exercise_1/temporal/monthly_system_2024.csv",
+      "outputs/tables/exercise_1/temporal/monthly_trip_counts.csv",
+      "outputs/tables/exercise_1/temporal/monthly_trip_counts_common_full_months.csv",
+      "outputs/tables/exercise_1/temporal/temporal_comparison_windows.csv",
+      "outputs/tables/exercise_1/temporal/temporal_coverage_registry.csv",
+      "outputs/tables/exercise_1/temporal/weekly_full_coverage_summary.csv",
+      "outputs/tables/exercise_1/temporal/weekly_matched_yoy_comparison.csv",
+      "outputs/tables/exercise_1/temporal/weekly_matched_yoy_summary.csv",
+      "outputs/tables/exercise_1/temporal/weekly_operator_shares.csv",
+      "outputs/tables/exercise_1/temporal/weekly_system_common_totals.csv",
+      "outputs/tables/exercise_1/temporal/weekly_trip_counts.csv",
+      "outputs/tables/exercise_1/temporal/weekly_trip_counts_common_full_weeks.csv",
+      "outputs/tables/exercise_1/temporal/yearly_2024_full_year_operator_summary.csv",
+      "outputs/tables/exercise_1/temporal/yearly_2025_observed_coverage.csv",
+      "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_operator_summary.csv",
+      "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_system_summary.csv",
+      "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_system_yoy.csv",
+      "outputs/tables/exercise_1/temporal/yearly_common_jan_mar_yoy_comparison.csv",
+      "outputs/tables/exercise_1/temporal/yearly_trip_counts_with_coverage.csv",
+      "outputs/tables/exercise_1/vehicles/daily_active_vehicle_intensity.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_2024_full_year_summary.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_2025_observed_summary.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_matched_yoy_comparison.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_matched_yoy_summary.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_system_2024_summary.csv",
+      "outputs/tables/exercise_1/vehicles/vehicle_year_summary.csv"
+    ]
+  },
+  "exercise2": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/analysis/exercise2_zoning_audit.py",
+      "src/analysis/exercise2_assign_zones.py",
+      "src/analysis/exercise2_build_od.py",
+      "src/analysis/exercise2_temporal_od.py",
+      "src/analysis/exercise2_temporal_flow_contrasts.py",
+      "src/analysis/exercise2_prepare_gis.py"
+    ],
+    "requires": [
+      "harmonize"
+    ],
+    "outputs": [
+      "audit/exercise_2/spatial_assignment/bird_2024_unassigned_endpoints.csv",
+      "audit/exercise_2/spatial_assignment/lime_2024_unassigned_endpoints.csv",
+      "audit/exercise_2/spatial_assignment/spatial_assignment_summary_2024.csv",
+      "audit/exercise_2/spatial_assignment/voi_2024_unassigned_endpoints.csv",
+      "audit/exercise_2/temporal_od/temporal_od_coverage_2024.csv",
+      "audit/exercise_2/zoning/torino_zoning_audit_summary.csv",
+      "data/processed/exercise_2/gis/exercise2_od_layers.gpkg",
+      "data/processed/exercise_2/od/od_bird_2024_long.parquet",
+      "data/processed/exercise_2/od/od_lime_2024_long.parquet",
+      "data/processed/exercise_2/od/od_system_2024_long.parquet",
+      "data/processed/exercise_2/od/od_voi_2024_long.parquet",
+      "data/processed/exercise_2/temporal_contrasts/system_temporal_od_contrasts_2024.parquet",
+      "data/processed/exercise_2/temporal_od/operator_conventional_period_od_2024.parquet",
+      "data/processed/exercise_2/temporal_od/operator_empirical_period_od_2024.parquet",
+      "data/processed/exercise_2/temporal_od/system_conventional_period_od_2024.parquet",
+      "data/processed/exercise_2/temporal_od/system_empirical_period_od_2024.parquet",
+      "data/processed/exercise_2/temporal_od/system_hourly_od_2024.parquet",
+      "data/processed/exercise_2/trips_zoned/bird_2024_zoned.parquet",
+      "data/processed/exercise_2/trips_zoned/lime_2024_zoned.parquet",
+      "data/processed/exercise_2/trips_zoned/voi_2024_zoned.parquet",
+      "data/processed/exercise_2/zoning/torino_statistical_zones.gpkg",
+      "outputs/tables/exercise_2/gis/gis_flow_filter_summary.csv",
+      "outputs/tables/exercise_2/gis/top_temporal_direction_reversal_pairs_2024.csv",
+      "outputs/tables/exercise_2/od/intra_zonal_flows_2024.csv",
+      "outputs/tables/exercise_2/od/od_bird_2024_long.csv",
+      "outputs/tables/exercise_2/od/od_concentration_summary_2024.csv",
+      "outputs/tables/exercise_2/od/od_lime_2024_long.csv",
+      "outputs/tables/exercise_2/od/od_matrix_bird_2024.csv",
+      "outputs/tables/exercise_2/od/od_matrix_lime_2024.csv",
+      "outputs/tables/exercise_2/od/od_matrix_system_2024.csv",
+      "outputs/tables/exercise_2/od/od_matrix_voi_2024.csv",
+      "outputs/tables/exercise_2/od/od_structural_summary_2024.csv",
+      "outputs/tables/exercise_2/od/od_system_2024_long.csv",
+      "outputs/tables/exercise_2/od/od_voi_2024_long.csv",
+      "outputs/tables/exercise_2/od/top_15_system_destination_zones_2024.csv",
+      "outputs/tables/exercise_2/od/top_15_system_origin_zones_2024.csv",
+      "outputs/tables/exercise_2/od/top_50_interzonal_od_flows_2024.csv",
+      "outputs/tables/exercise_2/od/zone_production_attraction_bird_2024.csv",
+      "outputs/tables/exercise_2/od/zone_production_attraction_lime_2024.csv",
+      "outputs/tables/exercise_2/od/zone_production_attraction_system_2024.csv",
+      "outputs/tables/exercise_2/od/zone_production_attraction_voi_2024.csv",
+      "outputs/tables/exercise_2/temporal_contrasts/system_temporal_od_contrasts_2024.csv",
+      "outputs/tables/exercise_2/temporal_contrasts/top_20_am_vs_offpeak_specialized_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_contrasts/top_20_am_vs_pm_specialized_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_contrasts/top_20_pm_vs_am_specialized_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_contrasts/top_20_pm_vs_offpeak_specialized_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/conventional_period_concentration_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/conventional_period_summary_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/empirical_period_concentration_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/empirical_period_summary_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/hourly_od_cosine_similarity_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/hourly_od_structural_summary_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/period_od_cosine_similarity_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/top_50_conventional_period_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/top_50_conventional_period_overlap_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/top_50_empirical_period_flows_2024.csv",
+      "outputs/tables/exercise_2/temporal_od/top_50_empirical_period_overlap_2024.csv",
+      "outputs/tables/exercise_2/zoning/torino_zone_dictionary.csv"
+    ]
+  },
+  "exercise3": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/analysis/exercise3_prepare_pt_reference.py",
+      "src/analysis/exercise3_pt_proximity.py",
+      "src/analysis/exercise3_route_overlap.py",
+      "src/analysis/exercise3_temporal_adduction.py",
+      "src/analysis/exercise3_prepare_gis.py"
+    ],
+    "requires": [
+      "harmonize",
+      "exercise2"
+    ],
+    "outputs": [
+      "audit/exercise_3/proximity/baseline_400m_seasonal_comparison.csv",
+      "audit/exercise_3/proximity/canonical_pt_stops.csv",
+      "audit/exercise_3/proximity/nearest_pt_stop_distance_summary.csv",
+      "audit/exercise_3/proximity/pt_interaction_sensitivity_summary.csv",
+      "audit/exercise_3/proximity/spatial_scope_summary.csv",
+      "audit/exercise_3/pt_reference/gtfs_reference_network_audit.csv",
+      "audit/exercise_3/pt_reference/stop_scope_crosscheck.csv",
+      "audit/exercise_3/pt_reference/stop_scope_mismatches.csv",
+      "audit/exercise_3/pt_reference/urban_route_mode_summary.csv",
+      "audit/exercise_3/route_overlap/direct_route_frequency_100m.csv",
+      "audit/exercise_3/route_overlap/route_aware_100m_seasonal_comparison.csv",
+      "audit/exercise_3/route_overlap/route_aware_classification_summary.csv",
+      "audit/exercise_3/route_overlap/route_overlap_diagnostic_summary.csv",
+      "audit/exercise_3/route_overlap/selected_reference_routes.csv",
+      "audit/exercise_3/temporal_adduction/feeder_stop_bidirectional_hotspots_100m.csv",
+      "audit/exercise_3/temporal_adduction/feeder_stop_direction_hotspots_100m.csv",
+      "audit/exercise_3/temporal_adduction/pt_interaction_by_transport_period_100m.csv",
+      "audit/exercise_3/temporal_adduction/system_seasonal_period_comparison_100m.csv",
+      "data/processed/exercise_3/gis/exercise3_final_gis.gpkg",
+      "data/processed/exercise_3/proximity/by_operator/bird_2024_02_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/by_operator/bird_2024_07_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/by_operator/lime_2024_02_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/by_operator/lime_2024_07_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/by_operator/voi_2024_02_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/by_operator/voi_2024_07_pt_proximity.parquet",
+      "data/processed/exercise_3/proximity/exercise3_proximity_layers.gpkg",
+      "data/processed/exercise_3/proximity/pt_proximity_february_july_2024.parquet",
+      "data/processed/exercise_3/pt_reference/gtt_reference_network.gpkg",
+      "data/processed/exercise_3/route_overlap/scooter_pt_route_overlap_february_july_2024.parquet",
+      "data/processed/exercise_3/temporal_adduction/feeder_events_100m.parquet"
+    ]
+  },
+  "exercise4": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/analysis/exercise4_parking_interval_audit.py",
+      "src/analysis/exercise4_parking_definition_sensitivity.py",
+      "src/analysis/exercise4_finalize_parking_events.py",
+      "src/analysis/exercise4_zone_parking_statistics.py",
+      "src/analysis/exercise4_temporal_parking_statistics.py",
+      "src/analysis/exercise4_od_parking_relationship.py"
+    ],
+    "requires": [
+      "harmonize",
+      "exercise2"
+    ],
+    "outputs": [
+      "audit/exercise_4/parking/bird_large_relocation_examples.csv",
+      "audit/exercise_4/parking/bird_long_gap_examples.csv",
+      "audit/exercise_4/parking/bird_negative_gap_examples.csv",
+      "audit/exercise_4/parking/final_parking_event_summary_2024.csv",
+      "audit/exercise_4/parking/lime_large_relocation_examples.csv",
+      "audit/exercise_4/parking/lime_long_gap_examples.csv",
+      "audit/exercise_4/parking/lime_negative_gap_examples.csv",
+      "audit/exercise_4/parking/parking_base_population_summary_2024.csv",
+      "audit/exercise_4/parking/parking_duration_bins_2024.csv",
+      "audit/exercise_4/parking/parking_duration_cap_sensitivity_2024.csv",
+      "audit/exercise_4/parking/parking_duration_quantiles_2024.csv",
+      "audit/exercise_4/parking/parking_duration_x_relocation_2024.csv",
+      "audit/exercise_4/parking/parking_event_exclusion_reasons_2024.csv",
+      "audit/exercise_4/parking/parking_interval_audit_summary_2024.csv",
+      "audit/exercise_4/parking/parking_relocation_threshold_sensitivity_2024.csv",
+      "audit/exercise_4/parking/parking_zone_sample_size_summary_2024.csv",
+      "audit/exercise_4/parking/relocation_distance_bins_2024.csv",
+      "audit/exercise_4/parking/relocation_distance_quantiles_2024.csv",
+      "audit/exercise_4/parking/temporal_parking_period_summary_2024.csv",
+      "audit/exercise_4/parking/temporal_parking_sample_size_summary_2024.csv",
+      "audit/exercise_4/parking/voi_large_relocation_examples.csv",
+      "audit/exercise_4/parking/voi_long_gap_examples.csv",
+      "audit/exercise_4/parking/voi_negative_gap_examples.csv",
+      "data/processed/exercise_4/gis/exercise4_parking_layers.gpkg",
+      "data/processed/exercise_4/gis/exercise4_temporal_parking_layers.gpkg",
+      "data/processed/exercise_4/parking/bird_parking_events_2024.parquet",
+      "data/processed/exercise_4/parking/bird_parking_interval_candidates_2024.parquet",
+      "data/processed/exercise_4/parking/lime_parking_events_2024.parquet",
+      "data/processed/exercise_4/parking/lime_parking_interval_candidates_2024.parquet",
+      "data/processed/exercise_4/parking/voi_parking_events_2024.parquet",
+      "data/processed/exercise_4/parking/voi_parking_interval_candidates_2024.parquet",
+      "outputs/tables/exercise_4/od_parking_relationship/od_parking_correlations_2024.csv",
+      "outputs/tables/exercise_4/od_parking_relationship/od_parking_demand_quartiles_2024.csv",
+      "outputs/tables/exercise_4/od_parking_relationship/od_parking_zone_level_2024.csv",
+      "outputs/tables/exercise_4/od_parking_relationship/od_parking_zone_profiles_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_bird_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_lime_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_system_pooled_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_by_zone_voi_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_zone_cross_operator_comparison_2024.csv",
+      "outputs/tables/exercise_4/parking_by_zone/parking_zone_high_low_rankings_2024.csv",
+      "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_bird_2024.csv",
+      "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_lime_2024.csv",
+      "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_system_pooled_2024.csv",
+      "outputs/tables/exercise_4/temporal_parking/parking_by_zone_period_voi_2024.csv",
+      "outputs/tables/exercise_4/temporal_parking/system_parking_period_comparison_by_zone_2024.csv"
+    ]
+  },
+  "exercise5": {
+    "workflow": "scooter",
+    "scripts": [
+      "src/analysis/exercise5_cost_assumption_audit.py",
+      "src/analysis/exercise5_revenue_engine.py",
+      "src/analysis/exercise5_fleet_exposure_audit.py",
+      "src/analysis/exercise5_revenue_diagnostics.py",
+      "src/analysis/exercise5_cost_profitability_engine.py",
+      "src/analysis/exercise5_robustness_vat_sensitivity.py"
+    ],
+    "requires": [
+      "harmonize"
+    ],
+    "outputs": [
+      "audit/exercise_5/costs/electricity_distance_proxy_audit_2024.csv",
+      "audit/exercise_5/fleet_exposure/common_window_coverage_2024.csv",
+      "audit/exercise_5/revenue/monthly_revenue_diagnostics_2024.csv",
+      "audit/exercise_5/revenue/revenue_duration_unestimable_trips_2024.csv",
+      "data/processed/exercise_5/revenue/trip_payg_revenue_2024.parquet",
+      "outputs/tables/exercise_5/costs/base_case_profitability_2024.csv",
+      "outputs/tables/exercise_5/costs/cost_breakdown_long_2024.csv",
+      "outputs/tables/exercise_5/costs/cost_profitability_scenarios_2024.csv",
+      "outputs/tables/exercise_5/costs/electricity_cost_memo_2024.csv",
+      "outputs/tables/exercise_5/fleet_exposure/daily_active_fleet_common_window_2024.csv",
+      "outputs/tables/exercise_5/fleet_exposure/fleet_exposure_scenarios_2024.csv",
+      "outputs/tables/exercise_5/fleet_exposure/monthly_fleet_activity_common_window_2024.csv",
+      "outputs/tables/exercise_5/fleet_exposure/vehicle_exposure_common_window_2024.csv",
+      "outputs/tables/exercise_5/fleet_exposure/vehicle_service_span_distribution_2024.csv",
+      "outputs/tables/exercise_5/revenue/payg_revenue_by_vehicle_2024.csv",
+      "outputs/tables/exercise_5/revenue/payg_revenue_monthly_2024.csv",
+      "outputs/tables/exercise_5/revenue/payg_revenue_operator_summary_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/active_vehicle_day_summary_common_window_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/monthly_revenue_structure_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/revenue_by_active_vehicle_day_common_window_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/revenue_by_vehicle_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/revenue_composition_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/revenue_per_trip_distribution_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/vehicle_active_day_performance_common_window_2024.csv",
+      "outputs/tables/exercise_5/revenue_diagnostics/vehicle_revenue_concentration_2024.csv",
+      "outputs/tables/exercise_5/robustness/one_at_a_time_sensitivity_2024.csv",
+      "outputs/tables/exercise_5/robustness/profitability_robustness_summary_2024.csv",
+      "outputs/tables/exercise_5/robustness/sensitivity_driver_ranking_2024.csv",
+      "outputs/tables/exercise_5/robustness/vat_sensitivity_2024.csv"
+    ]
+  },
+  "figures1": {
+    "workflow": "figures",
+    "scripts": [
+      "src/analysis/exercise1_hourly_figures.py",
+      "src/analysis/exercise1_temporal_figures.py",
+      "src/analysis/exercise1_usage_pattern_figures.py",
+      "src/analysis/exercise1_vehicle_figures.py"
+    ],
+    "requires": [
+      "exercise1"
+    ],
+    "outputs": []
+  },
+  "figures2": {
+    "workflow": "figures",
+    "scripts": [
+      "src/analysis/exercise2_appendixA_heatmap.py",
+      "src/analysis/exercise2_appendixB_heatmaps.py",
+      "src/analysis/exercise2_map01_all_day.py",
+      "src/analysis/exercise2_map02_am_peak.py",
+      "src/analysis/exercise2_map03_pm_peak.py",
+      "src/analysis/exercise2_map04_offpeak.py",
+      "src/analysis/exercise2_map05_reversals.py",
+      "src/analysis/exercise2_map_origin_density.py",
+      "src/analysis/exercise2_map_temporal_comparison.py"
+    ],
+    "requires": [
+      "exercise2"
+    ],
+    "outputs": []
+  },
+  "figures3": {
+    "workflow": "figures",
+    "scripts": [
+      "src/analysis/exercise3_access_egress_figures.py",
+      "src/analysis/exercise3_route_overlap_figures.py"
+    ],
+    "requires": [
+      "exercise3"
+    ],
+    "outputs": []
+  },
+  "figures4": {
+    "workflow": "figures",
+    "scripts": [
+      "src/visualization/exercise4_od_parking_overlays.py",
+      "src/visualization/exercise4_parking_maps.py"
+    ],
+    "requires": [
+      "exercise4",
+      "exercise2"
+    ],
+    "outputs": []
+  },
+  "figures5": {
+    "workflow": "figures",
+    "scripts": [
+      "src/visualization/exercise5_business_model_figures.py"
+    ],
+    "requires": [
+      "exercise5"
+    ],
+    "outputs": []
+  },
+  "stage4": {
+    "workflow": "commuting",
+    "scripts": [
+      "stage4_private_car.py",
+      "stage4_private_active_modes.py"
+    ],
+    "requires": [],
+    "outputs": []
+  },
+  "stage5": {
+    "workflow": "commuting",
+    "scripts": [
+      "scripts/check_commuting_handoff.py",
+      "stage5_generalised_cost.py"
+    ],
+    "requires": [],
+    "outputs": [
+      "outputs/tables/generalised_cost/stage5_baseline_generalised_cost.csv",
+      "outputs/tables/generalised_cost/stage5_master_modes.csv",
+      "outputs/tables/generalised_cost/stage5_vot_sensitivity.csv"
+    ]
+  },
+  "stage6": {
+    "workflow": "commuting",
+    "scripts": [
+      "stage6_weighted_pareto.py"
+    ],
+    "requires": [
+      "stage5"
+    ],
+    "outputs": [
+      "outputs/tables/generalised_cost/stage6_pareto_efficiency.csv",
+      "outputs/tables/generalised_cost/stage6_pt_cost_sensitivity.csv",
+      "outputs/tables/generalised_cost/stage6_weighted_generalised_cost.csv"
+    ]
+  },
+  "stage7": {
+    "workflow": "commuting",
+    "scripts": [
+      "stage7_generalised_cost_figures.py"
+    ],
+    "requires": [
+      "stage5",
+      "stage6"
+    ],
+    "outputs": []
+  }
+}
