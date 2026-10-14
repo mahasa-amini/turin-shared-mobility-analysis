@@ -1,0 +1,5 @@
+source_id,operator,source_type,scope,source_date_or_update,model_role,url,notes
+moveo_telepass_torino_2024,all,historical_secondary,Torino-specific PAYG tariffs,2024-02-09,primary_numeric_tariff_source,https://moveo.telepass.com/monopattini-elettrici-torino-prezzi-operatori-sharing/,"Bird EUR1+0.20/min; Lime EUR1+0.19/min; Voi EUR1+0.19/min"
+bird_official_pricing,bird,official_company,pricing structure,current,supporting_structure_source,https://help.bird.co/hc/en-us/articles/360030667512-Cost-to-ride,"Pricing varies by city/market; exact local rate shown in app"
+lime_official_pricing,lime,official_company,pricing structure and billing,current,supporting_structure_and_rounding_source,https://help.li.me/hc/en-us/articles/115004914208-Ride-costs-and-rates,"Fixed unlock plus per-minute; current documentation states ride time rounded up to full minute"
+voi_official_pricing,voi,official_company,pricing structure and passes,current,supporting_structure_source,https://www.voi.com/pricing-and-passes,"Standard PAYG uses unlock fee plus per-minute charge; passes also available"

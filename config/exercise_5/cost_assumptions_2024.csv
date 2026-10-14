@@ -1,0 +1,4 @@
+scenario,fleet_proxy,acquisition_cost_eur_per_vehicle,useful_life_years,annual_depreciation_eur_per_vehicle,spares_maintenance_eur_per_trip,vehicle_personnel_charging_eur_per_trip,other_direct_vehicle_opex_eur_per_trip,market_overhead_including_insurance_eur_per_vehicle_year,energy_intensity_kwh_per_km,electricity_price_eur_per_kwh,direct_opex_basis,market_overhead_basis
+low,fleet_lower_proxy,750,7,107.142857,0.280496,0.243298,0.050268,231.142241,0.014,0.15,"75% of VOI 2024 direct vehicle benchmark","75% of VOI 2024 market-cost benchmark"
+base,fleet_base_service_span_equivalent,900,5,180.000000,0.373995,0.324397,0.067024,308.189655,0.020,0.20,"VOI Group 2024 actual normalized per ride","VOI Group 2024 gross market costs normalized per deployed vehicle"
+high,fleet_upper_proxy_unique_ids,1500,2,750.000000,0.467493,0.405496,0.083780,385.237069,0.042,0.30,"125% of VOI 2024 direct vehicle benchmark","125% of VOI 2024 market-cost benchmark"

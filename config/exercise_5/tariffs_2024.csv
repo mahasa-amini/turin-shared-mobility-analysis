@@ -1,0 +1,4 @@
+operator,year,currency,unlock_fee_eur,per_minute_eur,base_pricing_model,primary_billing_rule,sensitivity_billing_rule,historical_tariff_status
+bird,2024,EUR,1.00,0.20,PAYG_unlock_plus_per_minute,continuous_observed_minutes,ceil_to_full_minute,Torino_specific_snapshot_updated_2024-02-09
+lime,2024,EUR,1.00,0.19,PAYG_unlock_plus_per_minute,continuous_observed_minutes,ceil_to_full_minute,Torino_specific_snapshot_updated_2024-02-09
+voi,2024,EUR,1.00,0.19,PAYG_unlock_plus_per_minute,continuous_observed_minutes,ceil_to_full_minute,Torino_specific_snapshot_updated_2024-02-09

@@ -1,0 +1,53 @@
+# Local virtual environments
+/.venv/
+/venv/
+/env/
+/ENV/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride
+
+# Local IDE settings
+/.vscode/
+/.idea/
+/*.code-workspace
+
+# Local secrets; only deliberately sanitized examples may be tracked
+.env
+.env.*
+!.env.example
+/.aws/
+/.secrets/
+
+# Bulk inputs, derived data, diagnostics, and generated results
+/data/
+/audit/
+/outputs/
+
+# Root-level archive copies (nested curated archives remain eligible)
+/*.zip
+/*.tar
+/*.tar.gz
+/*.tgz
+/*.7z
+/*.rar
+
+# Root-level scratch directories and editor temporary files
+/tmp/
+/temp/
+/*.tmp
+/*.temp
+*.swp
+*.swo
+*~
