@@ -1,0 +1,8 @@
+Identificativo noleggio,Targa veicolo,Data inizio corsa,Data fine corsa,Lat inizio corsa_coordinate,Lon inizio corsa_coordinate,Lat fine corsa_coordinate,Lon fine corsa_coordinate,Tempo Tot,KM Tot,Prenotazione,Batteria inizio,Batteria fine
+SYNTHETIC-trip-conflict,SYNTHETIC-voi-conflict,20250701100000.0,20250701101000.0,"45,0","7,6","45,001","7,601",10,"0,14",No,90,80
+SYNTHETIC-trip-conflict,SYNTHETIC-voi-conflict,20250701100000.0,20250701101000.0,"45,0","7,6","45,001","7,601",10,"0,14",si,90,80
+SYNTHETIC-trip-zero,SYNTHETIC-voi-zero,20250701100000.0,20250701101000.0,"45,0","7,6","45,0","7,6",10,0,No,90,80
+SYNTHETIC-trip-invalid-duration,SYNTHETIC-voi-invalid-duration,20250701100000.0,20250701100000.0,"45,0","7,6","45,001","7,601",0,"0,14",No,90,80
+SYNTHETIC-trip-missing-coordinate,SYNTHETIC-voi-missing-coordinate,20250701100000.0,20250701101000.0,,"7,6","45,001","7,601",10,"0,14",No,90,80
+SYNTHETIC-trip-spatial,SYNTHETIC-voi-spatial,20250701100000.0,20250701101000.0,"45,0","7,6","46,0","7,601",10,"0,14",No,90,80
+SYNTHETIC-trip-battery,SYNTHETIC-voi-battery,20250701100000.0,20250701101000.0,"45,0","7,6","45,001","7,601",10,"0,14",No,90,150

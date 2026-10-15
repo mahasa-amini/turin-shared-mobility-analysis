@@ -1,0 +1,2 @@
+Identificativo noleggio,Targa veicolo,Data inizio corsa,Data fine corsa,Lat inizio corsa_coordinate,Lon inizio corsa_coordinate,Lat fine corsa_coordinate,Lon fine corsa_coordinate,Tempo Tot,KM Tot,Prenotazione,Batteria inizio,Batteria fine
+SYNTHETIC-trip-damaged,SYNTHETIC-voi-damaged,20240100000000,20240100000000,"45,0","7,6","45,001","7,601",7,"0,14",No,90,80

@@ -14,7 +14,7 @@ A separate **generalized commuting-cost exercise** compares a home–Politecnico
 
 ## Run and check the project
 
-Start with the [clean-checkout reproduction guide](docs/reproduction.md). Full scooter execution requires separately supplied inputs listed in the [input manifest](config/input_manifest.csv); the repository includes only code, configuration and curated results.
+Start with the [clean-checkout reproduction guide](docs/reproduction.md). Full scooter execution requires separately supplied inputs listed in the [input manifest](config/input_manifest.csv); the repository includes code, configuration, curated results and a wholly synthetic preparation demo.
 
 ```sh
 python scripts/run_pipeline.py scooter --list
@@ -25,9 +25,27 @@ python scripts/run_pipeline.py commuting --dry-run
 
 Activate a Python 3.13 environment and install the pinned dependencies first. Scooter analysis, figures and commuting are separate workflows; stage selection never automatically reruns upstream work. [Automated checks](.github/workflows/checks.yml) cover syntax, local links, runner/regression tests and synthetic dependencies. [Hosted data-independent checks](docs/validation/hosted-ci.md) passed on Ubuntu 24.04 with Python 3.13.16. Raw-to-cleaned validation now passes locally; full report validation remains incomplete.
 
-## Data preparation contribution
+## Data preparation and quality
 
-Operator-specific cleaning preserves source lineage and separates trip exclusions from measurement validity. A fresh raw-only run reproduced all six cleaned and eight harmonized Parquets byte-for-byte; focused synthetic tests protect DST handling, sentinel masking and Voi deduplication. See [quality decisions and before/after metrics](docs/data-quality.md), [execution/comparison evidence](docs/validation/cleaning-reproduction.md) and the [private distribution staging plan](docs/data-distribution.md). Harmonization standardizes schema, types and units; it does not numerically scale features. No bulk data package has been published.
+The verified raw-only run processed **2,774,313 raw rows → 2,709,426 cleaned rows**:
+
+| Operator | 2024 raw → cleaned | 2025 raw → cleaned | Decision |
+|---|---:|---:|---|
+| Bird | 390,844 → 390,844 | 467,176 → 467,176 | Retain trips; mask nonpositive distance and speed >30 km/h; flag DST ambiguity and spatial errors |
+| Lime | 1,196,210 → 1,196,200 | 428,318 → 428,318 | Exclude 10 zero-elapsed trips; retain rounded zeros and positive subminute trips; mask 100 km sentinel distance; adjust ±60-minute discrepancies |
+| Voi | 130,769 → 106,115 | 160,996 → 120,773 | Collapse 64,877 duplicate excess rows after checking trip fields; flag reservation conflicts; retain damaged January timestamps with provider-duration fallback |
+
+[Quality decisions and regenerated summaries](docs/data-quality.md) distinguish trip exclusion, measurement masking and overlapping warnings. Harmonization uses a **45-field common Arrow schema** with consistent types/units, operator-qualified identifiers, source-file/row lineage and analysis-specific validity. It preserves distance semantics and timestamp uncertainty; it does not scale features. A fresh run from the 40 original raw files reproduced **all six cleaned and eight harmonized Parquets byte-for-byte**, with all-column comparisons and unchanged originals: [execution, hashes and comparison evidence](docs/validation/cleaning-reproduction.md). Downstream analyses have **separate validation scopes**, linked below; this preparation result does not establish ground truth or a full raw-to-report run.
+
+After installing [pinned dependencies](requirements-lock.txt) in Python 3.13, run the public demo from the repository root:
+
+```sh
+python scripts/demo_preparation.py
+```
+
+The [clearly labeled SYNTHETIC fixtures](examples/synthetic/README.md) are hand-authored examples for all three operators, with **no transformed or sampled real trip records**. This command runs the seven actual preparation scripts in a disposable workspace and checks expected identities, counts, masks, timestamps, lineage and schema (22 raw → 19 cleaned/harmonized rows). It requires no private inputs, GIS assets or network access and runs in CI.
+
+**Access:** real inputs are not publicly hosted; no request/download service exists. The synthetic demo is available in Git. The [staged real-data package remains private](docs/data-distribution.md); that page lists the authorization, privacy, source/version and snapshot-specific rights evidence still needed before choosing separate redistribution terms for scooter, Torino and dated GTT assets.
 
 ## Methods and tools
 

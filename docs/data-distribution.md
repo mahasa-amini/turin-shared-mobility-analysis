@@ -2,6 +2,20 @@
 
 A local raw-to-results package has been staged under `data/distribution-staging/2026-10-14/` and **has not been published**. The project already records owner authorization for scooter-data publication in [Data and reproduction](data-and-reproduction.md); this does not select a dataset license, establish external-asset rights, or certify privacy. No dataset license has been invented.
 
+## Access model
+
+Real inputs are **not publicly hosted**. No request/download service exists and no release destination has been selected. The [SYNTHETIC demo](../examples/synthetic/README.md) is available in Git and contains no transformed or sampled real trip records. The real package below stays local and private; public demo execution does not read or modify it.
+
+## Evidence still needed to choose redistribution terms
+
+| Asset | Specific missing evidence |
+|---|---|
+| Owner-supplied scooter files | Retain the actual dated authorization and provenance record, identifying the rights holder, covered operators/files, authority to permit onward redistribution, intended recipients and permitted uses (including commercial use and derivatives). Confirm any provider/course agreements and attribution conditions. Complete a cell-level privacy/linkage review of precise endpoint/time/vehicle/rental fields, document the proposed release granularity or controls, and select explicit terms compatible with those permissions. Recorded owner authorization alone is not a dataset license or privacy certification. |
+| Torino `zone_statistiche_geo.{shp,shx,dbf,prj}` | Recover the exact official source URL, version/publication and acquisition dates, original archive or byte-identical components, and the license/attribution notice applicable to that version. Preserve the notice and establish whether redistribution and derivatives are permitted. CRS/attributes and a catalog title do not establish rights. |
+| GTT feed version `20260813`, valid 12 August 2026–31 January 2027 | Recover the original archive/download URL and acquisition date, connect archive/table hashes to this snapshot, and retain the terms supplied with it or written GTT confirmation of applicable terms. Confirm redistribution/derivative conditions for the intended audience/use, required attribution and any commercial-use authorization. The current terms checked on 14 October 2026, described below, do not prove which terms accompanied this dated local feed. |
+
+Keep asset-specific permissions and notices separate; do not infer one umbrella license for the bundle. These are unresolved evidence requirements, not a claim that permission has been denied or that a public service is available.
+
 ## Minimum inputs and layout
 
 The package replaces supplied cleaned/interim/audit inputs with their original raw sources. Its manifest has 58 payload files. After raw regeneration, all downstream scooter-stage inputs passed [preflight with SHA-256 verification](validation/cleaning-evidence/staged-preflight.json) using external files copied only from this staging package; [the log](validation/cleaning-evidence/staged-preflight.log) records the checks. This is dependency preflight, not execution of the analyses.

@@ -27,8 +27,10 @@ jobs:
           python -m pip check
       - name: Syntax and local Markdown links
         run: python scripts/check_repository.py
-      - name: Runner and zone-assignment regression tests
+      - name: Cleaning, runner and zone-assignment regression tests
         run: python -m unittest discover -s tests -v
+      - name: SYNTHETIC raw-to-harmonized preparation demo
+        run: python scripts/demo_preparation.py
       - name: Synthetic environment checks
         run: python scripts/check_environment.py
       - name: Inspect entry points without research inputs

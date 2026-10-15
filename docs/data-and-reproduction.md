@@ -2,6 +2,10 @@
 
 For maintained commands, stage selection and input preflight, use the [reproduction entry point guide](reproduction.md). The historical validation commands below document earlier runs.
 
+## Public demo and access
+
+Real inputs are not publicly hosted, and no request/download service exists. Git includes the [SYNTHETIC preparation demo](../examples/synthetic/README.md), which requires no real records or external reference assets. With Python 3.13 and `requirements-lock.txt` installed, run `python scripts/demo_preparation.py` from the repository root. The real-data package remains staged privately; see [outstanding redistribution evidence](data-distribution.md).
+
 ## Inputs and local layout
 
 The scooter inputs are Bird annual CSV files, Lime monthly CSV files, and Voi monthly Excel workbooks. External inputs comprise Torino statistical-zone shapefile components and extracted GTT GTFS tables. Expected local families are:

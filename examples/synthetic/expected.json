@@ -1,0 +1,185 @@
+{
+  "bird_2024": {
+    "raw_rows": 4,
+    "rows": 4,
+    "clean": {
+      "SYNTHETIC-bird-dst": {
+        "TEMPORAL_DST_AMBIGUOUS": true,
+        "END_TIME_RECONSTRUCTED": "2024-03-31 02:05:00"
+      },
+      "SYNTHETIC-bird-zero": {
+        "DISTANCE_KM_CLEAN": null,
+        "SMALL_DISPLACEMENT_RETAINED": true
+      },
+      "SYNTHETIC-bird-speed": {
+        "SPEED_KMH_CLEAN": null,
+        "VALID_DISTANCE": true
+      },
+      "SYNTHETIC-bird-spatial": {
+        "VALID_SPATIAL_PREZONE": false
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-bird-dst": {
+        "duration_min_clean": 10.0,
+        "temporal_clock_ambiguous": true,
+        "end_time_local": "2024-03-31 03:05:00"
+      },
+      "SYNTHETIC-bird-zero": {
+        "distance_value_km": null
+      },
+      "SYNTHETIC-bird-speed": {
+        "speed_value_kmh": null
+      },
+      "SYNTHETIC-bird-spatial": {
+        "valid_spatial_prezone": false
+      }
+    }
+  },
+  "bird_2025": {
+    "raw_rows": 1,
+    "rows": 1,
+    "clean": {
+      "SYNTHETIC-bird-normal": {
+        "VALID_TRIP_RECORD": true
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-bird-normal": {
+        "duration_min_clean": 10.0,
+        "distance_value_km": 1.0
+      }
+    }
+  },
+  "lime_2024": {
+    "raw_rows": 8,
+    "rows": 6,
+    "clean": {
+      "SYNTHETIC-lime-dst-sentinel": {
+        "FLAG_DST_SPRING_FORWARD": true,
+        "DISTANCE_KM_CLEAN": null,
+        "FLAG_LONG_DISTANCE_30": false
+      },
+      "SYNTHETIC-lime-rounded-zero": {
+        "DISTANCE_KM_CLEAN": 0.0
+      },
+      "SYNTHETIC-lime-subminute": {
+        "DURATION_MIN_CLEAN": 0.25,
+        "VALID_TRIP_RECORD": true
+      },
+      "SYNTHETIC-lime-spatial": {
+        "VALID_SPATIAL_PREZONE": false,
+        "VALID_TRIP_RECORD": true
+      },
+      "SYNTHETIC-lime-battery": {
+        "VALID_BATTERY": false
+      },
+      "SYNTHETIC-lime-autumn": {
+        "FLAG_DST_FALL_BACK": true,
+        "DURATION_MIN_CLEAN": 10.0
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-lime-dst-sentinel": {
+        "duration_min_clean": 10.0,
+        "distance_value_km": null
+      },
+      "SYNTHETIC-lime-rounded-zero": {
+        "distance_value_km": 0.0
+      },
+      "SYNTHETIC-lime-subminute": {
+        "duration_min_clean": 0.25
+      },
+      "SYNTHETIC-lime-spatial": {
+        "valid_spatial_prezone": false
+      },
+      "SYNTHETIC-lime-autumn": {
+        "duration_min_clean": 10.0,
+        "end_time_local": "2024-10-27 02:05:00"
+      }
+    }
+  },
+  "lime_2025": {
+    "raw_rows": 1,
+    "rows": 1,
+    "clean": {
+      "SYNTHETIC-lime-normal": {
+        "VALID_TRIP_RECORD": true
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-lime-normal": {
+        "duration_min_clean": 10.0
+      }
+    }
+  },
+  "voi_2024": {
+    "raw_rows": 1,
+    "rows": 1,
+    "clean": {
+      "SYNTHETIC-voi-damaged": {
+        "HAS_TEMPORAL_DETAIL": false,
+        "DURATION_MIN_CLEAN": 7.0,
+        "DURATION_SOURCE": "provider_tempo_tot"
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-voi-damaged": {
+        "start_time_local": null,
+        "start_time_utc": null,
+        "duration_min_clean": 7.0,
+        "source_period": "2024-01"
+      }
+    }
+  },
+  "voi_2025": {
+    "raw_rows": 7,
+    "rows": 6,
+    "clean": {
+      "SYNTHETIC-voi-conflict": {
+        "DUPLICATE_ROWS_COLLAPSED": 1,
+        "PRENOTAZIONE_CONFLICT": true,
+        "PRENOTAZIONE_CLEAN": null
+      },
+      "SYNTHETIC-voi-zero": {
+        "DISTANCE_KM_CLEAN": 0.0
+      },
+      "SYNTHETIC-voi-invalid-duration": {
+        "VALID_DURATION": false,
+        "VALID_TRIP_RECORD": true
+      },
+      "SYNTHETIC-voi-missing-coordinate": {
+        "VALID_SPATIAL_PREZONE": false,
+        "DISTANCE_KM_CLEAN": null
+      },
+      "SYNTHETIC-voi-spatial": {
+        "VALID_SPATIAL_PREZONE": false,
+        "DISTANCE_KM_CLEAN": null
+      },
+      "SYNTHETIC-voi-battery": {
+        "VALID_BATTERY": false
+      }
+    },
+    "harmonized": {
+      "SYNTHETIC-voi-conflict": {
+        "reservation_conflict": true,
+        "reservation_status": null,
+        "start_time_local": "2025-07-01 12:00:00",
+        "start_time_utc": "2025-07-01 10:00:00+00:00",
+        "distance_value_km": 0.14
+      },
+      "SYNTHETIC-voi-zero": {
+        "distance_value_km": 0.0
+      },
+      "SYNTHETIC-voi-invalid-duration": {
+        "valid_duration": false
+      },
+      "SYNTHETIC-voi-missing-coordinate": {
+        "distance_value_km": null
+      },
+      "SYNTHETIC-voi-spatial": {
+        "valid_spatial_prezone": false
+      }
+    }
+  }
+}

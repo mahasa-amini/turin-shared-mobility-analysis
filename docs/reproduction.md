@@ -1,5 +1,7 @@
 # Reproduce selected stages
 
+For a public, data-independent raw-to-harmonized example, install the pinned dependencies and run `python scripts/demo_preparation.py` from the repository root. The [SYNTHETIC fixtures and expected checks](../examples/synthetic/README.md) are available in Git. Real inputs are not publicly hosted; no request/download service exists.
+
 A source checkout includes code, economic configuration and the curated results showcase. **Full-data execution requires separately supplied inputs.** There is no established public input download location or dataset license. The downstream runner begins with supplied cleaned records. The [raw preparation harness](validation/cleaning-reproduction.md) now validates raw-to-cleaned processing in isolation; full Word/PDF report validation remains incomplete. This is not a claim of verified end-to-end reproduction.
 
 ## Install and check a clean checkout
