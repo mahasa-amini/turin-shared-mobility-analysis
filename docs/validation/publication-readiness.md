@@ -1,5 +1,7 @@
 # Publication readiness review
 
+**Access update — 15 October 2026:** owner-authorized original scooter inputs are now [GitHub Release assets](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1); Torino/GTT remain excluded. The statements below about unpublished inputs describe the earlier validation boundary. See [current distribution status](../data-distribution.md).
+
 Review date: 2026-10-14. The maintained entry point is [scripts/run_pipeline.py](../../scripts/run_pipeline.py); installation, input placement, stage selection and test commands are in the [reproduction guide](../reproduction.md). This is a source/results release with separately supplied full-data inputs. Raw-to-cleaned processing and full report reconciliation remain incomplete.
 
 ## Runner and local check coverage

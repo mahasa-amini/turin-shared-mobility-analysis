@@ -4,7 +4,7 @@ For maintained commands, stage selection and input preflight, use the [reproduct
 
 ## Public demo and access
 
-Real inputs are not publicly hosted, and no request/download service exists. Git includes the [SYNTHETIC preparation demo](../examples/synthetic/README.md), which requires no real records or external reference assets. With Python 3.13 and `requirements-lock.txt` installed, run `python scripts/demo_preparation.py` from the repository root. The real-data package remains staged privately; see [outstanding redistribution evidence](data-distribution.md).
+The owner-authorized [original scooter inputs](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1) are now public GitHub Release assets, with [checksums and extraction/preflight instructions](reproduction.md#download-original-scooter-inputs). The [SYNTHETIC preparation demo](../examples/synthetic/README.md) remains available in Git: `python scripts/demo_preparation.py`. Torino/GTT are excluded and require [separate acquisition and snapshot-specific rights](data-distribution.md#excluded-external-inputs). The original mixed staging package remains local; the public scooter archive assigns no dataset license or unrestricted reuse grant.
 
 ## Inputs and local layout
 
@@ -25,7 +25,7 @@ outputs/figures/                    generated figures
 outputs/report/                     local reports and submission artifacts
 ```
 
-The root `data/`, `audit/`, and `outputs/` directories are excluded by [.gitignore](../.gitignore). They are not supplied by a source checkout. The owner has authorized data publication, but no distribution location or dataset license has yet been established. No verified acquisition date or original GTFS archive is supplied. The [input manifest](../config/input_manifest.csv) now records byte sizes and SHA-256 hashes for the required local snapshot. The GTFS metadata and its temporal mismatch are documented in [Methodology](methodology.md). The [distribution plan](data-distribution.md) separates owner-authorized scooter records from external assets and records current GTT restrictions and unresolved snapshot-specific rights.
+The root `data/`, `audit/`, and `outputs/` directories are excluded by [.gitignore](../.gitignore). They are not supplied by a source checkout. The owner explicitly authorized public scooter-data publication; the scooter-only GitHub Release is now available, with no dataset license assigned. No verified acquisition date or original GTFS archive is supplied. The [input manifest](../config/input_manifest.csv) now records byte sizes and SHA-256 hashes for the required local snapshot. The GTFS metadata and its temporal mismatch are documented in [Methodology](methodology.md). The [distribution plan](data-distribution.md) separates owner-authorized scooter records from external assets and records current GTT restrictions and unresolved snapshot-specific rights.
 
 ## Previously generated coverage information
 

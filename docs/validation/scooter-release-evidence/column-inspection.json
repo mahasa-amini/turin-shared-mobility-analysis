@@ -1,0 +1,1008 @@
+{
+  "scope": "All 40 staged original scooter exports; all CSV cells and all workbook sheets inspected without emitting values.",
+  "files": [
+    {
+      "path": "data/raw/bird/Bird Torino - 2024 - Sheet1.csv",
+      "sha256": "6ac3277aa4f5c47dfde2cc3831878808146e937e4af71dcfd2c7f060f9e6ae16",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 390844,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "PERCORSO",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO"
+          ],
+          "nonplaceholder_route_cells": 0
+        }
+      ]
+    },
+    {
+      "path": "data/raw/bird/Bird Torino - 2025 (fino il 18_11_2025) - Sheet1.csv",
+      "sha256": "56390e52434a233e4a010083d85bdce9c76b88fbd43f908ea96830096fa54530",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 467176,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "PERCORSO",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO"
+          ],
+          "nonplaceholder_route_cells": 0
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-01_senza_percorso.csv",
+      "sha256": "228e788c9f4f16f9a3e8fbce404b3ffe8ed2fb12404ecc50cb2c30019e7a8638",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 49085,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-02_senza_percorso.csv",
+      "sha256": "df654a92185924f691cd63572b50d3c632e889115557212a8a4ade7b2ddb1042",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 55066,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-03_senza_percorso.csv",
+      "sha256": "36d5e380b20dfdac91da1cdf571416ed95d4dec23cf93345518e75a9546144f2",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 62565,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-04_senza_percorso.csv",
+      "sha256": "055d5f771c4e3a2e8bda11fae0e0af0673336d29f58e08f7a03ab2fd01ec69b7",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 79465,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-05_senza_percorso.csv",
+      "sha256": "9e5b48dc81f51e63978bcbc926c28f5b087b1fc9aa3e5f78e0c4075321984bda",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 81508,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-06_senza_percorso.csv",
+      "sha256": "be1961234748eccc60f02a991263284c7a7d666f803ad5a686bec002c7f7c51c",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 102769,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-07_senza_percorso.csv",
+      "sha256": "1321f827e754685567684dd46805895d7e40aba7e79138ed8bb10770f85a9526",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 136982,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-08_senza_percorso.csv",
+      "sha256": "6ecc08da313d0cb82ce03ecc1f51e8df6b71c1d7a1bf803a29a8bf5d613da75b",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 98922,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-09_senza_percorso.csv",
+      "sha256": "b726a916814343bb63e57a750211a4d68ff422667520d3e0d7cd713c4006b3b8",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 140681,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-10_senza_percorso.csv",
+      "sha256": "71efb1fae6e676d77409b6cf6e20e118956a5b8c6bd4a481967f59d323bc28ff",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 137518,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-11_senza_percorso.csv",
+      "sha256": "9d7b1c123b8c6db7249f51ee49e2f07c37b7b33494e4a3641c23f1ec12ed91ad",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 144785,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2024-12_senza_percorso.csv",
+      "sha256": "941458a948d9151da9c2d49b5a8c100edccff9f7a00060e688cfd90e642aceb0",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 106864,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2025-01_senza_percorso.csv",
+      "sha256": "e2f954451eb65366c07a4c5f66f9e431e8fa2115b8c86a0abab0edf7a90262d6",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 87847,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2025-02_senza_percorso.csv",
+      "sha256": "bbc4193a6550b37e1fec8190d0ec30453d76e05aa80bcf677d7acbc7ba151410",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 99528,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2025-03_senza_percorso.csv",
+      "sha256": "5c3a88fc0ef6f957ed1441753595ab378e236e3e79afd14f7419077ac2e0ba71",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 126056,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/lime/Torino_Corse24-25_2025-04_senza_percorso.csv",
+      "sha256": "41d4dcf2c6415fcb42f0acc32a92b6de33ec4817ef1c3e001bdc017c7c305199",
+      "sheets": [
+        {
+          "sheet": "CSV",
+          "rows": 114887,
+          "columns": [
+            "ID_VEICOLO",
+            "DATAORA_INIZIO",
+            "DATAORA_FINE",
+            "LATITUDINE_INIZIO_CORSA",
+            "LONGITUTIDE_INIZIO_CORSA",
+            "LATITUDINE_FINE_CORSA",
+            "LONGITUTIDE_FINE_CORSA",
+            "DISTANZA_KM",
+            "DURATA_MIN",
+            "RISERVATO",
+            "BATTERIA_INIZIO_CORSA",
+            "BATTERIA_FINE_CORSA",
+            "ANNO_MESE"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202401.xlsx",
+      "sha256": "6f9be5aade8fe70daed037a5216f8fa236d1c22fb7c412cd93d74f84bc5feb3a",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 6126,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202402.xlsx",
+      "sha256": "b6f81e660248baf7cdbee15651d9aca820b994bbc537e0ae87f26fc2340e9654",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 5520,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202403.xlsx",
+      "sha256": "d658320921baec43eeb82d8d176ec5b1f26c1000fafa92705a0f1f7740574675",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 5691,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202404.xlsx",
+      "sha256": "084b8e821b441c1f9a459310317ace312940c753a2cbcd6f411648a32b27f98a",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 7947,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202405.xlsx",
+      "sha256": "86d9ac6d34b59901814a9c5da9407da13e9c261f38682433cfc27fc5e232a1a4",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 8608,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202406.xlsx",
+      "sha256": "eb886404a05676b6ac015694489db509538ccf79d160e1aa04209ceefb7881a4",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 9492,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202407.xlsx",
+      "sha256": "54d4867e8a898826d213c279cfd434cbf9f19a147a89bf82beba34acd60e3183",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 12412,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202408.xlsx",
+      "sha256": "8a90884133c087c881320b6409ca338f8835c249b01ae61b4efcf48925530d49",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 8695,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202409.xlsx",
+      "sha256": "daafce9e4f2c66fd5e4979e0fc6cfb8939bb03ba47e3d8c6b41eed39c3933f13",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 15744,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202410.xlsx",
+      "sha256": "872e828d99cb04e21c2d7ccf7019f8195e665f02a048f03e84fdc031404fb692",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 18026,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202411.xlsx",
+      "sha256": "84ca52e59e17d58093626c36c55c35d6a2e582632428296b461363a8e3c2897d",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 18010,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202412.xlsx",
+      "sha256": "0ba43948edb97177f6cdb9ab302e08b5683ff4a2a8e9da10cf258dd65535672f",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 14498,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202501.xlsx",
+      "sha256": "d2aa351f4ed0d0dc8de7bea5177cf24ae6533de785f5020feab6e0a90ad39ef2",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 10523,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202502.xlsx",
+      "sha256": "d378d21b46a8924e7a1b71bc0ed7222e7740fabf1cf16b1a114154438a860616",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 12386,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202504.xlsx",
+      "sha256": "cc2a498ef5bef27b06e821c929e17a57d0aaf9f5d431db72bd8bb1f7af275477",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 17075,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202505.xlsx",
+      "sha256": "833aacf0671cca0c5760084c08206a1027326161edb46dd6176b171df33fd135",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 18399,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202506.xlsx",
+      "sha256": "12fefbaa11b9b5b848d1967e411db996ce22312979ff7a3fa7d528cbc9c21caf",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 20466,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202507.xlsx",
+      "sha256": "dcaceb652a407740a00cdc2138b46d0080a6c950fbf4e2435386c6c33c3dd122",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 19325,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202508.xlsx",
+      "sha256": "6d0f1ffe9eb5299f840ed33a6b9273d349e18a9a0ad2f07b335336c7cc19e97f",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 12633,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202509.xlsx",
+      "sha256": "91d21b2f42b44d5b9137025c5a87d3610582e19f92989a43b95732e23f5ff5f4",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 18104,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_202510.xlsx",
+      "sha256": "f131a6a185fb86179c68171197f04c3a589aea6c556fc4b6d1b5c989758fb9f6",
+      "sheets": [
+        {
+          "sheet": "Sheet1",
+          "rows": 17222,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "data/raw/voi/DATINOLEGGI_Operator B(Voi)_202503.xlsx",
+      "sha256": "508196f310e5dbb89c6ae764ddafa52c9259f1dd942e52e5fbb48222ed065fe3",
+      "sheets": [
+        {
+          "sheet": "Query result",
+          "rows": 14863,
+          "columns": [
+            "Identificativo noleggio",
+            "Targa veicolo",
+            "Data inizio corsa",
+            "Data fine corsa",
+            "Lat inizio corsa_coordinate",
+            "Lon inizio corsa_coordinate",
+            "Lat fine corsa_coordinate",
+            "Lon fine corsa_coordinate",
+            "Tempo Tot",
+            "KM Tot",
+            "Prenotazione",
+            "Batteria inizio",
+            "Batteria fine"
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "schema_matches": true,
+  "raw_rows": 2774313,
+  "payload_bytes": 299970142,
+  "limitations": "No direct rider/contact or credential fields or recognized email/credential/phone-label patterns found if findings is empty. This is a schema and heuristic full-cell scan, not anonymization certification or proof that unlabelled names/phone numbers cannot occur. Persistent vehicle IDs, Voi rental IDs, precise timestamps/endpoints and battery/reservation fields remain unchanged."
+}

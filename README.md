@@ -14,7 +14,7 @@ A separate **generalized commuting-cost exercise** compares a home–Politecnico
 
 ## Run and check the project
 
-Start with the [clean-checkout reproduction guide](docs/reproduction.md). Full scooter execution requires separately supplied inputs listed in the [input manifest](config/input_manifest.csv); the repository includes code, configuration, curated results and a wholly synthetic preparation demo.
+Start with the [clean-checkout reproduction guide](docs/reproduction.md). Original scooter inputs are downloadable from the [dataset release](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1); full spatial/PT execution also requires separately acquired Torino/GTT inputs listed in the [input manifest](config/input_manifest.csv). Git includes code, configuration, curated results and a wholly synthetic preparation demo.
 
 ```sh
 python scripts/run_pipeline.py scooter --list
@@ -45,7 +45,7 @@ python scripts/demo_preparation.py
 
 The [clearly labeled SYNTHETIC fixtures](examples/synthetic/README.md) are hand-authored examples for all three operators, with **no transformed or sampled real trip records**. This command runs the seven actual preparation scripts in a disposable workspace and checks expected identities, counts, masks, timestamps, lineage and schema (22 raw → 19 cleaned/harmonized rows). It requires no private inputs, GIS assets or network access and runs in CI.
 
-**Access:** real inputs are not publicly hosted; no request/download service exists. The synthetic demo is available in Git. The [staged real-data package remains private](docs/data-distribution.md); that page lists the authorization, privacy, source/version and snapshot-specific rights evidence still needed before choosing separate redistribution terms for scooter, Torino and dated GTT assets.
+**Access:** the owner-authorized [original scooter dataset release](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1) hosts [40 raw inputs in a tar.gz](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/download/scooter-inputs-2024-2025-v1/turin-scooter-inputs-2024-2025-v1.tar.gz) and [SHA-256 checksums](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/download/scooter-inputs-2024-2025-v1/SHA256SUMS). Follow the [download, checksum, extraction and raw-preflight instructions](docs/reproduction.md#download-original-scooter-inputs). Persistent vehicle/rental IDs and precise times/endpoints are retained; no dataset license or unrestricted reuse grant is asserted. Torino/GTT are excluded and [must be acquired separately](docs/data-distribution.md#excluded-external-inputs). The synthetic demo stays in Git; the original mixed staging package is preserved locally.
 
 ## Methods and tools
 

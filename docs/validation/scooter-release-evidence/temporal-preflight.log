@@ -1,0 +1,3 @@
+harmonize: src/harmonization/harmonize_operators.py
+exercise1: src/analysis/exercise1_cleaning_impact.py, src/analysis/exercise1_temporal_coverage.py, src/analysis/exercise1_daily_trends.py, src/analysis/exercise1_weekly_trends.py, src/analysis/exercise1_monthly_trends.py, src/analysis/exercise1_yearly_comparison.py, src/analysis/exercise1_usage_patterns.py, src/analysis/exercise1_hourly_weekday.py, src/analysis/exercise1_vehicle_utilization.py
+Preflight passed (scheduled intermediate outputs checked again at stage boundaries).

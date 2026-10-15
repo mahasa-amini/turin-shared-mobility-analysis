@@ -1,0 +1,103 @@
+{
+  "python": "3.13.13 (v3.13.13:01104ce1beb, Apr  7 2026, 14:43:30) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "system": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "certifi": {
+      "installed": "2026.7.22",
+      "lock": "2026.7.22"
+    },
+    "contourpy": {
+      "installed": "1.3.3",
+      "lock": "1.4.0"
+    },
+    "cycler": {
+      "installed": "0.12.1",
+      "lock": "0.12.1"
+    },
+    "et-xmlfile": {
+      "installed": "2.0.0",
+      "lock": "2.0.0"
+    },
+    "fonttools": {
+      "installed": "4.63.0",
+      "lock": "4.66.1"
+    },
+    "geopandas": {
+      "installed": "1.1.4",
+      "lock": "1.1.4"
+    },
+    "kiwisolver": {
+      "installed": "1.5.0",
+      "lock": "1.5.1"
+    },
+    "lxml": {
+      "installed": "6.1.1",
+      "lock": "6.1.3"
+    },
+    "matplotlib": {
+      "installed": "3.11.1",
+      "lock": "3.11.1"
+    },
+    "numpy": {
+      "installed": "2.5.1",
+      "lock": "2.5.1"
+    },
+    "openpyxl": {
+      "installed": "3.1.5",
+      "lock": "3.1.5"
+    },
+    "packaging": {
+      "installed": "26.3",
+      "lock": "26.3"
+    },
+    "pandas": {
+      "installed": "3.0.5",
+      "lock": "3.0.5"
+    },
+    "pillow": {
+      "installed": "12.3.0",
+      "lock": "12.3.0"
+    },
+    "pyarrow": {
+      "installed": "25.0.0",
+      "lock": "25.0.0"
+    },
+    "pyogrio": {
+      "installed": "0.13.0",
+      "lock": "0.13.0"
+    },
+    "pyparsing": {
+      "installed": "3.3.2",
+      "lock": "3.3.3"
+    },
+    "pyproj": {
+      "installed": "3.7.2",
+      "lock": "3.7.2"
+    },
+    "python-dateutil": {
+      "installed": "2.9.0.post0",
+      "lock": "2.9.0.post0"
+    },
+    "python-docx": {
+      "installed": "1.2.0",
+      "lock": "1.2.0"
+    },
+    "scipy": {
+      "installed": "1.18.0",
+      "lock": "1.18.0"
+    },
+    "shapely": {
+      "installed": "2.1.2",
+      "lock": "2.1.2"
+    },
+    "six": {
+      "installed": "1.17.0",
+      "lock": "1.17.0"
+    },
+    "typing-extensions": {
+      "installed": "4.16.0",
+      "lock": "4.16.0"
+    }
+  }
+}

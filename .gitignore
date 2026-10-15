@@ -51,3 +51,6 @@ __pycache__/
 *.swp
 *.swo
 *~
+
+# Metadata extracted alongside the downloadable raw scooter release
+/scooter-dataset/

@@ -1,5 +1,7 @@
 # Public SYNTHETIC preparation validation — 15 October 2026
 
+**Access update — 15 October 2026:** owner-authorized original scooter inputs are now [GitHub Release assets](https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1); Torino/GTT remain excluded. The statements below about unpublished inputs describe the earlier validation boundary. See [current distribution status](../data-distribution.md).
+
 The [demo command](../../scripts/demo_preparation.py), `python scripts/demo_preparation.py`, passes locally on CPython 3.13.13, macOS arm64, in the existing project environment. It executes all seven unmodified production preparation scripts on only [hand-authored synthetic fixtures](../../examples/synthetic/README.md), in a fresh temporary root. No existing real inputs, reference outputs or private staging files are copied or read by the demo.
 
 | Operator/year | Raw → cleaned → harmonized |

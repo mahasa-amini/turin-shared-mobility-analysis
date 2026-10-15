@@ -1,0 +1,18 @@
+{
+  "archive": "turin-scooter-inputs-2024-2025-v1.tar.gz",
+  "archive_bytes": 107905912,
+  "archive_sha256": "ab046c7b082387cd9d9195d415dc7dd6e5e7ba19e3600e5be202718b4b64b9ed",
+  "checksum_asset_bytes": 107,
+  "payload_files": 40,
+  "payload_bytes": 299970142,
+  "metadata_files": 4,
+  "all_extracted_hashes_match": true,
+  "unexpected_files": 0,
+  "source_staging": "data/distribution-staging/2026-10-14/owner-scooter",
+  "excluded": [
+    "Torino shapefile",
+    "GTT GTFS",
+    "generated records/results",
+    "runtime configuration (tracked in Git)"
+  ]
+}

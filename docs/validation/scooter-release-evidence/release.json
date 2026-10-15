@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/mahasa-amini/turin-shared-mobility-analysis/releases/assets/643593920",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-10-15T11:07:03Z",
+      "digest": "sha256:bc31b3163b282581f1c37c29b0ef72ac3f4b99f907cfa2c6b7a6a8fd8fc9cd05",
+      "downloadCount": 0,
+      "id": "RA_kwDOVKCxoc4mXHbA",
+      "label": "",
+      "name": "SHA256SUMS",
+      "size": 107,
+      "state": "uploaded",
+      "updatedAt": "2026-10-15T11:07:03Z",
+      "url": "https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/download/scooter-inputs-2024-2025-v1/SHA256SUMS"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/mahasa-amini/turin-shared-mobility-analysis/releases/assets/643593918",
+      "contentType": "application/x-gtar",
+      "createdAt": "2026-10-15T11:07:03Z",
+      "digest": "sha256:ab046c7b082387cd9d9195d415dc7dd6e5e7ba19e3600e5be202718b4b64b9ed",
+      "downloadCount": 0,
+      "id": "RA_kwDOVKCxoc4mXHa-",
+      "label": "",
+      "name": "turin-scooter-inputs-2024-2025-v1.tar.gz",
+      "size": 107905912,
+      "state": "uploaded",
+      "updatedAt": "2026-10-15T11:07:16Z",
+      "url": "https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/download/scooter-inputs-2024-2025-v1/turin-scooter-inputs-2024-2025-v1.tar.gz"
+    }
+  ],
+  "isDraft": false,
+  "publishedAt": "2026-10-15T11:07:48Z",
+  "tagName": "scooter-inputs-2024-2025-v1",
+  "targetCommitish": "9da4f68ca5587dcd9381203c204c6b6e1adcbf3e",
+  "url": "https://github.com/mahasa-amini/turin-shared-mobility-analysis/releases/tag/scooter-inputs-2024-2025-v1"
+}

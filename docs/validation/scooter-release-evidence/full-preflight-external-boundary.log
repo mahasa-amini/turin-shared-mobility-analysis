@@ -1,0 +1,20 @@
+exercise2: missing input data/raw/external/torino_zones/zone_statistiche_geo.shp
+exercise2: missing input data/raw/external/torino_zones/zone_statistiche_geo.shx
+exercise2: missing input data/raw/external/torino_zones/zone_statistiche_geo.dbf
+exercise2: missing input data/raw/external/torino_zones/zone_statistiche_geo.prj
+exercise3: missing input data/raw/external/gtt_gtfs/agency.txt
+exercise3: missing input data/raw/external/gtt_gtfs/routes.txt
+exercise3: missing input data/raw/external/gtt_gtfs/stops.txt
+exercise3: missing input data/raw/external/gtt_gtfs/stop_attributes.txt
+exercise3: missing input data/raw/external/gtt_gtfs/trips.txt
+exercise3: missing input data/raw/external/gtt_gtfs/shapes.txt
+exercise3: missing input data/raw/external/gtt_gtfs/feed_info.txt
+exercise3: missing input data/raw/external/gtt_gtfs/calendar.txt
+exercise3: missing input data/raw/external/gtt_gtfs/calendar_dates.txt
+exercise3: missing input data/raw/external/gtt_gtfs/stop_times.txt
+harmonize: src/harmonization/harmonize_operators.py
+exercise1: src/analysis/exercise1_cleaning_impact.py, src/analysis/exercise1_temporal_coverage.py, src/analysis/exercise1_daily_trends.py, src/analysis/exercise1_weekly_trends.py, src/analysis/exercise1_monthly_trends.py, src/analysis/exercise1_yearly_comparison.py, src/analysis/exercise1_usage_patterns.py, src/analysis/exercise1_hourly_weekday.py, src/analysis/exercise1_vehicle_utilization.py
+exercise2: src/analysis/exercise2_zoning_audit.py, src/analysis/exercise2_assign_zones.py, src/analysis/exercise2_build_od.py, src/analysis/exercise2_temporal_od.py, src/analysis/exercise2_temporal_flow_contrasts.py, src/analysis/exercise2_prepare_gis.py
+exercise3: src/analysis/exercise3_prepare_pt_reference.py, src/analysis/exercise3_pt_proximity.py, src/analysis/exercise3_route_overlap.py, src/analysis/exercise3_temporal_adduction.py, src/analysis/exercise3_prepare_gis.py
+exercise4: src/analysis/exercise4_parking_interval_audit.py, src/analysis/exercise4_parking_definition_sensitivity.py, src/analysis/exercise4_finalize_parking_events.py, src/analysis/exercise4_zone_parking_statistics.py, src/analysis/exercise4_temporal_parking_statistics.py, src/analysis/exercise4_od_parking_relationship.py
+exercise5: src/analysis/exercise5_cost_assumption_audit.py, src/analysis/exercise5_revenue_engine.py, src/analysis/exercise5_fleet_exposure_audit.py, src/analysis/exercise5_revenue_diagnostics.py, src/analysis/exercise5_cost_profitability_engine.py, src/analysis/exercise5_robustness_vat_sensitivity.py

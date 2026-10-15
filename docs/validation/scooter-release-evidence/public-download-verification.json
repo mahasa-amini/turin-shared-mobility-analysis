@@ -1,0 +1,118 @@
+{
+  "public_download_without_authentication": true,
+  "archive_sha256": "ab046c7b082387cd9d9195d415dc7dd6e5e7ba19e3600e5be202718b4b64b9ed",
+  "archive_bytes": 107905912,
+  "payload_files_verified": 40,
+  "metadata_files": 4,
+  "unexpected_members": 0,
+  "all_extracted_checksums_match": true,
+  "steps": [
+    {
+      "script": "scripts/check_raw_inputs.py",
+      "arguments": [
+        "--root",
+        "/private/tmp/turin-scooter-public-reproduction-20261015",
+        "--manifest",
+        "/private/tmp/turin-scooter-public-reproduction-20261015/scooter-dataset/manifest.csv"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 0.144
+    },
+    {
+      "script": "src/cleaning/clean_bird.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 3.181
+    },
+    {
+      "script": "src/cleaning/finalize_bird.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 0.951
+    },
+    {
+      "script": "src/cleaning/audit_lime.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 8.093
+    },
+    {
+      "script": "src/cleaning/finalize_lime.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 2.452
+    },
+    {
+      "script": "src/cleaning/audit_voi.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 36.288
+    },
+    {
+      "script": "src/cleaning/finalize_voi.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 72.82
+    },
+    {
+      "script": "src/harmonization/harmonize_operators.py",
+      "arguments": [],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 9.183
+    },
+    {
+      "script": "scripts/run_pipeline.py",
+      "arguments": [
+        "scooter",
+        "--stages",
+        "harmonize",
+        "exercise1",
+        "--preflight",
+        "--verify-inputs"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "seconds": 0.415
+    },
+    {
+      "script": "scripts/run_pipeline.py",
+      "arguments": [
+        "scooter",
+        "--preflight",
+        "--verify-inputs"
+      ],
+      "exit": 2,
+      "expected_exit": 2,
+      "seconds": 0.167
+    }
+  ],
+  "regenerated_input_hashes_match": true,
+  "regenerated_parquet_reference_hashes_match": true,
+  "external_inputs_absent": true,
+  "full_plan_boundary": "Full scooter preflight exits 2 without Torino/GTT; harmonize/exercise1 preflight passes with verified regenerated inputs.",
+  "full_plan_missing_inputs": [
+    "data/raw/external/torino_zones/zone_statistiche_geo.shp",
+    "data/raw/external/torino_zones/zone_statistiche_geo.shx",
+    "data/raw/external/torino_zones/zone_statistiche_geo.dbf",
+    "data/raw/external/torino_zones/zone_statistiche_geo.prj",
+    "data/raw/external/gtt_gtfs/agency.txt",
+    "data/raw/external/gtt_gtfs/routes.txt",
+    "data/raw/external/gtt_gtfs/stops.txt",
+    "data/raw/external/gtt_gtfs/stop_attributes.txt",
+    "data/raw/external/gtt_gtfs/trips.txt",
+    "data/raw/external/gtt_gtfs/shapes.txt",
+    "data/raw/external/gtt_gtfs/feed_info.txt",
+    "data/raw/external/gtt_gtfs/calendar.txt",
+    "data/raw/external/gtt_gtfs/calendar_dates.txt",
+    "data/raw/external/gtt_gtfs/stop_times.txt"
+  ],
+  "full_plan_missing_only_excluded_external_inputs": true
+}
