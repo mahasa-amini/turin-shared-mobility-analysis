@@ -1,0 +1,117 @@
+{
+  "conclusion": "success",
+  "createdAt": "2026-10-15T10:42:37Z",
+  "headSha": "dd6baa7437723768922568c167164d9f03442e3d",
+  "jobs": [
+    {
+      "completedAt": "2026-10-15T10:43:08Z",
+      "conclusion": "success",
+      "databaseId": 116379188118,
+      "name": "checks",
+      "startedAt": "2026-10-15T10:42:41Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-15T10:42:42Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-15T10:42:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:42:43Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-10-15T10:42:42Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:42:46Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "startedAt": "2026-10-15T10:42:43Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:42:59Z",
+          "conclusion": "success",
+          "name": "Install recorded dependencies",
+          "number": 4,
+          "startedAt": "2026-10-15T10:42:46Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:42:59Z",
+          "conclusion": "success",
+          "name": "Syntax and local Markdown links",
+          "number": 5,
+          "startedAt": "2026-10-15T10:42:59Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:00Z",
+          "conclusion": "success",
+          "name": "Cleaning, runner and zone-assignment regression tests",
+          "number": 6,
+          "startedAt": "2026-10-15T10:42:59Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:03Z",
+          "conclusion": "success",
+          "name": "SYNTHETIC raw-to-harmonized preparation demo",
+          "number": 7,
+          "startedAt": "2026-10-15T10:43:00Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:05Z",
+          "conclusion": "success",
+          "name": "Synthetic environment checks",
+          "number": 8,
+          "startedAt": "2026-10-15T10:43:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:05Z",
+          "conclusion": "success",
+          "name": "Inspect entry points without research inputs",
+          "number": 9,
+          "startedAt": "2026-10-15T10:43:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:05Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 17,
+          "startedAt": "2026-10-15T10:43:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:06Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 18,
+          "startedAt": "2026-10-15T10:43:05Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-15T10:43:06Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 19,
+          "startedAt": "2026-10-15T10:43:06Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/mahasa-amini/turin-shared-mobility-analysis/actions/runs/38722186467/job/116379188118"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-10-15T10:43:09Z",
+  "url": "https://github.com/mahasa-amini/turin-shared-mobility-analysis/actions/runs/38722186467"
+}

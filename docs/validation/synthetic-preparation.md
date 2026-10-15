@@ -23,6 +23,6 @@ Additional local verification passed:
 - `git diff --check`: no whitespace errors.
 - Before/after SHA-256 comparison: all **656** non-`.DS_Store` private files under `data/`, `audit/` and `outputs/` unchanged, including the staged real-data package. The comparison inventory stayed outside Git.
 
-The [hosted workflow](../../.github/workflows/checks.yml) installs `requirements-lock.txt` and runs the demo as its own step. Local verification here used the existing environment, not a newly installed locked environment. Hosted status must be checked for the pushed commit; see [hosted CI evidence](hosted-ci.md).
+The [hosted workflow](../../.github/workflows/checks.yml) installs `requirements-lock.txt` and runs the demo as its own step. Local verification here used the existing environment, not a newly installed locked environment. The [hosted run for `dd6baa7`](https://github.com/mahasa-amini/turin-shared-mobility-analysis/actions/runs/38722186467) subsequently passed on Ubuntu 24.04 / CPython 3.13.16, including the demo, all 21 regressions and nine environment checks; see [hosted CI evidence](hosted-ci.md).
 
 This validates the public synthetic execution path and regression behavior. The separately recorded [real raw-only reproduction](cleaning-reproduction.md) supplies before/after research counts and exact raw-to-harmonized comparisons. Downstream analyses retain their separate validation scopes; no new full-data or raw-to-report run is claimed. Real inputs are not publicly hosted and no request/download service exists.
